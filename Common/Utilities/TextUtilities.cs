@@ -396,7 +396,11 @@ namespace Aucent.MAX.AXE.Common.Utilities
 		public static string[] GetAllBetween( string htmlToSearch, string tag )
 		{
 			List<string> found = new List<string>();
+			
+			#pragma warning disable 0219
 			string ret = htmlToSearch;
+			#pragma warning restore 0219
+			
 			string regex = string.Format( @"<{0}[^>]*>(.*?)</{0}>", tag );
 
 			MatchCollection matches = Regex.Matches( htmlToSearch, regex, RegexOptions.IgnoreCase | RegexOptions.Singleline);
@@ -417,7 +421,10 @@ namespace Aucent.MAX.AXE.Common.Utilities
 
 		public static string GetBetween( string htmlToSearch, string tag)
 		{
+  		#pragma warning disable 0219
 			string ret = htmlToSearch;
+			#pragma warning restore 0219
+			
 			string regex = string.Format( @"<{0}[^>]*>(.*)</{0}>", tag );
 
 			Match m = Regex.Match( htmlToSearch, regex, RegexOptions.IgnoreCase | RegexOptions.Singleline);
