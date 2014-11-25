@@ -296,7 +296,9 @@ namespace Aucent.MAX.AXE.XBRLReportBuilder.Test
 
             void Test_29029_1_Rule_Change( object sender, EventArgs e )
             {
+				#pragma warning disable 0219
                 XRB.ReportBuilder rb = sender as XRB.ReportBuilder;
+				#pragma warning restore 0219
                 // Only turn this on if not running multiple tests
                 // rb.BuilderRules.MyRules[ RulesEngineUtils.DISPLAY_US_DATE_FORMAT ].Enabled = false;
             }

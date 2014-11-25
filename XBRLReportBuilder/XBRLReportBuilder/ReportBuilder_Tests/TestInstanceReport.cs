@@ -155,11 +155,13 @@ namespace Aucent.MAX.AXE.XBRLReportBuilder.Test
 		{
 			InitializeTestEquityReport();
 
+			#pragma warning disable 0219
 			Dictionary<CalendarPeriod, List<InstanceReportColumn>> colsByPer = new Dictionary<CalendarPeriod, List<InstanceReportColumn>>();
 			Dictionary<string, int> masterColsBySeg = new Dictionary<string, int>();
             Dictionary<string, List<int>> prevReportColsBySeg = new Dictionary<string, List<int>>();
             Dictionary<string, List<int>> adjustmentColsBySeg = new Dictionary<string, List<int>>();
             Dictionary<int, ColumnMap> colMaps = new Dictionary<int, ColumnMap>();
+			#pragma warning restore 0219
 
             //this.BuildColumnGroups(colsByPer, masterColsBySeg, prevReportColsBySeg, adjustmentColsBySeg, colMaps);
 
