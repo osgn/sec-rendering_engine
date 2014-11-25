@@ -366,15 +366,20 @@ namespace Aucent.MAX.AXE.Common.ZipCompressDecompress.Zip.Compression
 			if (niceLength > lookahead) {
 				niceLength = lookahead;
 			}
-			
+
+			#pragma warning disable 0429
 			if (DeflaterConstants.DEBUGGING && strstart > 2 * WSIZE - MIN_LOOKAHEAD) {
 				throw new InvalidOperationException("need lookahead");
 			}
+			#pragma warning restore 0429
 			
 			do {
+				#pragma warning disable 0429
 				if (DeflaterConstants.DEBUGGING && curMatch >= strstart) {
 					throw new InvalidOperationException("future match");
 				}
+				#pragma warning restore 0429
+
 				if (window[curMatch + best_len] != scan_end      || 
 					window[curMatch + best_len - 1] != scan_end1 || 
 					window[curMatch] != window[scan]             || 
@@ -423,9 +428,12 @@ namespace Aucent.MAX.AXE.Common.ZipCompressDecompress.Zip.Compression
 		/// </summary>
 		public void SetDictionary(byte[] buffer, int offset, int length) 
 		{
+			#pragma warning disable 0429
 			if (DeflaterConstants.DEBUGGING && strstart != 1) {
 				throw new InvalidOperationException("strstart not 1");
 			}
+			#pragma warning restore 0429
+
 			adler.Update(buffer, offset, length);
 			if (length < MIN_MATCH) {
 				return;
@@ -568,9 +576,12 @@ namespace Aucent.MAX.AXE.Common.ZipCompressDecompress.Zip.Compression
 					prevAvailable = false;
 					
 					/* We are flushing everything */
+					#pragma warning disable 0429
 					if (DeflaterConstants.DEBUGGING && !flush) {
 						throw new SharpZipBaseException("Not flushing, but no lookahead");
 					}
+					#pragma warning restore 0429
+
 					huffman.FlushBlock(window, blockStart, strstart - blockStart,
 						finish);
 					blockStart = strstart;

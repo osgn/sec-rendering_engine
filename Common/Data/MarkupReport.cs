@@ -73,7 +73,10 @@ namespace Aucent.MAX.AXE.Common.Data
 		{
 			error = string.Empty;
 
+			#pragma warning disable 0219
 			XmlDocument currentXMLDocument = new XmlDocument();
+			#pragma warning restore 0219
+
 			string xmlString = string.Empty;
 
 			if (Aucent.MAX.AXE.Common.Utilities.SerializationUtilities.TryXmlSerializeObjectToString(this, out xmlString, out error))

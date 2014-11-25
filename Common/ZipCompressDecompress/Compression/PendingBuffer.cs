@@ -97,9 +97,12 @@ namespace Aucent.MAX.AXE.Common.ZipCompressDecompress.Zip.Compression
 		/// </param>
 		public void WriteByte(int b)
 		{
+			#pragma warning disable 0429
 			if (DeflaterConstants.DEBUGGING && start != 0) {
 				throw new SharpZipBaseException();
 			}
+			#pragma warning restore 0429
+
 			buf[end++] = (byte) b;
 		}
 
@@ -111,9 +114,12 @@ namespace Aucent.MAX.AXE.Common.ZipCompressDecompress.Zip.Compression
 		/// </param>
 		public void WriteShort(int s)
 		{
+			#pragma warning disable 0429
 			if (DeflaterConstants.DEBUGGING && start != 0) {
 				throw new SharpZipBaseException();
 			}
+			#pragma warning restore 0429
+
 			buf[end++] = (byte) s;
 			buf[end++] = (byte) (s >> 8);
 		}
@@ -124,9 +130,12 @@ namespace Aucent.MAX.AXE.Common.ZipCompressDecompress.Zip.Compression
 		/// <param name="s">value to write</param>
 		public void WriteInt(int s)
 		{
+			#pragma warning disable 0429
 			if (DeflaterConstants.DEBUGGING && start != 0) {
 				throw new SharpZipBaseException();
 			}
+			#pragma warning restore 0429
+
 			buf[end++] = (byte) s;
 			buf[end++] = (byte) (s >> 8);
 			buf[end++] = (byte) (s >> 16);
@@ -141,9 +150,12 @@ namespace Aucent.MAX.AXE.Common.ZipCompressDecompress.Zip.Compression
 		/// <param name="len">number of bytes to write</param>
 		public void WriteBlock(byte[] block, int offset, int len)
 		{
+			#pragma warning disable 0429
 			if (DeflaterConstants.DEBUGGING && start != 0) {
 				throw new SharpZipBaseException();
 			}
+			#pragma warning restore 0429
+
 			System.Array.Copy(block, offset, buf, end, len);
 			end += len;
 		}
@@ -162,9 +174,12 @@ namespace Aucent.MAX.AXE.Common.ZipCompressDecompress.Zip.Compression
 		/// </summary>
 		public void AlignToByte() 
 		{
+			#pragma warning disable 0429
 			if (DeflaterConstants.DEBUGGING && start != 0) {
 				throw new SharpZipBaseException();
 			}
+			#pragma warning restore 0429
+
 			if (bitCount > 0) {
 				buf[end++] = (byte) bits;
 				if (bitCount > 8) {
@@ -182,9 +197,12 @@ namespace Aucent.MAX.AXE.Common.ZipCompressDecompress.Zip.Compression
 		/// <param name="count">number of bits to write</param>
 		public void WriteBits(int b, int count)
 		{
+			#pragma warning disable 0429
 			if (DeflaterConstants.DEBUGGING && start != 0) {
 				throw new SharpZipBaseException();
 			}
+			#pragma warning restore 0429
+
 			//			if (DeflaterConstants.DEBUGGING) {
 			//				//Console.WriteLine("writeBits("+b+","+count+")");
 			//			}
@@ -204,9 +222,12 @@ namespace Aucent.MAX.AXE.Common.ZipCompressDecompress.Zip.Compression
 		/// <param name="s">value to write</param>
 		public void WriteShortMSB(int s) 
 		{
+			#pragma warning disable 0429
 			if (DeflaterConstants.DEBUGGING && start != 0) {
 				throw new SharpZipBaseException();
 			}
+			#pragma warning restore 0429
+
 			buf[end++] = (byte) (s >> 8);
 			buf[end++] = (byte) s;
 		}

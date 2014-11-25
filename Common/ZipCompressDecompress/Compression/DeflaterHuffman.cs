@@ -202,9 +202,11 @@ namespace Aucent.MAX.AXE.Common.ZipCompressDecompress.Zip.Compression
 					//						                  +" nextCode: "+code);
 					//					}
 				}
+				#pragma warning disable 0429
 				if (DeflaterConstants.DEBUGGING && code != 65536) {
 					throw new SharpZipBaseException("Inconsistent bl_counts!");
 				}
+				#pragma warning restore 0429
 				
 				for (int i=0; i < numCodes; i++) {
 					int bits = length[i];
