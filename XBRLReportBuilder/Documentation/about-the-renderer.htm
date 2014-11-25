@@ -1,0 +1,214 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; char-set=UTF-8" >
+      <title>About the Renderer</title>
+  </head>
+  <body lang="en-US">
+    <h2>Overview</h2>
+    <p>This is release 2.4.0.8.2014 of the Personal Renderer distribution archive, which contains the Rendering Engine, or simply &quot;the Renderer&quot;. To use
+      this release you should be familiar with using Command Prompts and zip files.</p>
+    <p>The personal renderer must be invoked from a Command Prompt (or a .bat file); it will not operate by simply
+      double clicking on the ReportBuilderRenderer.exe.</p>
+    <p>The renderer produces HTML and other files identical to the corresponding version of the rendering engine as
+      installed at the SEC's EDGAR web site and Interactive Data previewer (<a
+        href="https://datapreview.sec.gov/previewer/">https://datapreview.sec.gov/previewer/</a>). Therefore, you can
+      use it on your own machine to fine-tune your rendered output, without relying on the SEC interactive data
+      previewer.</p>
+    <p>The files produced include:</p>
+    <ul>
+      <li>
+        <strong>R<em>n</em>.htm</strong>, where n is a sequence number (e.g. R1.htm). These are HTML files for the
+        individual reports.</li>
+      <li><strong>FilingSummary.xml</strong>. This contains information about the filing, including a list of report
+        names and the corresponding R-file name. It also includes a section of Log messages (see Examples below).</li>
+      <li>Personal renderers with version numbers 2.4.* do not produce the “menu” of report names and groupings as seen in the Previewer.</li>
+    </ul>
+    <p>Note that the renderer is not a validator and does not test for EDGAR Filer Manual, nor for XBRL 2.1 Validity.
+      Input files that are not valid with respect to the EDGAR Filer Manual may fail or produce poor results. It
+      is highly recommended that before any "live" submission that you validate your XBRL files. You can validate your
+      XBRL files here: (<a href="https://www.edgarfiling.sec.gov">https://www.edgarfiling.sec.gov</a>).</p>
+    <h2>Instructions</h2>
+    <p>This section gives step by step instructions on how to install and run the Renderer. Since it is impossible to
+      encompass all scenarios we have made the following assumptions in our example:</p>
+    <ul>
+      <li>The folder into which you install the renderer is "C:\Program&#160;Files\Renderer"</li>
+      <li>The folder containing the XBRL instance and taxonomy files which you wish to renderer is "C:\myXBRL"</li>
+      <li>The instance file which you wish to render is named "my-20111231.xml"</li>
+    </ul>
+    <h2>Download and Install (Do once):</h2>
+    <ol>
+      <li>Right-click on the renderer.zip file from the SEC web site and save a copy to your Desktop or other folder. <ol>
+        <li>It is not recommended to simply open the zip file from the web site.</li>
+      </ol>
+      </li>
+      <li> Install the renderer by extracting the contents of the zip file to
+        &quot;C:\Program&#160;Files&quot;. <ol>
+          <li>To extract the contents using Windows Explorer, right-click on the zip file, and perform the "Extract All"
+            operation.</li>
+          <li>Make a note of the destination folder name as it will be used in commands in the Command Prompt.</li>
+          <li>It is never sufficient to copy the zip file and simply open it from Windows Explorer; you must extract the
+            contents to the desired location.</li>
+        </ol>
+      </li>
+      <li>Verify that the extraction created a subfolder called &quot;c:\Program Files\Renderer&quot; that
+        contains, among other files: <ol>
+          <li>A copy of this readme file.</li>
+          <li>One main executable program called ReportBuilderRenderer.exe</li>
+          <li>A folder called &quot;Examples".</li>
+        </ol>
+      </li>
+    </ol>
+    <h2>Render an XBRL File:</h2>
+    <p>From the start menu, Run a Command Prompt (Start &gt; Run &gt; cmd.exe).</p>
+    <p>Execute the following commands:</p>
+    <ol>
+      <li>c: </li>
+      <li>cd &quot;\Program Files\Renderer&quot; </li>
+      <li> ReportBuilderRenderer /Instance=&quot;c:\myXBRL\my-20111231.xml&quot; </li>
+    </ol>
+    <p>OR</p>
+    <ol>
+      <li>c: </li>
+      <li>cd \myXBRL</li>
+      <li>&quot;c:\Program Files\Renderer\ReportBuilderRenderer&quot;
+        /Instance=&quot;my-20111231.xml&quot;</li>
+    </ol>
+    <p>Hint: In the command prompt, type the first few characters of a long name followed by the "tab" key to complete
+      the rest.</p>
+    <p>After running either set of the commands above, a new folder with the results will be created at the following
+      location: &quot;C:\myXBRL\Reports&quot;. You may view the files in a browser by the following Command
+      Prompt commands (for example the R1.htm file):</p>
+    <ol>
+      <li>c:</li>
+      <li>cd \myXBRL\Reports</li>
+      <li>R1.htm</li>
+    </ol>
+    <p>Alternatively you can launch a browser and open the file, or double click on the filename in Windows
+      Explorer.</p>
+    <h2>Command Line Details</h2>
+    <p>You use the renderer interactively at a command prompt. If you run the program without any arguments:</p>
+    <pre>      ReportBuilderRenderer.exe</pre>
+    <p>You will see the following message with details of other ways to use the program:</p>
+    <pre>      The syntax of this command is:
+
+      ReportBuilderRenderer.exe /Instance="[drive:][path]instance.xml" [/Instance="[drive:][path]i
+      nstance.xml"] [...]
+      - or -
+      ReportBuilderRenderer.exe /Instance="[drive:][path]package.zip" [/Instance="[drive:][path]pa
+      ckage.zip"] [...]
+
+      Optional parameters:
+
+      Set the base output path:
+      /ReportsFolder=[drive:][path\to\]folder
+
+      Set the report output format(s):
+      /ReportFormat=(Xml|Html|HtmlAndXml)
+
+      If format contains Html, set the html format:
+      /HtmlReportFormat=(Complete|Fragment)
+
+      Set the caching policy of remote files:
+      Value descriptions can be found at 'http://msdn.microsoft.com/en-us/library/system.net.cache.request
+      cachelevel.aspx'
+      /RemoteFileCachePolicy=(Default|BypassCache|CacheOnly|CacheIfAvailable|Revalidate|Reload|NoC
+      acheNoStore)
+
+      Set quiet mode, the application will not interact with the user:
+      /Quiet
+
+      Set the output format for all filings in this session:
+      /SaveAs=(Xml|Zip)</pre>
+    <p>Example: assuming that the XBRL instance you want to render is in folder C:\myXBRL and the filename is
+      my-20111231.xml. In the Command Prompt (with the Renderer as the current folder) the command</p>
+    <pre>      ReportBuilderRenderer /Instance=&quot;C:\myXBRL\my-20111231.xml&quot;</pre>
+    <p>will create a <span style="font-size:10.0pt;font-family:
+      &quot;Courier New&quot;"
+      >C:\myXBRL\Reports</span> folder with the rendered result.</p>
+    <h2>Examples</h2>
+    <p>The folder &quot;Examples&quot; contains ten examples, each in its own sub folder. It is recommended that
+      you run and view these files before processing your own XBRL files in the renderer in order to become comfortable with
+      the renderer and to view the features of the rendering engine and its warning and error messages.</p>
+    <p>There is a &quot;.bat&quot; file for each folder that illustrates how the renderer is invoked from the
+      command line prompt. To view these examples do the following:</p>
+    <ol>
+      <li>Double-click on each .bat file in Windows Explorer and the results will be generated in a sub-folder called
+        "Reports" (such as edgar2012.bat to create the results in edgar2012\Reports).</li>
+    </ol>
+    <p>or</p>
+    <ol>
+      <li>From the Start menu, Run a Command Prompt (cmd.exe).</li>
+      <li>cd to the Renderer\Examples subfolder (such as c: followed by cd "\Program Files\Renderer\Examples").</li>
+      <li>Then type the name of each .bat file at the command prompt and press Enter. This will run the Renderer and
+        create the results in a subfolder called "Reports". The .bat files also contain a command to view the result.
+        The .bat files are small enough so you can "type" them to see their content.</li>
+    </ol>
+    <p>Note that if there are already files in the destination "Reports" folder, the renderer will ask you whether you
+      want to overwrite them. Answer &quot;y&quot; to the prompt. To run without such interruptions, delete the
+      &quot;Reports&quot; folder before rendering.</p>
+    <p>The examples should help you become comfortable with the renderer. For example:</p>
+    <ul>
+      <li><strong>edgar2012</strong> - a small filing that accesses all the 2012 us-gaap and dei taxonomy files. Output
+        file R1.htm contains all there is in the filing. </li>
+      <li><strong>edgar2013</strong> - a small filing that accesses all the 2013 us-gaap and dei taxonomy files. Output
+        file R1.htm contains all there is in the filing. </li>
+      <li><strong>zip</strong> - example using the renderer to process, and produce, a zip file. </li>
+    </ul>
+    <p>The examples also illustrate new features of the rendering engine: </p>
+    <ul>
+      <li><strong>flowthru</strong> - other information such as removal of columns due to flow-through suppression. This
+        is found toward the bottom of the FilingSummary.xml file, in the section starting with &lt;Logs&gt;. The
+        content of &lt;Logs&gt; is not displayed to end users on the EDGAR Viewer. </li>
+      <li><strong>graphic</strong> - how to use graphics and reference them from text blocks </li>
+      <li><strong>horizontal</strong> - shows how the order of equity statement columns can be controlled by
+        presentation links. </li>
+      <li><strong>qlabel</strong>- Some elements have values that are XML QNames, and those QNames can now have labels. </li>
+      <li><strong>restated</strong> - Illustrates the use the 2012 us-gaap taxonomy for adjustments and restated values.
+      </li>
+    </ul>
+    <p>Finally, the examples illustrate some of the information, warning and error messages that may appear in the
+      &lt;Logs&gt; portion of output file FilingSummary.xml, but not displayed to end users: </p>
+    <ul>
+      <li><strong>dropzero</strong> - information about how scaling was applied to &quot;drop zeroes&quot; in
+        reports.</li>
+      <li><strong>embedding</strong> - warnings about badly formed embedding commands in summary prospectuses.</li>
+      <li><strong>vertical</strong> - illustrates that equity statement layout will fail unless there are start and end
+        labels. </li>
+    </ul>
+    <h2>More Details</h2>
+    <p>Instead of passing many arguments on the command line, edit the file</p>
+    <pre>        ReportBuilderRenderer.exe.config</pre>
+    <p>to set the argument defaults. Note that the config file MUST be in the same folder as where you extracted the
+      renderer.</p>
+    <p>The file TaxonomyAddonManager.xml and the folder Taxonomy do not contain a full copy of all EDGAR taxonomies,
+      only their &quot;documentation&quot; and &quot;reference&quot; files; these files are referenced
+      by the pop-ups in the output HTML.</p>
+    <p>The &quot;Xml&quot; format of the output appears on the EDGAR web site for older filings but has been phased out in favor of the HTML output produced by the renderer.</p>
+    <p>The source code of the renderer is available from the same web site where this was posted.</p>
+    <p>For additional information contact EDGAR Filer Support by phone or <a
+      href="http://www.sec.gov/cgi-bin/contact_risk_fin">Contact RiskFin</a> form.</p>
+    <h2>Troubleshooting Hints</h2>
+    <p>The message &quot;Error Parsing the Taxonomy&quot; often means that the renderer is unable to get a file
+      it needs from the Internet. There may be nothing wrong with your filing. Try typing the URL of the file it cannot
+      find into your browser's address bar. If, for example, you cannot reach</p>
+    <p style="text-indent:.5in">
+      <a href="http://www.xbrl.org/dtr/type/numeric-2009-12-16.xsd"
+        >http://www.xbrl.org/dtr/type/numeric-2009-12-16.xsd</a>
+    </p>
+    <p>from your browser, then the renderer cannot reach it either.</p>
+    <p>Many rendering issues can arise because the input files are not compliant with the EDGAR Filer Manual. If you run
+      into rendering problems and have trouble interpreting the Log messages, try validating the input first and
+      correcting any errors before trying again.</p>
+    <p>The date format of the output and thousands separators are determined by Windows locale settings on the machine
+      where the renderer runs. The SEC previewer and EDGAR Viewer use the US locale. Your machine must be set to the US
+      locale to produce correct results.</p>
+    <p>Avoid including images among the input having names such as &quot;barchart1.jpg&quot;,
+      &quot;BarChart2.jpg&quot; or variations thereof.</p>
+    <p>If you notice other discrepancies between your renderer and the SEC previewer, be sure to check that the version
+      numbers agree. The version number appears at the top of every FilingSummary.xml file. You can also see the version
+      of your renderer without needing to run a test file, by right-clicking on ReportBuilderRenderer.exe and looking
+      for the details tab. There is no personal renderer for versions prior to 2.3.0.11.</p>
+  </body>
+</html>

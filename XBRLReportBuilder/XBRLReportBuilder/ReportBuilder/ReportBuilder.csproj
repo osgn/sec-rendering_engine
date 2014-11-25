@@ -1,0 +1,468 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6F7BED2A-1EBF-4148-9491-C3A15D7D918B}</ProjectGuid>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>Aucent.MAX.AXE.XBRLReportBuilder.ReportBuilder</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Aucent.MAX.AXE.XBRLReportBuilder.ReportBuilder</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <SignAssembly>false</SignAssembly>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>..\..\..\bin\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE;UNITTEST</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>..\..\..\bin\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <DebugType>pdbonly</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Aucent.FilingServices.Data, Version=2.2.0.25, Culture=neutral, PublicKeyToken=7c3ad77779dd5374, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\bin\Aucent.FilingServices.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Aucent.FilingServices.RulesRepository, Version=2.2.0.25, Culture=neutral, PublicKeyToken=7c3ad77779dd5374, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\bin\Aucent.FilingServices.RulesRepository.dll</HintPath>
+    </Reference>
+    <Reference Include="Aucent.MAX.AXE.Common.Data, Version=3.0.4070.28966, Culture=neutral, PublicKeyToken=7c3ad77779dd5374, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\bin\Aucent.MAX.AXE.Common.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Aucent.MAX.AXE.Common.Resources, Version=3.0.4070.28965, Culture=neutral, PublicKeyToken=7c3ad77779dd5374, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\bin\Aucent.MAX.AXE.Common.Resources.dll</HintPath>
+    </Reference>
+    <Reference Include="Aucent.MAX.AXE.Common.Utilities, Version=3.0.4070.28966, Culture=neutral, PublicKeyToken=7c3ad77779dd5374, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\bin\Aucent.MAX.AXE.Common.Utilities.dll</HintPath>
+    </Reference>
+    <Reference Include="Aucent.MAX.AXE.Common.XBRLParser_Reader, Version=4.0.4070.28967, Culture=neutral, PublicKeyToken=7c3ad77779dd5374, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\bin\Aucent.MAX.AXE.Common.XBRLParser_Reader.dll</HintPath>
+    </Reference>
+    <Reference Include="Aucent.MAX.AXE.Common.ZipCompressDecompress, Version=1.0.4272.18037, Culture=neutral, PublicKeyToken=4950bd9245f1cbe5, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\bin\Aucent.MAX.AXE.Common.ZipCompressDecompress.dll</HintPath>
+    </Reference>
+    <Reference Include="NxBRE, Version=3.1.4070.28969, Culture=neutral, PublicKeyToken=7c3ad77779dd5374, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\bin\NxBRE.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <Reference Include="ZedGraph">
+      <HintPath>..\..\..\bin\ZedGraph.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="Data\CalendarPeriod.cs" />
+    <Compile Include="Data\ColumnRowRequirement.cs" />
+    <Compile Include="Data\CommandIterator.cs" />
+    <Compile Include="Data\DefinitionAndReference.cs" />
+    <Compile Include="Data\EmbeddedUnitWrapper.cs" />
+    <Compile Include="Data\EmbedReport.cs" />
+    <Compile Include="Data\Enum.cs" />
+    <Compile Include="Data\EquityDataSet.cs" />
+    <Compile Include="Data\EquityPeriod.cs" />
+    <Compile Include="Data\ErrorWriter.cs" />
+    <Compile Include="Data\ExtendedDirectoryInfo.cs" />
+    <Compile Include="Data\ExtendedFileInfo.cs" />
+    <Compile Include="Data\FilingSummary.cs" />
+    <Compile Include="Data\FilingSummaryTraceWrapper.cs" />
+    <Compile Include="Data\IDirectoryInfo.cs" />
+    <Compile Include="Data\IncompleteEquityException.cs" />
+    <Compile Include="Data\InstanceReport.cs" />
+    <Compile Include="Data\InstanceReport.Equity.cs" />
+    <Compile Include="Data\InstanceReport.Rule.BeginningEndingBalances.cs" />
+    <Compile Include="Data\InstanceReport.Rule.ColumnHeaders.cs" />
+    <Compile Include="Data\InstanceReport.Rule.Rounding.cs" />
+    <Compile Include="Data\InstanceReport.Rule.Segments.cs" />
+    <Compile Include="Data\InstanceReportCell.cs" />
+    <Compile Include="Data\InstanceReportColumn.cs" />
+    <Compile Include="Data\InstanceReportColumn.Item.cs" />
+    <Compile Include="Data\InstanceReportItem.cs" />
+    <Compile Include="Data\InstanceReportRow.cs" />
+    <Compile Include="Data\InstanceReportRow.Item.cs" />
+    <Compile Include="Data\InstanceStatistics.cs" />
+    <Compile Include="Data\ITraceMessenger.cs" />
+    <Compile Include="Data\LabelLine.cs" />
+    <Compile Include="Data\MergedContextUnitsWrapper.cs" />
+    <Compile Include="Data\ReportHeader.cs" />
+    <Compile Include="Data\RivetXmlWriter.cs" />
+    <Compile Include="Data\SingleFileAttachment.cs" />
+    <Compile Include="Data\SingleFileAttachment.Static.cs" />
+    <Compile Include="Data\SingleFileWorkbook.cs" />
+    <Compile Include="Data\Test_Abstract.cs" />
+    <Compile Include="Data\Test_Abstract.NatCaseComparer.cs" />
+    <Compile Include="Data\LogItem.cs" />
+    <Compile Include="Data\ZipDirectoryInfo.cs" />
+    <Compile Include="Data\IFileInfo.cs" />
+    <Compile Include="Data\ZipFileInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ReportBuilder.Charting.cs" />
+    <Compile Include="ReportBuilder.cs" />
+    <Compile Include="ReportBuilder.Static.cs" />
+    <Compile Include="RulesHolder.cs" />
+    <Compile Include="Utilities\ExcelUtility.cs" />
+    <Compile Include="Utilities\InstanceUtils.cs" />
+    <Compile Include="Utilities\ReportUtils.cs" />
+    <Compile Include="Utilities\RulesEngineHelpers.cs" />
+    <Compile Include="Utilities\TaxonomyUtils.cs" />
+    <Compile Include="..\..\RenderingEngineAssembly.cs" />
+    <EmbeddedResource Include="Resources\InstanceReport_XmlWorkbook.xslt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\InstanceReport.xslt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\report.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Show.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rule_Files\CleanupFlowthroughColumns.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rule_Files\CleanupFlowThroughReports.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rule_Files\ColumnHeaders.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rule_Files\CurrencySymbol.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rule_Files\DisplayAsRatio.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rule_Files\DisplayZeroAsNone.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rule_Files\EquityStatement.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rule_Files\InstantAndDuration.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rule_Files\PreferredLang.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rule_Files\ProcessBeginningEndingBalance.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rule_Files\PromoteSharedLabels.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rule_Files\Rounding.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rule_Files\Segments.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rule_Files\TotalLabel.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TaxonomyAddonManager.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <Compile Include="Data\InstanceReport.Embed.cs" />
+    <Compile Include="Data\InstanceReport.Rule.InstantAndDuration.cs" />
+    <EmbeddedResource Include="Rule_Files\ReportBuilder.rul">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="ReportBuilder.Rules.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Rule_Files\EquityMembers.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <Content Include="Taxonomy\Documentation\country-doc-2011-01-31.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Taxonomy\Documentation\country-doc-2012-01-31.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Taxonomy\Documentation\country-doc-2013-01-31.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Taxonomy\Documentation\currency-doc-2012-01-31.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Taxonomy\Documentation\currency-doc-2014-01-31.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Taxonomy\Documentation\dei-doc-2009-01-31.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Taxonomy\Documentation\dei-doc-2011-01-31.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Taxonomy\Documentation\dei-doc-2012-01-31.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Taxonomy\Documentation\dei-doc-2013-01-31.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Taxonomy\Documentation\dei-doc-2014-01-31.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Taxonomy\Documentation\exch-doc-2011-01-31.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Taxonomy\Documentation\exch-doc-2012-01-31.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Taxonomy\Documentation\exch-doc-2013-01-31.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Taxonomy\Documentation\exch-doc-2014-01-31.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Taxonomy\Documentation\invest-doc-2011-01-31.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Taxonomy\Documentation\invest-doc-2012-01-31.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Taxonomy\Documentation\invest-doc-2013-01-31.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Taxonomy\Documentation\naics-doc-2011-01-31.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Taxonomy\Documentation\rr-doc-2010-02-28.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Taxonomy\Documentation\rr-doc-2012-01-31.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Taxonomy\Documentation\sic-doc-2011-01-31.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Taxonomy\Documentation\stpr-doc-2011-01-31.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Taxonomy\Documentation\us-gaap-doc-2011-01-31.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Taxonomy\Documentation\us-gaap-doc-2012-01-31.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Taxonomy\Documentation\us-gaap-doc-2013-01-31.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Taxonomy\Documentation\us-gaap-doc-2014-01-31.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Taxonomy\Documentation\rxd-doc-2013-01-31.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Taxonomy\Reference\dei-ref-2009-01-31.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Taxonomy\Reference\dei-ref-2011-01-31.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Taxonomy\Reference\dei-ref-2012-01-31.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Taxonomy\Reference\dei-ref-2013-01-31.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Taxonomy\Reference\dei-ref-2014-01-31.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Taxonomy\Reference\exch-ref-2011-01-31.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Taxonomy\Reference\exch-ref-2012-01-31.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Taxonomy\Reference\exch-ref-2013-01-31.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Taxonomy\Reference\exch-ref-2014-01-31.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Taxonomy\Reference\invest-ref-2011-01-31.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Taxonomy\Reference\invest-ref-2012-01-31.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Taxonomy\Reference\invest-ref-2013-01-31.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Taxonomy\Reference\rr-ref-2010-02-28.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Taxonomy\Reference\rr-ref-2012-01-31.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Taxonomy\Reference\us-gaap-ref-2011-01-31.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Taxonomy\Reference\us-gaap-ref-2012-01-31.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Taxonomy\Reference\us-gaap-ref-2013-01-31.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Taxonomy\Reference\us-gaap-ref-2014-01-31.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Taxonomy\Reference\rxd-ref-2013-01-31.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ZedGraph About.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ZedGraph License.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<xBusinessRules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="xBusinessRules.xsd">
+
+  <Description>
+    This rule examine the rows and determine if the row should be marked as TotalLable row.
+    If it's TotalLabel rowm, the numbers will be underlined.
+  </Description>
+  
+  <Boolean id="bTrue" value="true"/>
+  <String id="StrTotalLabel" value="totallabel"/>
+  <String id="StrNegatedLabel" value="negatedtotal"/>
+
+  <!-- new negated label role -->
+  <String id="StrNegatedTotalLabel" value="negatedtotallabel" />
+
+  <ObjectLookup id="PreferredLabelRole" objectId="ReportBuilder" member="CurrentRowPreferredLabelRole"/>
+
+  <Logic>
+    <If>
+      <Or>
+        <Equals leftId="PreferredLabelRole"	rightId="StrTotalLabel"/>
+        <Equals leftId="PreferredLabelRole"	rightId="StrNegatedLabel"/>
+        <Equals leftId="PreferredLabelRole"	rightId="StrNegatedTotalLabel"/>
+      </Or>
+      <Do>
+        <ObjectLookup objectId="Row" member="IsTotalLabel">
+          <Argument valueId="bTrue"/>
+        </ObjectLookup>
+      </Do>
+    </If>
+  </Logic>
+
+</xBusinessRules>

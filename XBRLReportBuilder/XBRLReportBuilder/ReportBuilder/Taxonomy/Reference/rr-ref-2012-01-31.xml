@@ -1,0 +1,2248 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2006/ref http://www.xbrl.org/2006/ref-2006-02-27.xsd http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:ref="http://www.xbrl.org/2006/ref" xmlns:xlink="http://www.w3.org/1999/xlink">
+<link:referenceLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_RiskReturnHeading" xlink:label="RiskReturnHeading"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_ObjectiveHeading" xlink:label="ObjectiveHeading"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_ObjectivePrimaryTextBlock" xlink:label="ObjectivePrimaryTextBlock"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_ObjectiveSecondaryTextBlock" xlink:label="ObjectiveSecondaryTextBlock"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_StrategyHeading" xlink:label="StrategyHeading"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_StrategyNarrativeTextBlock" xlink:label="StrategyNarrativeTextBlock"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_StrategyPortfolioConcentration" xlink:label="StrategyPortfolioConcentration"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_BarChartAndPerformanceTableHeading" xlink:label="BarChartAndPerformanceTableHeading"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_PerformanceNarrativeTextBlock" xlink:label="PerformanceNarrativeTextBlock"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_PerformancePastDoesNotIndicateFuture" xlink:label="PerformancePastDoesNotIndicateFuture"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_PerformanceInformationIllustratesVariabilityOfReturns" xlink:label="PerformanceInformationIllustratesVariabilityOfReturns"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_PerformanceOneYearOrLess" xlink:label="PerformanceOneYearOrLess"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_PerformanceAdditionalMarketIndex" xlink:label="PerformanceAdditionalMarketIndex"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_BarChartHeading" xlink:label="BarChartHeading"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_BarChartNarrativeTextBlock" xlink:label="BarChartNarrativeTextBlock"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_BarChartDoesNotReflectSalesLoads" xlink:label="BarChartDoesNotReflectSalesLoads"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_BarChartReturnsForClassNotOfferedInProspectus" xlink:label="BarChartReturnsForClassNotOfferedInProspectus"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_BarChartReasonSelectedClassDifferentFromImmediatelyPrecedingPeriod" xlink:label="BarChartReasonSelectedClassDifferentFromImmediatelyPrecedingPeriod"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_AnnualReturnCaption" xlink:label="AnnualReturnCaption"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_AnnualReturnColumnName" xlink:label="AnnualReturnColumnName"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_AnnualReturnInceptionDate" xlink:label="AnnualReturnInceptionDate"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_AnnualReturn1990" xlink:label="AnnualReturn1990"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_AnnualReturn1991" xlink:label="AnnualReturn1991"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_AnnualReturn1992" xlink:label="AnnualReturn1992"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_AnnualReturn1993" xlink:label="AnnualReturn1993"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_AnnualReturn1994" xlink:label="AnnualReturn1994"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_AnnualReturn1995" xlink:label="AnnualReturn1995"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_AnnualReturn1996" xlink:label="AnnualReturn1996"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_AnnualReturn1997" xlink:label="AnnualReturn1997"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_AnnualReturn1998" xlink:label="AnnualReturn1998"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_AnnualReturn1999" xlink:label="AnnualReturn1999"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_AnnualReturn2000" xlink:label="AnnualReturn2000"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_AnnualReturn2001" xlink:label="AnnualReturn2001"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_AnnualReturn2002" xlink:label="AnnualReturn2002"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_AnnualReturn2003" xlink:label="AnnualReturn2003"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_AnnualReturn2004" xlink:label="AnnualReturn2004"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_AnnualReturn2005" xlink:label="AnnualReturn2005"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_AnnualReturn2006" xlink:label="AnnualReturn2006"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_AnnualReturn2007" xlink:label="AnnualReturn2007"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_AnnualReturn2008" xlink:label="AnnualReturn2008"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_AnnualReturn2009" xlink:label="AnnualReturn2009"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_AnnualReturn2010" xlink:label="AnnualReturn2010"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_AnnualReturn2011" xlink:label="AnnualReturn2011"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_AnnualReturn2012" xlink:label="AnnualReturn2012"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_AnnualReturn2013" xlink:label="AnnualReturn2013"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_AnnualReturn2014" xlink:label="AnnualReturn2014"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_AnnualReturn2015" xlink:label="AnnualReturn2015"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_AnnualReturn2016" xlink:label="AnnualReturn2016"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_AnnualReturn2017" xlink:label="AnnualReturn2017"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_AnnualReturn2018" xlink:label="AnnualReturn2018"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_AnnualReturn2019" xlink:label="AnnualReturn2019"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_AnnualReturn2020" xlink:label="AnnualReturn2020"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_YearToDateReturnLabel" xlink:label="YearToDateReturnLabel"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_BarChartYearToDateReturn" xlink:label="BarChartYearToDateReturn"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_BarChartYearToDateReturnDate" xlink:label="BarChartYearToDateReturnDate"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_HighestQuarterlyReturnLabel" xlink:label="HighestQuarterlyReturnLabel"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_BarChartHighestQuarterlyReturn" xlink:label="BarChartHighestQuarterlyReturn"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_BarChartHighestQuarterlyReturnDate" xlink:label="BarChartHighestQuarterlyReturnDate"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_LowestQuarterlyReturnLabel" xlink:label="LowestQuarterlyReturnLabel"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_BarChartLowestQuarterlyReturn" xlink:label="BarChartLowestQuarterlyReturn"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_BarChartLowestQuarterlyReturnDate" xlink:label="BarChartLowestQuarterlyReturnDate"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_BarChartClosingTextBlock" xlink:label="BarChartClosingTextBlock"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_PerformanceTableHeading" xlink:label="PerformanceTableHeading"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_PerformanceTableNarrativeTextBlock" xlink:label="PerformanceTableNarrativeTextBlock"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_PerformanceTableDoesReflectSalesLoads" xlink:label="PerformanceTableDoesReflectSalesLoads"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_PerformanceTableMarketIndexChanged" xlink:label="PerformanceTableMarketIndexChanged"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_PerformanceTableUsesHighestFederalRate" xlink:label="PerformanceTableUsesHighestFederalRate"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_PerformanceTableNotRelevantToTaxDeferred" xlink:label="PerformanceTableNotRelevantToTaxDeferred"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_PerformanceTableExplanationAfterTaxHigher" xlink:label="PerformanceTableExplanationAfterTaxHigher"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_AverageAnnualReturnCaption" xlink:label="AverageAnnualReturnCaption"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_AverageAnnualReturnColumnName" xlink:label="AverageAnnualReturnColumnName"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_AverageAnnualReturnLabel" xlink:label="AverageAnnualReturnLabel"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_AverageAnnualReturnYear01" xlink:label="AverageAnnualReturnYear01"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_AverageAnnualReturnYear05" xlink:label="AverageAnnualReturnYear05"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_AverageAnnualReturnYear10" xlink:label="AverageAnnualReturnYear10"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_AverageAnnualReturnSinceInception" xlink:label="AverageAnnualReturnSinceInception"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_AverageAnnualReturnInceptionDate" xlink:label="AverageAnnualReturnInceptionDate"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_MoneyMarketSevenDayYieldCaption" xlink:label="MoneyMarketSevenDayYieldCaption"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_MoneyMarketSevenDayYieldColumnName" xlink:label="MoneyMarketSevenDayYieldColumnName"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_MoneyMarketSevenDayYieldPhone" xlink:label="MoneyMarketSevenDayYieldPhone"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_MoneyMarketSevenDayYield" xlink:label="MoneyMarketSevenDayYield"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_MoneyMarketSevenDayTaxEquivalentYield" xlink:label="MoneyMarketSevenDayTaxEquivalentYield"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_ThirtyDayYieldCaption" xlink:label="ThirtyDayYieldCaption"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_ThirtyDayYieldColumnName" xlink:label="ThirtyDayYieldColumnName"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_ThirtyDayYieldPhone" xlink:label="ThirtyDayYieldPhone"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_ThirtyDayYield" xlink:label="ThirtyDayYield"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_ThirtyDayTaxEquivalentYield" xlink:label="ThirtyDayTaxEquivalentYield"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_MarketIndexReturnLabel" xlink:label="MarketIndexReturnLabel"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_MarketIndexReturnSinceInception" xlink:label="MarketIndexReturnSinceInception"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_MarketIndexReturnInceptionDate" xlink:label="MarketIndexReturnInceptionDate"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_PerformanceTableFootnotesTextBlock" xlink:label="PerformanceTableFootnotesTextBlock"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_PerformanceTableClosingTextBlock" xlink:label="PerformanceTableClosingTextBlock"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_RiskHeading" xlink:label="RiskHeading"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_RiskNarrativeTextBlock" xlink:label="RiskNarrativeTextBlock"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_RiskNondiversifiedStatus" xlink:label="RiskNondiversifiedStatus"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_RiskLoseMoney" xlink:label="RiskLoseMoney"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_RiskMoneyMarketFund" xlink:label="RiskMoneyMarketFund"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_RiskNotInsuredDepositoryInstitution" xlink:label="RiskNotInsuredDepositoryInstitution"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_RiskCaption" xlink:label="RiskCaption"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_RiskColumnName" xlink:label="RiskColumnName"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_Risk" xlink:label="Risk"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_RiskFootnotesTextBlock" xlink:label="RiskFootnotesTextBlock"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_RiskClosingTextBlock" xlink:label="RiskClosingTextBlock"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_ExpenseHeading" xlink:label="ExpenseHeading"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_ExpenseNarrativeTextBlock" xlink:label="ExpenseNarrativeTextBlock"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_ExpenseBreakpointDiscounts" xlink:label="ExpenseBreakpointDiscounts"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_ExpenseExchangeTradedFundCommissions" xlink:label="ExpenseExchangeTradedFundCommissions"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_ShareholderFeesCaption" xlink:label="ShareholderFeesCaption"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_ShareholderFeesColumnName" xlink:label="ShareholderFeesColumnName"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_MaximumCumulativeSalesChargeOverOfferingPrice" xlink:label="MaximumCumulativeSalesChargeOverOfferingPrice"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_MaximumCumulativeSalesChargeOverOther" xlink:label="MaximumCumulativeSalesChargeOverOther"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_MaximumSalesChargeImposedOnPurchasesOverOfferingPrice" xlink:label="MaximumSalesChargeImposedOnPurchasesOverOfferingPrice"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_MaximumDeferredSalesChargeOverOther" xlink:label="MaximumDeferredSalesChargeOverOther"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_MaximumDeferredSalesChargeOverOfferingPrice" xlink:label="MaximumDeferredSalesChargeOverOfferingPrice"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_MaximumSalesChargeOnReinvestedDividendsAndDistributionsOverOther" xlink:label="MaximumSalesChargeOnReinvestedDividendsAndDistributionsOverOther"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_RedemptionFeeOverRedemption" xlink:label="RedemptionFeeOverRedemption"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_RedemptionFee" xlink:label="RedemptionFee"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_ExchangeFeeOverRedemption" xlink:label="ExchangeFeeOverRedemption"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_ExchangeFee" xlink:label="ExchangeFee"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_MaximumAccountFeeOverAssets" xlink:label="MaximumAccountFeeOverAssets"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_MaximumAccountFee" xlink:label="MaximumAccountFee"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_ShareholderFeeOther" xlink:label="ShareholderFeeOther"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_OperatingExpensesCaption" xlink:label="OperatingExpensesCaption"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_OperatingExpensesColumnName" xlink:label="OperatingExpensesColumnName"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_ManagementFeesOverAssets" xlink:label="ManagementFeesOverAssets"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_DistributionAndService12b1FeesOverAssets" xlink:label="DistributionAndService12b1FeesOverAssets"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_DistributionOrSimilarNon12b1FeesOverAssets" xlink:label="DistributionOrSimilarNon12b1FeesOverAssets"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_OtherExpensesOverAssets" xlink:label="OtherExpensesOverAssets"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_Component1OtherExpensesOverAssets" xlink:label="Component1OtherExpensesOverAssets"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_Component2OtherExpensesOverAssets" xlink:label="Component2OtherExpensesOverAssets"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_Component3OtherExpensesOverAssets" xlink:label="Component3OtherExpensesOverAssets"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_AcquiredFundFeesAndExpensesOverAssets" xlink:label="AcquiredFundFeesAndExpensesOverAssets"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_ExpensesOverAssets" xlink:label="ExpensesOverAssets"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_FeeWaiverOrReimbursementOverAssets" xlink:label="FeeWaiverOrReimbursementOverAssets"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_NetExpensesOverAssets" xlink:label="NetExpensesOverAssets"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_ExpensesRepresentBothMasterAndFeeder" xlink:label="ExpensesRepresentBothMasterAndFeeder"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_ExpensesOtherExpensesHadExtraordinaryExpensesBeenIncluded" xlink:label="ExpensesOtherExpensesHadExtraordinaryExpensesBeenIncluded"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_ExpensesRestatedToReflectCurrent" xlink:label="ExpensesRestatedToReflectCurrent"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_ExpenseExampleHeading" xlink:label="ExpenseExampleHeading"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_ExpenseExampleNarrativeTextBlock" xlink:label="ExpenseExampleNarrativeTextBlock"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_ExpenseExampleByYearHeading" xlink:label="ExpenseExampleByYearHeading"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_ExpenseExampleByYearCaption" xlink:label="ExpenseExampleByYearCaption"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_ExpenseExampleByYearColumnName" xlink:label="ExpenseExampleByYearColumnName"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_ExpenseExampleYear01" xlink:label="ExpenseExampleYear01"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_ExpenseExampleYear03" xlink:label="ExpenseExampleYear03"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_ExpenseExampleYear05" xlink:label="ExpenseExampleYear05"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_ExpenseExampleYear10" xlink:label="ExpenseExampleYear10"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_ExpenseExampleNoRedemptionByYearCaption" xlink:label="ExpenseExampleNoRedemptionByYearCaption"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_ExpenseExampleNoRedemptionByYearColumnName" xlink:label="ExpenseExampleNoRedemptionByYearColumnName"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_ExpenseExampleNoRedemptionYear01" xlink:label="ExpenseExampleNoRedemptionYear01"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_ExpenseExampleNoRedemptionYear03" xlink:label="ExpenseExampleNoRedemptionYear03"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_ExpenseExampleNoRedemptionYear05" xlink:label="ExpenseExampleNoRedemptionYear05"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_ExpenseExampleNoRedemptionYear10" xlink:label="ExpenseExampleNoRedemptionYear10"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_ExpenseExampleClosingTextBlock" xlink:label="ExpenseExampleClosingTextBlock"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_ProspectusDate" xlink:label="ProspectusDate"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_ProspectusTable" xlink:label="ProspectusTable"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_ProspectusShareClassAxis" xlink:label="ProspectusShareClassAxis"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_ShareClassDomain" xlink:label="ShareClassDomain"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_ProspectusLineItems" xlink:label="ProspectusLineItems"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_PortfolioTurnoverHeading" xlink:label="PortfolioTurnoverHeading"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_PortfolioTurnoverTextBlock" xlink:label="PortfolioTurnoverTextBlock"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_PerformanceTableClosingAbstract" xlink:label="PerformanceTableClosingAbstract"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_ExpenseFootnotesTextBlock" xlink:label="ExpenseFootnotesTextBlock"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_ExpenseExampleFootnotesTextBlock" xlink:label="ExpenseExampleFootnotesTextBlock"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_FeeWaiverOrReimbursementOverAssetsDateOfTermination" xlink:label="FeeWaiverOrReimbursementOverAssetsDateOfTermination"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_PortfolioTurnoverRate" xlink:label="PortfolioTurnoverRate"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_ExpenseBreakpointMinimumInvestmentRequiredAmount" xlink:label="ExpenseBreakpointMinimumInvestmentRequiredAmount"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_PerformanceTableFootnotesReasonPerformanceInformationForClassDifferentFromImmediatelyPrecedingPeriod" xlink:label="PerformanceTableFootnotesReasonPerformanceInformationForClassDifferentFromImmediatelyPrecedingPeriod"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_BarChartFootnotesTextBlock" xlink:label="BarChartFootnotesTextBlock"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_PerformanceTableOneClassOfAfterTaxShown" xlink:label="PerformanceTableOneClassOfAfterTaxShown"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_OtherExpensesNewFundBasedOnEstimates" xlink:label="OtherExpensesNewFundBasedOnEstimates"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_AcquiredFundFeesAndExpensesBasedOnEstimates" xlink:label="AcquiredFundFeesAndExpensesBasedOnEstimates"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_ExpensesDeferredChargesTextBlock" xlink:label="ExpensesDeferredChargesTextBlock"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_ExpensesRangeOfExchangeFeesTextBlock" xlink:label="ExpensesRangeOfExchangeFeesTextBlock"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_ExpensesNotCorrelatedToRatioDueToAcquiredFundFees" xlink:label="ExpensesNotCorrelatedToRatioDueToAcquiredFundFees"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_ExpensesExplanationOfNonrecurringAccountFee" xlink:label="ExpensesExplanationOfNonrecurringAccountFee"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_IndexNoDeductionForFeesExpensesTaxes" xlink:label="IndexNoDeductionForFeesExpensesTaxes"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_PerformanceAvailabilityWebSiteAddress" xlink:label="PerformanceAvailabilityWebSiteAddress"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_PerformanceAvailabilityPhone" xlink:label="PerformanceAvailabilityPhone"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_CoregistrantAxis" xlink:label="CoregistrantAxis"/>
+<link:loc xlink:type="locator" xlink:href="rr-2012-01-31.xsd#rr_CoregistrantDomain" xlink:label="CoregistrantDomain"/>
+<link:reference xlink:type="resource" xlink:label="reference_RiskReturnHeading" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>2</ref:Section>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_ObjectiveHeading" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>2</ref:Section>
+<ref:Subsection>a</ref:Subsection>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_ObjectivePrimaryTextBlock" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>2</ref:Section>
+<ref:Subsection>a</ref:Subsection>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_ObjectiveSecondaryTextBlock" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>2</ref:Section>
+<ref:Subsection>a</ref:Subsection>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_StrategyHeading" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>a</ref:Subsection>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_StrategyNarrativeTextBlock" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>a</ref:Subsection>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_StrategyPortfolioConcentration" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>a</ref:Subsection>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_BarChartAndPerformanceTableHeading" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_PerformanceNarrativeTextBlock" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_PerformancePastDoesNotIndicateFuture" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>i</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_PerformanceInformationIllustratesVariabilityOfReturns" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>i</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_PerformanceOneYearOrLess" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>i</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_PerformanceOneYearOrLess_2" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>instructions</ref:Subparagraph>
+<ref:Clause>1</ref:Clause>
+<ref:Exhibit>b</ref:Exhibit>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_PerformanceAdditionalMarketIndex" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>i</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_BarChartHeading" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_BarChartNarrativeTextBlock" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>i</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_BarChartDoesNotReflectSalesLoads" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>i</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_BarChartReturnsForClassNotOfferedInProspectus" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>instructions</ref:Subparagraph>
+<ref:Clause>3</ref:Clause>
+<ref:Exhibit>b</ref:Exhibit>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_BarChartReasonSelectedClassDifferentFromImmediatelyPrecedingPeriod" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>instructions</ref:Subparagraph>
+<ref:Clause>3</ref:Clause>
+<ref:Exhibit>c</ref:Exhibit>
+<ref:Sentence>D</ref:Sentence>
+<ref:Example>ii</ref:Example>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_AnnualReturnCaption" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>instructions</ref:Subparagraph>
+<ref:Clause>3</ref:Clause>
+<ref:Exhibit>b</ref:Exhibit>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_AnnualReturnColumnName" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>instructions</ref:Subparagraph>
+<ref:Clause>1</ref:Clause>
+<ref:Exhibit>a</ref:Exhibit>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_AnnualReturnInceptionDate" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>ii</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_AnnualReturn1990" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>instructions</ref:Subparagraph>
+<ref:Clause>3</ref:Clause>
+<ref:Exhibit>a</ref:Exhibit>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_AnnualReturn1991" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>ii</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_AnnualReturn1992" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>instructions</ref:Subparagraph>
+<ref:Clause>3</ref:Clause>
+<ref:Exhibit>a</ref:Exhibit>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_AnnualReturn1993" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>instructions</ref:Subparagraph>
+<ref:Clause>3</ref:Clause>
+<ref:Exhibit>a</ref:Exhibit>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_AnnualReturn1994" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>ii</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_AnnualReturn1995" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>ii</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_AnnualReturn1996" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>instructions</ref:Subparagraph>
+<ref:Clause>3</ref:Clause>
+<ref:Exhibit>a</ref:Exhibit>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_AnnualReturn1997" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>instructions</ref:Subparagraph>
+<ref:Clause>3</ref:Clause>
+<ref:Exhibit>a</ref:Exhibit>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_AnnualReturn1998" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>ii</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_AnnualReturn1999" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>instructions</ref:Subparagraph>
+<ref:Clause>3</ref:Clause>
+<ref:Exhibit>a</ref:Exhibit>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_AnnualReturn2000" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>ii</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_AnnualReturn2001" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>ii</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_AnnualReturn2002" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>ii</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_AnnualReturn2003" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>instructions</ref:Subparagraph>
+<ref:Clause>3</ref:Clause>
+<ref:Exhibit>a</ref:Exhibit>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_AnnualReturn2004" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>instructions</ref:Subparagraph>
+<ref:Clause>3</ref:Clause>
+<ref:Exhibit>a</ref:Exhibit>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_AnnualReturn2005" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>ii</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_AnnualReturn2006" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>ii</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_AnnualReturn2007" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>instructions</ref:Subparagraph>
+<ref:Clause>3</ref:Clause>
+<ref:Exhibit>a</ref:Exhibit>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_AnnualReturn2008" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>ii</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_AnnualReturn2009" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>instructions</ref:Subparagraph>
+<ref:Clause>3</ref:Clause>
+<ref:Exhibit>a</ref:Exhibit>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_AnnualReturn2010" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>ii</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_AnnualReturn2011" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>instructions</ref:Subparagraph>
+<ref:Clause>3</ref:Clause>
+<ref:Exhibit>a</ref:Exhibit>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_AnnualReturn2012" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>ii</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_AnnualReturn2013" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>ii</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_AnnualReturn2014" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>ii</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_AnnualReturn2015" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>ii</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_AnnualReturn2016" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>ii</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_AnnualReturn2017" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>ii</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_AnnualReturn2018" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>ii</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_AnnualReturn2019" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>ii</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_AnnualReturn2020" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>ii</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_YearToDateReturnLabel" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>ii</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_BarChartYearToDateReturn" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>ii</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_BarChartYearToDateReturnDate" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>ii</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_HighestQuarterlyReturnLabel" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>ii</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_BarChartHighestQuarterlyReturn" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>ii</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_BarChartHighestQuarterlyReturnDate" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>ii</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_LowestQuarterlyReturnLabel" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>ii</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_BarChartLowestQuarterlyReturn" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>ii</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_BarChartLowestQuarterlyReturnDate" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>ii</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_BarChartClosingTextBlock" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>ii</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_PerformanceTableHeading" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>instructions</ref:Subparagraph>
+<ref:Clause>3</ref:Clause>
+<ref:Exhibit>c</ref:Exhibit>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_PerformanceTableNarrativeTextBlock" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>iv</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_PerformanceTableDoesReflectSalesLoads" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>iii</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_PerformanceTableMarketIndexChanged" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>instructions</ref:Subparagraph>
+<ref:Clause>2</ref:Clause>
+<ref:Exhibit>c</ref:Exhibit>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_PerformanceTableUsesHighestFederalRate" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>iii</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_PerformanceTableNotRelevantToTaxDeferred" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>iv</ref:Subparagraph>
+<ref:Clause>B</ref:Clause>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_PerformanceTableExplanationAfterTaxHigher" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>iv</ref:Subparagraph>
+<ref:Clause>D</ref:Clause>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_AverageAnnualReturnCaption" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>instructions</ref:Subparagraph>
+<ref:Clause>5</ref:Clause>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_AverageAnnualReturnColumnName" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>iii</ref:Subparagraph>
+<ref:Clause>1</ref:Clause>
+<ref:Exhibit>1</ref:Exhibit>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_AverageAnnualReturnLabel" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>iii</ref:Subparagraph>
+<ref:Clause>1</ref:Clause>
+<ref:Exhibit>2</ref:Exhibit>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_AverageAnnualReturnYear01" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>iii</ref:Subparagraph>
+<ref:Clause>1</ref:Clause>
+<ref:Exhibit>2</ref:Exhibit>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_AverageAnnualReturnYear05" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>iii</ref:Subparagraph>
+<ref:Clause>1</ref:Clause>
+<ref:Exhibit>2</ref:Exhibit>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_AverageAnnualReturnYear10" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>iii</ref:Subparagraph>
+<ref:Clause>1</ref:Clause>
+<ref:Exhibit>2</ref:Exhibit>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_AverageAnnualReturnSinceInception" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>iii</ref:Subparagraph>
+<ref:Clause>1</ref:Clause>
+<ref:Exhibit>2</ref:Exhibit>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_AverageAnnualReturnInceptionDate" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>instructions</ref:Subparagraph>
+<ref:Clause>4</ref:Clause>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_MoneyMarketSevenDayYieldCaption" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>instructions</ref:Subparagraph>
+<ref:Clause>2</ref:Clause>
+<ref:Exhibit>a</ref:Exhibit>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_MoneyMarketSevenDayYieldColumnName" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>instructions</ref:Subparagraph>
+<ref:Clause>2</ref:Clause>
+<ref:Exhibit>a</ref:Exhibit>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_MoneyMarketSevenDayYieldPhone" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>instructions</ref:Subparagraph>
+<ref:Clause>2</ref:Clause>
+<ref:Exhibit>d</ref:Exhibit>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_MoneyMarketSevenDayYield" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>instructions</ref:Subparagraph>
+<ref:Clause>2</ref:Clause>
+<ref:Exhibit>a</ref:Exhibit>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_MoneyMarketSevenDayTaxEquivalentYield" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>instructions</ref:Subparagraph>
+<ref:Clause>2</ref:Clause>
+<ref:Exhibit>a</ref:Exhibit>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_ThirtyDayYieldCaption" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>instructions</ref:Subparagraph>
+<ref:Clause>2</ref:Clause>
+<ref:Exhibit>d</ref:Exhibit>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_ThirtyDayYieldColumnName" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>instructions</ref:Subparagraph>
+<ref:Clause>2</ref:Clause>
+<ref:Exhibit>d</ref:Exhibit>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_ThirtyDayYieldPhone" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>instructions</ref:Subparagraph>
+<ref:Clause>2</ref:Clause>
+<ref:Exhibit>d</ref:Exhibit>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_ThirtyDayYield" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>instructions</ref:Subparagraph>
+<ref:Clause>2</ref:Clause>
+<ref:Exhibit>d</ref:Exhibit>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_ThirtyDayTaxEquivalentYield" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>instructions</ref:Subparagraph>
+<ref:Clause>2</ref:Clause>
+<ref:Exhibit>d</ref:Exhibit>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_MarketIndexReturnLabel" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>instructions</ref:Subparagraph>
+<ref:Clause>2</ref:Clause>
+<ref:Exhibit>b</ref:Exhibit>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_MarketIndexReturnSinceInception" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>instructions</ref:Subparagraph>
+<ref:Clause>2</ref:Clause>
+<ref:Exhibit>c</ref:Exhibit>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_MarketIndexReturnInceptionDate" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>instructions</ref:Subparagraph>
+<ref:Clause>2</ref:Clause>
+<ref:Exhibit>c</ref:Exhibit>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_PerformanceTableFootnotesTextBlock" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>iii</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_PerformanceTableClosingTextBlock" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>iii</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_RiskHeading" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>1</ref:Paragraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_RiskNarrativeTextBlock" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>1</ref:Paragraph>
+<ref:Subparagraph>i</ref:Subparagraph>
+<ref:Clause>instruction</ref:Clause>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_RiskNondiversifiedStatus" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>1</ref:Paragraph>
+<ref:Subparagraph>iv</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_RiskLoseMoney" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>1</ref:Paragraph>
+<ref:Subparagraph>i</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_RiskMoneyMarketFund" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>1</ref:Paragraph>
+<ref:Subparagraph>i</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_RiskNotInsuredDepositoryInstitution" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>1</ref:Paragraph>
+<ref:Subparagraph>iii</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_RiskCaption" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>1</ref:Paragraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_RiskColumnName" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>1</ref:Paragraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_Risk" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>1</ref:Paragraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_RiskFootnotesTextBlock" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>1</ref:Paragraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_RiskClosingTextBlock" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>1</ref:Paragraph>
+<ref:Subparagraph>ii</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_ExpenseHeading" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>3</ref:Section>
+<ref:Subsection>instructions</ref:Subsection>
+<ref:Paragraph>1</ref:Paragraph>
+<ref:Subparagraph>d</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_ExpenseNarrativeTextBlock" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>3</ref:Section>
+<ref:Subsection>instructions</ref:Subsection>
+<ref:Paragraph>1</ref:Paragraph>
+<ref:Subparagraph>b</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_ExpenseBreakpointDiscounts" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>3</ref:Section>
+<ref:Subsection>instructions</ref:Subsection>
+<ref:Paragraph>1</ref:Paragraph>
+<ref:Subparagraph>b</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_ExpenseExchangeTradedFundCommissions" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>3</ref:Section>
+<ref:Subsection>instructions</ref:Subsection>
+<ref:Paragraph>1</ref:Paragraph>
+<ref:Subparagraph>e</ref:Subparagraph>
+<ref:Clause>i</ref:Clause>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_ShareholderFeesCaption" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>3</ref:Section>
+<ref:Subsection>table</ref:Subsection>
+<ref:Paragraph>1</ref:Paragraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_ShareholderFeesColumnName" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>3</ref:Section>
+<ref:Subsection>table</ref:Subsection>
+<ref:Paragraph>1</ref:Paragraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_MaximumCumulativeSalesChargeOverOfferingPrice" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>3</ref:Section>
+<ref:Subsection>table</ref:Subsection>
+<ref:Paragraph>1</ref:Paragraph>
+<ref:Subparagraph>1</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_MaximumCumulativeSalesChargeOverOther" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>3</ref:Section>
+<ref:Subsection>table</ref:Subsection>
+<ref:Paragraph>1</ref:Paragraph>
+<ref:Subparagraph>1</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_MaximumSalesChargeImposedOnPurchasesOverOfferingPrice" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>3</ref:Section>
+<ref:Subsection>table</ref:Subsection>
+<ref:Paragraph>1</ref:Paragraph>
+<ref:Subparagraph>1</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_MaximumDeferredSalesChargeOverOther" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>3</ref:Section>
+<ref:Subsection>instructions</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>a</ref:Subparagraph>
+<ref:Clause>i</ref:Clause>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_MaximumDeferredSalesChargeOverOfferingPrice" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>3</ref:Section>
+<ref:Subsection>instructions</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>a</ref:Subparagraph>
+<ref:Clause>i</ref:Clause>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_MaximumSalesChargeOnReinvestedDividendsAndDistributionsOverOther" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>3</ref:Section>
+<ref:Subsection>table</ref:Subsection>
+<ref:Paragraph>1</ref:Paragraph>
+<ref:Subparagraph>3</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_RedemptionFeeOverRedemption" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>3</ref:Section>
+<ref:Subsection>instructions</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>b</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_RedemptionFee" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>3</ref:Section>
+<ref:Subsection>table</ref:Subsection>
+<ref:Paragraph>1</ref:Paragraph>
+<ref:Subparagraph>4</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_ExchangeFeeOverRedemption" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>3</ref:Section>
+<ref:Subsection>instructions</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>c</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_ExchangeFee" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>3</ref:Section>
+<ref:Subsection>table</ref:Subsection>
+<ref:Paragraph>1</ref:Paragraph>
+<ref:Subparagraph>5</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_MaximumAccountFeeOverAssets" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>3</ref:Section>
+<ref:Subsection>table</ref:Subsection>
+<ref:Paragraph>1</ref:Paragraph>
+<ref:Subparagraph>6</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_MaximumAccountFee" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>3</ref:Section>
+<ref:Subsection>instructions</ref:Subsection>
+<ref:Paragraph>1</ref:Paragraph>
+<ref:Subparagraph>c</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_ShareholderFeeOther" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>3</ref:Section>
+<ref:Subsection>table</ref:Subsection>
+<ref:Paragraph>1</ref:Paragraph>
+<ref:Subparagraph>10</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_OperatingExpensesCaption" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>3</ref:Section>
+<ref:Subsection>table</ref:Subsection>
+<ref:Paragraph>1</ref:Paragraph>
+<ref:Subparagraph>7</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_OperatingExpensesColumnName" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>3</ref:Section>
+<ref:Subsection>table</ref:Subsection>
+<ref:Paragraph>1</ref:Paragraph>
+<ref:Subparagraph>7</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_ManagementFeesOverAssets" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>3</ref:Section>
+<ref:Subsection>instructions</ref:Subsection>
+<ref:Paragraph>3</ref:Paragraph>
+<ref:Subparagraph>a</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_DistributionAndService12b1FeesOverAssets" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>3</ref:Section>
+<ref:Subsection>table</ref:Subsection>
+<ref:Paragraph>1</ref:Paragraph>
+<ref:Subparagraph>9</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_DistributionOrSimilarNon12b1FeesOverAssets" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>3</ref:Section>
+<ref:Subsection>instructions</ref:Subsection>
+<ref:Paragraph>3</ref:Paragraph>
+<ref:Subparagraph>b</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_OtherExpensesOverAssets" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>3</ref:Section>
+<ref:Subsection>instructions</ref:Subsection>
+<ref:Paragraph>3</ref:Paragraph>
+<ref:Subparagraph>c</ref:Subparagraph>
+<ref:Clause>i</ref:Clause>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_Component1OtherExpensesOverAssets" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>3</ref:Section>
+<ref:Subsection>instructions</ref:Subsection>
+<ref:Paragraph>3</ref:Paragraph>
+<ref:Subparagraph>c</ref:Subparagraph>
+<ref:Clause>iii</ref:Clause>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_Component2OtherExpensesOverAssets" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>3</ref:Section>
+<ref:Subsection>table</ref:Subsection>
+<ref:Paragraph>1</ref:Paragraph>
+<ref:Subparagraph>10</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_Component3OtherExpensesOverAssets" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>3</ref:Section>
+<ref:Subsection>instructions</ref:Subsection>
+<ref:Paragraph>3</ref:Paragraph>
+<ref:Subparagraph>c</ref:Subparagraph>
+<ref:Clause>iii</ref:Clause>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_AcquiredFundFeesAndExpensesOverAssets" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>3</ref:Section>
+<ref:Subsection>table</ref:Subsection>
+<ref:Paragraph>1</ref:Paragraph>
+<ref:Subparagraph>11</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_ExpensesOverAssets" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>3</ref:Section>
+<ref:Subsection>instructions</ref:Subsection>
+<ref:Paragraph>3</ref:Paragraph>
+<ref:Subparagraph>d</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_FeeWaiverOrReimbursementOverAssets" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>3</ref:Section>
+<ref:Subsection>table</ref:Subsection>
+<ref:Paragraph>1</ref:Paragraph>
+<ref:Subparagraph>11</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_NetExpensesOverAssets" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>3</ref:Section>
+<ref:Subsection>table</ref:Subsection>
+<ref:Paragraph>1</ref:Paragraph>
+<ref:Subparagraph>11</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_ExpensesRepresentBothMasterAndFeeder" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>3</ref:Section>
+<ref:Subsection>instructions</ref:Subsection>
+<ref:Paragraph>1</ref:Paragraph>
+<ref:Subparagraph>d</ref:Subparagraph>
+<ref:Clause>i</ref:Clause>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_ExpensesOtherExpensesHadExtraordinaryExpensesBeenIncluded" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>3</ref:Section>
+<ref:Subsection>instructions</ref:Subsection>
+<ref:Paragraph>3</ref:Paragraph>
+<ref:Subparagraph>c</ref:Subparagraph>
+<ref:Clause>ii</ref:Clause>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_ExpensesRestatedToReflectCurrent" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>3</ref:Section>
+<ref:Subsection>instructions</ref:Subsection>
+<ref:Paragraph>3</ref:Paragraph>
+<ref:Subparagraph>d</ref:Subparagraph>
+<ref:Clause>ii</ref:Clause>
+<ref:Exhibit>B</ref:Exhibit>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_ExpenseExampleHeading" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>3</ref:Section>
+<ref:Subsection>instructions</ref:Subsection>
+<ref:Paragraph>4</ref:Paragraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_ExpenseExampleNarrativeTextBlock" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>3</ref:Section>
+<ref:Subsection>example</ref:Subsection>
+<ref:Paragraph>1</ref:Paragraph>
+<ref:Subparagraph>1</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_ExpenseExampleByYearHeading" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>3</ref:Section>
+<ref:Subsection>example</ref:Subsection>
+<ref:Paragraph>1</ref:Paragraph>
+<ref:Subparagraph>2</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_ExpenseExampleByYearCaption" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>3</ref:Section>
+<ref:Subsection>example</ref:Subsection>
+<ref:Paragraph>1</ref:Paragraph>
+<ref:Subparagraph>2</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_ExpenseExampleByYearColumnName" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>3</ref:Section>
+<ref:Subsection>example</ref:Subsection>
+<ref:Paragraph>1</ref:Paragraph>
+<ref:Subparagraph>2</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_ExpenseExampleYear01" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>3</ref:Section>
+<ref:Subsection>instructions</ref:Subsection>
+<ref:Paragraph>4</ref:Paragraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_ExpenseExampleYear03" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>3</ref:Section>
+<ref:Subsection>example</ref:Subsection>
+<ref:Paragraph>1</ref:Paragraph>
+<ref:Subparagraph>2</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_ExpenseExampleYear05" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>3</ref:Section>
+<ref:Subsection>example</ref:Subsection>
+<ref:Paragraph>1</ref:Paragraph>
+<ref:Subparagraph>2</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_ExpenseExampleYear10" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>3</ref:Section>
+<ref:Subsection>example</ref:Subsection>
+<ref:Paragraph>1</ref:Paragraph>
+<ref:Subparagraph>2</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_ExpenseExampleNoRedemptionByYearCaption" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>3</ref:Section>
+<ref:Subsection>example</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>1</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_ExpenseExampleNoRedemptionByYearColumnName" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>3</ref:Section>
+<ref:Subsection>example</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>1</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_ExpenseExampleNoRedemptionYear01" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>3</ref:Section>
+<ref:Subsection>example</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>1</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_ExpenseExampleNoRedemptionYear03" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>3</ref:Section>
+<ref:Subsection>example</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>1</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_ExpenseExampleNoRedemptionYear05" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>3</ref:Section>
+<ref:Subsection>instructions</ref:Subsection>
+<ref:Paragraph>4</ref:Paragraph>
+<ref:Subparagraph>f</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_ExpenseExampleNoRedemptionYear10" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>3</ref:Section>
+<ref:Subsection>instructions</ref:Subsection>
+<ref:Paragraph>4</ref:Paragraph>
+<ref:Subparagraph>f</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_ExpenseExampleClosingTextBlock" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>3</ref:Section>
+<ref:Subsection>instructions</ref:Subsection>
+<ref:Paragraph>4</ref:Paragraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_ProspectusDate" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>1</ref:Section>
+<ref:Subsection>a</ref:Subsection>
+<ref:Paragraph>3</ref:Paragraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_ProspectusTable" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_ProspectusShareClassAxis" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_ShareClassDomain" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>1</ref:Section>
+<ref:Subsection>a</ref:Subsection>
+<ref:Paragraph>1</ref:Paragraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_ProspectusLineItems" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_PortfolioTurnoverHeading" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>3</ref:Section>
+<ref:Subsection>instructions</ref:Subsection>
+<ref:Paragraph>5</ref:Paragraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_PortfolioTurnoverTextBlock" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>3</ref:Section>
+<ref:Subsection>example</ref:Subsection>
+<ref:Paragraph>3</ref:Paragraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_PerformanceTableClosingAbstract" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>iv</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_ExpenseFootnotesTextBlock" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>3</ref:Section>
+<ref:Subsection>instructions</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_ExpenseExampleFootnotesTextBlock" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>3</ref:Section>
+<ref:Subsection>example</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>6</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_FeeWaiverOrReimbursementOverAssetsDateOfTermination" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>3</ref:Section>
+<ref:Subsection>instructions</ref:Subsection>
+<ref:Paragraph>3</ref:Paragraph>
+<ref:Subparagraph>e</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_PortfolioTurnoverRate" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>3</ref:Section>
+<ref:Subsection>example</ref:Subsection>
+<ref:Paragraph>3</ref:Paragraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_ExpenseBreakpointMinimumInvestmentRequiredAmount" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>3</ref:Section>
+<ref:Subsection>instructions</ref:Subsection>
+<ref:Paragraph>1</ref:Paragraph>
+<ref:Subparagraph>b</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_PerformanceTableFootnotesReasonPerformanceInformationForClassDifferentFromImmediatelyPrecedingPeriod" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>instructions</ref:Subparagraph>
+<ref:Clause>3</ref:Clause>
+<ref:Exhibit>c</ref:Exhibit>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_BarChartFootnotesTextBlock" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>instructions</ref:Subparagraph>
+<ref:Clause>3</ref:Clause>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_PerformanceTableOneClassOfAfterTaxShown" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>iii</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_PerformanceTableOneClassOfAfterTaxShown_2" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>iv</ref:Subparagraph>
+<ref:Clause>C</ref:Clause>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_OtherExpensesNewFundBasedOnEstimates" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>3</ref:Section>
+<ref:Subsection>instructions</ref:Subsection>
+<ref:Paragraph>6</ref:Paragraph>
+<ref:Subparagraph>a</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_AcquiredFundFeesAndExpensesBasedOnEstimates" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>3</ref:Section>
+<ref:Subsection>instructions</ref:Subsection>
+<ref:Paragraph>3</ref:Paragraph>
+<ref:Subparagraph>f</ref:Subparagraph>
+<ref:Clause>vi</ref:Clause>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_ExpensesDeferredChargesTextBlock" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>3</ref:Section>
+<ref:Subsection>instructions</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>a</ref:Subparagraph>
+<ref:Clause>i</ref:Clause>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_ExpensesRangeOfExchangeFeesTextBlock" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>3</ref:Section>
+<ref:Subsection>instructions</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>c</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_ExpensesNotCorrelatedToRatioDueToAcquiredFundFees" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>3</ref:Section>
+<ref:Subsection>instructions</ref:Subsection>
+<ref:Paragraph>3</ref:Paragraph>
+<ref:Subparagraph>f</ref:Subparagraph>
+<ref:Clause>vii</ref:Clause>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_ExpensesExplanationOfNonrecurringAccountFee" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>3</ref:Section>
+<ref:Subsection>instructions</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>d</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_IndexNoDeductionForFeesExpensesTaxes" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>iii</ref:Subparagraph>
+<ref:Clause>1</ref:Clause>
+<ref:Exhibit>5</ref:Exhibit>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_PerformanceAvailabilityWebSiteAddress" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>i</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_PerformanceAvailabilityPhone" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>4</ref:Section>
+<ref:Subsection>b</ref:Subsection>
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>i</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_CoregistrantAxis" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_CoregistrantDomain" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Form</ref:Name>
+<ref:Number>N-1A</ref:Number>
+<ref:Chapter>A</ref:Chapter>
+<ref:Section>1</ref:Section>
+<ref:Subsection>a</ref:Subsection>
+<ref:Paragraph>1</ref:Paragraph>
+</link:reference>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="RiskReturnHeading" xlink:to="reference_RiskReturnHeading"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ObjectiveHeading" xlink:to="reference_ObjectiveHeading"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ObjectivePrimaryTextBlock" xlink:to="reference_ObjectivePrimaryTextBlock"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ObjectiveSecondaryTextBlock" xlink:to="reference_ObjectiveSecondaryTextBlock"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="StrategyHeading" xlink:to="reference_StrategyHeading"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="StrategyNarrativeTextBlock" xlink:to="reference_StrategyNarrativeTextBlock"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="StrategyPortfolioConcentration" xlink:to="reference_StrategyPortfolioConcentration"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="BarChartAndPerformanceTableHeading" xlink:to="reference_BarChartAndPerformanceTableHeading"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="PerformanceNarrativeTextBlock" xlink:to="reference_PerformanceNarrativeTextBlock"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="PerformancePastDoesNotIndicateFuture" xlink:to="reference_PerformancePastDoesNotIndicateFuture"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="PerformanceInformationIllustratesVariabilityOfReturns" xlink:to="reference_PerformanceInformationIllustratesVariabilityOfReturns"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="PerformanceOneYearOrLess" xlink:to="reference_PerformanceOneYearOrLess"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="PerformanceOneYearOrLess" xlink:to="reference_PerformanceOneYearOrLess_2"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="PerformanceAdditionalMarketIndex" xlink:to="reference_PerformanceAdditionalMarketIndex"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="BarChartHeading" xlink:to="reference_BarChartHeading"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="BarChartNarrativeTextBlock" xlink:to="reference_BarChartNarrativeTextBlock"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="BarChartDoesNotReflectSalesLoads" xlink:to="reference_BarChartDoesNotReflectSalesLoads"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="BarChartReturnsForClassNotOfferedInProspectus" xlink:to="reference_BarChartReturnsForClassNotOfferedInProspectus"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="BarChartReasonSelectedClassDifferentFromImmediatelyPrecedingPeriod" xlink:to="reference_BarChartReasonSelectedClassDifferentFromImmediatelyPrecedingPeriod"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="AnnualReturnCaption" xlink:to="reference_AnnualReturnCaption"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="AnnualReturnColumnName" xlink:to="reference_AnnualReturnColumnName"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="AnnualReturnInceptionDate" xlink:to="reference_AnnualReturnInceptionDate"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="AnnualReturn1990" xlink:to="reference_AnnualReturn1990"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="AnnualReturn1991" xlink:to="reference_AnnualReturn1991"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="AnnualReturn1992" xlink:to="reference_AnnualReturn1992"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="AnnualReturn1993" xlink:to="reference_AnnualReturn1993"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="AnnualReturn1994" xlink:to="reference_AnnualReturn1994"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="AnnualReturn1995" xlink:to="reference_AnnualReturn1995"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="AnnualReturn1996" xlink:to="reference_AnnualReturn1996"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="AnnualReturn1997" xlink:to="reference_AnnualReturn1997"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="AnnualReturn1998" xlink:to="reference_AnnualReturn1998"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="AnnualReturn1999" xlink:to="reference_AnnualReturn1999"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="AnnualReturn2000" xlink:to="reference_AnnualReturn2000"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="AnnualReturn2001" xlink:to="reference_AnnualReturn2001"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="AnnualReturn2002" xlink:to="reference_AnnualReturn2002"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="AnnualReturn2003" xlink:to="reference_AnnualReturn2003"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="AnnualReturn2004" xlink:to="reference_AnnualReturn2004"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="AnnualReturn2005" xlink:to="reference_AnnualReturn2005"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="AnnualReturn2006" xlink:to="reference_AnnualReturn2006"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="AnnualReturn2007" xlink:to="reference_AnnualReturn2007"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="AnnualReturn2008" xlink:to="reference_AnnualReturn2008"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="AnnualReturn2009" xlink:to="reference_AnnualReturn2009"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="AnnualReturn2010" xlink:to="reference_AnnualReturn2010"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="AnnualReturn2011" xlink:to="reference_AnnualReturn2011"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="AnnualReturn2012" xlink:to="reference_AnnualReturn2012"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="AnnualReturn2013" xlink:to="reference_AnnualReturn2013"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="AnnualReturn2014" xlink:to="reference_AnnualReturn2014"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="AnnualReturn2015" xlink:to="reference_AnnualReturn2015"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="AnnualReturn2016" xlink:to="reference_AnnualReturn2016"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="AnnualReturn2017" xlink:to="reference_AnnualReturn2017"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="AnnualReturn2018" xlink:to="reference_AnnualReturn2018"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="AnnualReturn2019" xlink:to="reference_AnnualReturn2019"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="AnnualReturn2020" xlink:to="reference_AnnualReturn2020"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="YearToDateReturnLabel" xlink:to="reference_YearToDateReturnLabel"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="BarChartYearToDateReturn" xlink:to="reference_BarChartYearToDateReturn"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="BarChartYearToDateReturnDate" xlink:to="reference_BarChartYearToDateReturnDate"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="HighestQuarterlyReturnLabel" xlink:to="reference_HighestQuarterlyReturnLabel"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="BarChartHighestQuarterlyReturn" xlink:to="reference_BarChartHighestQuarterlyReturn"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="BarChartHighestQuarterlyReturnDate" xlink:to="reference_BarChartHighestQuarterlyReturnDate"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="LowestQuarterlyReturnLabel" xlink:to="reference_LowestQuarterlyReturnLabel"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="BarChartLowestQuarterlyReturn" xlink:to="reference_BarChartLowestQuarterlyReturn"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="BarChartLowestQuarterlyReturnDate" xlink:to="reference_BarChartLowestQuarterlyReturnDate"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="BarChartClosingTextBlock" xlink:to="reference_BarChartClosingTextBlock"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="PerformanceTableHeading" xlink:to="reference_PerformanceTableHeading"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="PerformanceTableNarrativeTextBlock" xlink:to="reference_PerformanceTableNarrativeTextBlock"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="PerformanceTableDoesReflectSalesLoads" xlink:to="reference_PerformanceTableDoesReflectSalesLoads"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="PerformanceTableMarketIndexChanged" xlink:to="reference_PerformanceTableMarketIndexChanged"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="PerformanceTableUsesHighestFederalRate" xlink:to="reference_PerformanceTableUsesHighestFederalRate"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="PerformanceTableNotRelevantToTaxDeferred" xlink:to="reference_PerformanceTableNotRelevantToTaxDeferred"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="PerformanceTableExplanationAfterTaxHigher" xlink:to="reference_PerformanceTableExplanationAfterTaxHigher"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="AverageAnnualReturnCaption" xlink:to="reference_AverageAnnualReturnCaption"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="AverageAnnualReturnColumnName" xlink:to="reference_AverageAnnualReturnColumnName"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="AverageAnnualReturnLabel" xlink:to="reference_AverageAnnualReturnLabel"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="AverageAnnualReturnYear01" xlink:to="reference_AverageAnnualReturnYear01"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="AverageAnnualReturnYear05" xlink:to="reference_AverageAnnualReturnYear05"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="AverageAnnualReturnYear10" xlink:to="reference_AverageAnnualReturnYear10"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="AverageAnnualReturnSinceInception" xlink:to="reference_AverageAnnualReturnSinceInception"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="AverageAnnualReturnInceptionDate" xlink:to="reference_AverageAnnualReturnInceptionDate"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="MoneyMarketSevenDayYieldCaption" xlink:to="reference_MoneyMarketSevenDayYieldCaption"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="MoneyMarketSevenDayYieldColumnName" xlink:to="reference_MoneyMarketSevenDayYieldColumnName"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="MoneyMarketSevenDayYieldPhone" xlink:to="reference_MoneyMarketSevenDayYieldPhone"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="MoneyMarketSevenDayYield" xlink:to="reference_MoneyMarketSevenDayYield"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="MoneyMarketSevenDayTaxEquivalentYield" xlink:to="reference_MoneyMarketSevenDayTaxEquivalentYield"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ThirtyDayYieldCaption" xlink:to="reference_ThirtyDayYieldCaption"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ThirtyDayYieldColumnName" xlink:to="reference_ThirtyDayYieldColumnName"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ThirtyDayYieldPhone" xlink:to="reference_ThirtyDayYieldPhone"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ThirtyDayYield" xlink:to="reference_ThirtyDayYield"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ThirtyDayTaxEquivalentYield" xlink:to="reference_ThirtyDayTaxEquivalentYield"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="MarketIndexReturnLabel" xlink:to="reference_MarketIndexReturnLabel"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="MarketIndexReturnSinceInception" xlink:to="reference_MarketIndexReturnSinceInception"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="MarketIndexReturnInceptionDate" xlink:to="reference_MarketIndexReturnInceptionDate"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="PerformanceTableFootnotesTextBlock" xlink:to="reference_PerformanceTableFootnotesTextBlock"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="PerformanceTableClosingTextBlock" xlink:to="reference_PerformanceTableClosingTextBlock"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="RiskHeading" xlink:to="reference_RiskHeading"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="RiskNarrativeTextBlock" xlink:to="reference_RiskNarrativeTextBlock"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="RiskNondiversifiedStatus" xlink:to="reference_RiskNondiversifiedStatus"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="RiskLoseMoney" xlink:to="reference_RiskLoseMoney"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="RiskMoneyMarketFund" xlink:to="reference_RiskMoneyMarketFund"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="RiskNotInsuredDepositoryInstitution" xlink:to="reference_RiskNotInsuredDepositoryInstitution"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="RiskCaption" xlink:to="reference_RiskCaption"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="RiskColumnName" xlink:to="reference_RiskColumnName"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="Risk" xlink:to="reference_Risk"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="RiskFootnotesTextBlock" xlink:to="reference_RiskFootnotesTextBlock"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="RiskClosingTextBlock" xlink:to="reference_RiskClosingTextBlock"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ExpenseHeading" xlink:to="reference_ExpenseHeading"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ExpenseNarrativeTextBlock" xlink:to="reference_ExpenseNarrativeTextBlock"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ExpenseBreakpointDiscounts" xlink:to="reference_ExpenseBreakpointDiscounts"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ExpenseExchangeTradedFundCommissions" xlink:to="reference_ExpenseExchangeTradedFundCommissions"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ShareholderFeesCaption" xlink:to="reference_ShareholderFeesCaption"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ShareholderFeesColumnName" xlink:to="reference_ShareholderFeesColumnName"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="MaximumCumulativeSalesChargeOverOfferingPrice" xlink:to="reference_MaximumCumulativeSalesChargeOverOfferingPrice"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="MaximumCumulativeSalesChargeOverOther" xlink:to="reference_MaximumCumulativeSalesChargeOverOther"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="MaximumSalesChargeImposedOnPurchasesOverOfferingPrice" xlink:to="reference_MaximumSalesChargeImposedOnPurchasesOverOfferingPrice"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="MaximumDeferredSalesChargeOverOther" xlink:to="reference_MaximumDeferredSalesChargeOverOther"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="MaximumDeferredSalesChargeOverOfferingPrice" xlink:to="reference_MaximumDeferredSalesChargeOverOfferingPrice"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="MaximumSalesChargeOnReinvestedDividendsAndDistributionsOverOther" xlink:to="reference_MaximumSalesChargeOnReinvestedDividendsAndDistributionsOverOther"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="RedemptionFeeOverRedemption" xlink:to="reference_RedemptionFeeOverRedemption"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="RedemptionFee" xlink:to="reference_RedemptionFee"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ExchangeFeeOverRedemption" xlink:to="reference_ExchangeFeeOverRedemption"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ExchangeFee" xlink:to="reference_ExchangeFee"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="MaximumAccountFeeOverAssets" xlink:to="reference_MaximumAccountFeeOverAssets"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="MaximumAccountFee" xlink:to="reference_MaximumAccountFee"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ShareholderFeeOther" xlink:to="reference_ShareholderFeeOther"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="OperatingExpensesCaption" xlink:to="reference_OperatingExpensesCaption"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="OperatingExpensesColumnName" xlink:to="reference_OperatingExpensesColumnName"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ManagementFeesOverAssets" xlink:to="reference_ManagementFeesOverAssets"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DistributionAndService12b1FeesOverAssets" xlink:to="reference_DistributionAndService12b1FeesOverAssets"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DistributionOrSimilarNon12b1FeesOverAssets" xlink:to="reference_DistributionOrSimilarNon12b1FeesOverAssets"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="OtherExpensesOverAssets" xlink:to="reference_OtherExpensesOverAssets"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="Component1OtherExpensesOverAssets" xlink:to="reference_Component1OtherExpensesOverAssets"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="Component2OtherExpensesOverAssets" xlink:to="reference_Component2OtherExpensesOverAssets"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="Component3OtherExpensesOverAssets" xlink:to="reference_Component3OtherExpensesOverAssets"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="AcquiredFundFeesAndExpensesOverAssets" xlink:to="reference_AcquiredFundFeesAndExpensesOverAssets"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ExpensesOverAssets" xlink:to="reference_ExpensesOverAssets"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="FeeWaiverOrReimbursementOverAssets" xlink:to="reference_FeeWaiverOrReimbursementOverAssets"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="NetExpensesOverAssets" xlink:to="reference_NetExpensesOverAssets"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ExpensesRepresentBothMasterAndFeeder" xlink:to="reference_ExpensesRepresentBothMasterAndFeeder"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ExpensesOtherExpensesHadExtraordinaryExpensesBeenIncluded" xlink:to="reference_ExpensesOtherExpensesHadExtraordinaryExpensesBeenIncluded"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ExpensesRestatedToReflectCurrent" xlink:to="reference_ExpensesRestatedToReflectCurrent"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ExpenseExampleHeading" xlink:to="reference_ExpenseExampleHeading"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ExpenseExampleNarrativeTextBlock" xlink:to="reference_ExpenseExampleNarrativeTextBlock"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ExpenseExampleByYearHeading" xlink:to="reference_ExpenseExampleByYearHeading"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ExpenseExampleByYearCaption" xlink:to="reference_ExpenseExampleByYearCaption"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ExpenseExampleByYearColumnName" xlink:to="reference_ExpenseExampleByYearColumnName"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ExpenseExampleYear01" xlink:to="reference_ExpenseExampleYear01"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ExpenseExampleYear03" xlink:to="reference_ExpenseExampleYear03"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ExpenseExampleYear05" xlink:to="reference_ExpenseExampleYear05"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ExpenseExampleYear10" xlink:to="reference_ExpenseExampleYear10"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ExpenseExampleNoRedemptionByYearCaption" xlink:to="reference_ExpenseExampleNoRedemptionByYearCaption"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ExpenseExampleNoRedemptionByYearColumnName" xlink:to="reference_ExpenseExampleNoRedemptionByYearColumnName"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ExpenseExampleNoRedemptionYear01" xlink:to="reference_ExpenseExampleNoRedemptionYear01"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ExpenseExampleNoRedemptionYear03" xlink:to="reference_ExpenseExampleNoRedemptionYear03"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ExpenseExampleNoRedemptionYear05" xlink:to="reference_ExpenseExampleNoRedemptionYear05"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ExpenseExampleNoRedemptionYear10" xlink:to="reference_ExpenseExampleNoRedemptionYear10"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ExpenseExampleClosingTextBlock" xlink:to="reference_ExpenseExampleClosingTextBlock"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ProspectusDate" xlink:to="reference_ProspectusDate"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ProspectusTable" xlink:to="reference_ProspectusTable"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ProspectusShareClassAxis" xlink:to="reference_ProspectusShareClassAxis"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ShareClassDomain" xlink:to="reference_ShareClassDomain"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ProspectusLineItems" xlink:to="reference_ProspectusLineItems"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="PortfolioTurnoverHeading" xlink:to="reference_PortfolioTurnoverHeading"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="PortfolioTurnoverTextBlock" xlink:to="reference_PortfolioTurnoverTextBlock"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="PerformanceTableClosingAbstract" xlink:to="reference_PerformanceTableClosingAbstract"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ExpenseFootnotesTextBlock" xlink:to="reference_ExpenseFootnotesTextBlock"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ExpenseExampleFootnotesTextBlock" xlink:to="reference_ExpenseExampleFootnotesTextBlock"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="FeeWaiverOrReimbursementOverAssetsDateOfTermination" xlink:to="reference_FeeWaiverOrReimbursementOverAssetsDateOfTermination"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="PortfolioTurnoverRate" xlink:to="reference_PortfolioTurnoverRate"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ExpenseBreakpointMinimumInvestmentRequiredAmount" xlink:to="reference_ExpenseBreakpointMinimumInvestmentRequiredAmount"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="PerformanceTableFootnotesReasonPerformanceInformationForClassDifferentFromImmediatelyPrecedingPeriod" xlink:to="reference_PerformanceTableFootnotesReasonPerformanceInformationForClassDifferentFromImmediatelyPrecedingPeriod"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="BarChartFootnotesTextBlock" xlink:to="reference_BarChartFootnotesTextBlock"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="PerformanceTableOneClassOfAfterTaxShown" xlink:to="reference_PerformanceTableOneClassOfAfterTaxShown"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="PerformanceTableOneClassOfAfterTaxShown" xlink:to="reference_PerformanceTableOneClassOfAfterTaxShown_2"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="OtherExpensesNewFundBasedOnEstimates" xlink:to="reference_OtherExpensesNewFundBasedOnEstimates"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="AcquiredFundFeesAndExpensesBasedOnEstimates" xlink:to="reference_AcquiredFundFeesAndExpensesBasedOnEstimates"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ExpensesDeferredChargesTextBlock" xlink:to="reference_ExpensesDeferredChargesTextBlock"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ExpensesRangeOfExchangeFeesTextBlock" xlink:to="reference_ExpensesRangeOfExchangeFeesTextBlock"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ExpensesNotCorrelatedToRatioDueToAcquiredFundFees" xlink:to="reference_ExpensesNotCorrelatedToRatioDueToAcquiredFundFees"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ExpensesExplanationOfNonrecurringAccountFee" xlink:to="reference_ExpensesExplanationOfNonrecurringAccountFee"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="IndexNoDeductionForFeesExpensesTaxes" xlink:to="reference_IndexNoDeductionForFeesExpensesTaxes"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="PerformanceAvailabilityWebSiteAddress" xlink:to="reference_PerformanceAvailabilityWebSiteAddress"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="PerformanceAvailabilityPhone" xlink:to="reference_PerformanceAvailabilityPhone"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="CoregistrantAxis" xlink:to="reference_CoregistrantAxis"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="CoregistrantDomain" xlink:to="reference_CoregistrantDomain"/>
+</link:referenceLink>
+</link:linkbase>

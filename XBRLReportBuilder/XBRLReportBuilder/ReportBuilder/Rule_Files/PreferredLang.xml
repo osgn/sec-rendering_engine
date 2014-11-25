@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<xBusinessRules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="xBusinessRules.xsd">
+
+	<Description>
+		This rule parses the supported languages in the taxonomy looking for en-us.  If that language is found, then it
+		is set as the default language for the report.  Otherwise the first supported language in the taxonomy is used.
+	</Description>
+	
+	<!-- Variables for tracking the state of execution -->
+	<Integer id="count" value="0"/>
+	<Integer id="zero" value="0"/>
+
+	<!-- The language that will be used if it is supported by the taxonomy-->
+	<String id="StrPrefferedLang" value="en-us"></String>
+
+	<!-- Get the list of supported languaes from the context -->
+	<ObjectLookup id="supportedLanguages" objectId="Languages" member="SupportedLanguages"/>
+
+	<!-- Loop through all of the languages looking for the language en-us -->
+	<ForEach id="currentLang" valueId="supportedLanguages">
+		 <!-- NxBre does not support using comparison flags in the regular expression and does not except
+			 comparison options as a paramter so do this instead to perform a case insensitive comparison-->
+		<ObjectLookup id="currentLangLower" objectId="currentLang" member="ToLower"/>
+		<Logic>
+			<If>
+				<And>
+					<!-- Is the current language en-us -->
+					<Matches valueId="currentLangLower" patternId="StrPrefferedLang" />
+				</And>
+				<Do>
+					<!-- We found what we are looking fore, set the PrefferedLanguage in the context object-->
+					<ObjectLookup objectId="Languages" member="PrefferedLanguage">
+						<Argument valueId="currentLang"/>	
+					</ObjectLookup>
+				</Do>
+			</If>
+			<ElseIf>
+				<And>
+					<!-- If the current language is not en-us and we are on the first loop through the
+							list of languages, set PrefferedLanguage to this language. If we do eventualy 
+							find en-us this will get overwritten-->
+					<Equals leftId="count" rightId="zero"></Equals>
+				</And>
+				<Do>
+					<ObjectLookup objectId="Languages" member="PrefferedLanguage">
+						<Argument valueId="currentLang"/>
+					</ObjectLookup>
+				</Do>
+			</ElseIf>
+		</Logic>
+		<Increment id="count" step="1"/>
+	</ForEach>
+	
+</xBusinessRules>

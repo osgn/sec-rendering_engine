@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <StartArguments>--no-gui --base-path="\\app1\shared\SEC QA\Base (2.3.0.11)\Smoke Test (200) 2011-09-07 - Zipped" --logs-path="C:\TestAuto\Logs" --new-path="\\app1\shared\SEC QA\2.4.0.2\Smoke Test (200) - Zipped" --workers=10</StartArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <StartArguments>
+    </StartArguments>
+    <StartAction>Project</StartAction>
+    <StartProgram>C:\Users\travis.watson\Desktop\AutoTester\AutoTester.exe</StartProgram>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ProjectView>ShowAllFiles</ProjectView>
+  </PropertyGroup>
+</Project>

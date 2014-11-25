@@ -1,0 +1,384 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{ACE0EF3D-BF15-4B45-B4E2-E0FD8B73EE07}</ProjectGuid>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>Aucent.MAX.AXE.Common.XBRLParser_Reader</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Aucent.MAX.AXE.Common.XBRLParser_Reader</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <SignAssembly>false</SignAssembly>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>..\..\bin\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE;UNITTEST</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>..\..\bin\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <ErrorReport>prompt</ErrorReport>
+    <DebugType>pdbonly</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Automated|AnyCPU' ">
+    <OutputPath>..\..\bin\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE;UNITTEST;AUTOMATED</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Test|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Test\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITTEST</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <FileAlignment>4096</FileAlignment>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisLogFile>..\..\bin\Aucent.MAX.AXE.Common.XBRLParser_Reader.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Lucene.Net, Version=2.0.0.4, Culture=neutral, PublicKeyToken=7c3ad77779dd5374, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\\bin\Lucene.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Web">
+      <Name>System.Web</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <ProjectReference Include="..\Data\Data.csproj">
+      <Name>Data</Name>
+      <Project>{AE81546C-816A-4B50-A6F2-C5F1DC499732}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\Exceptions\Exceptions.csproj">
+      <Name>Exceptions</Name>
+      <Project>{98D8570B-88B3-431A-92AC-BD3D51398DBA}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\Resources\Resources.csproj">
+      <Name>Resources</Name>
+      <Project>{42AA7A97-6F5A-4947-AC61-B00A3A4615C9}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\Utilities\Utilities.csproj">
+      <Name>Utilities</Name>
+      <Project>{6166CAFA-9864-41BC-B4CA-ECEE764C7920}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ChildDefinitionLocator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ChildPresentationLocator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Choice.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Choices.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Common.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ContextProperty.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DefinitionLink.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DefinitionLocator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DefinitionLocatorRelationshipInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DefinitionNodeInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Dimension.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DimensionNode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DocumentBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Element.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ElementHypercubeRelationhipInfo.cs" />
+    <Compile Include="Enumeration.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FootnoteProperty.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IContextProperty.cs" />
+    <Compile Include="Instance.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interfaces\IIsDirty.cs" />
+    <Compile Include="Interfaces\ILink.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interfaces\ILinkable.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interfaces\IXBRLCustomType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Label.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="LabelDefinition.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="LabelLink.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="LabelLocator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="LinkableProperty.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="LinkBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="LinkbaseFileInfo.cs" />
+    <Compile Include="Linker.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="LocatorBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="LocatorRelationshipInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MarkupProperty.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Measure.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Node.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ParserMessage.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Presentation.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PresentationLink.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PresentationLocator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Reference.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ReferenceLink.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ReferenceLocator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="RoleRef.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="RoleType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Searching\ILibrarySearchMgr.cs" />
+    <Compile Include="Searching\Indexing\AbstractIndexMgr.cs" />
+    <Compile Include="Searching\Indexing\DeepTaxonomyNodeFinder.cs" />
+    <Compile Include="Searching\GenericEventArgs.cs" />
+    <Compile Include="Searching\Indexing\ILibraryIndexMgr.cs" />
+    <Compile Include="Searching\Indexing\ILibrarySearchResult.cs" />
+    <Compile Include="Searching\Indexing\INodeIndexer.cs" />
+    <Compile Include="Searching\Indexing\Lucene\LuceneIndexMgr.cs" />
+    <Compile Include="Searching\Indexing\Lucene\LuceneLibrarySearchCriteriaAdaptor.cs" />
+    <Compile Include="Searching\Indexing\Lucene\LuceneLibrarySearchResult.cs" />
+    <Compile Include="Searching\Indexing\Lucene\LuceneNodeIndexer.cs" />
+    <Compile Include="Searching\Indexing\Lucene\RivetTaxonomyElementAnalyzer.cs" />
+    <Compile Include="Searching\Indexing\NoHitsLibrarySearchResult.cs" />
+    <Compile Include="Searching\Indexing\QueuedIndexRunner.cs" />
+    <Compile Include="Searching\Indexing\ThreadSafeQueue.cs" />
+    <Compile Include="Searching\INodesForIndexingProvider.cs" />
+    <Compile Include="Searching\ISearchInitializationObserver.cs" />
+    <Compile Include="Searching\LibrarySearchCriteria.cs" />
+    <Compile Include="Searching\LibrarySearchMgr.cs" />
+    <Compile Include="Taxonomy.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TaxonomyAddonManager.cs" />
+    <Compile Include="TaxonomyCommercialFeatures.cs" />
+    <Compile Include="TaxonomyItem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TaxonomyMigrationInfo.cs" />
+    <Compile Include="TaxonomyRivetInfo.cs" />
+    <Compile Include="TupleSet.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UnitProperty.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XBRLCustomTypeCreator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<xBusinessRules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="xBusinessRules.xsd">
+
+  <Description>
+    This rule examine the columns in each report and determine if the columns had any "unique" elements. If all elements
+    beliong to another report, then the column is considered a "flow-through" column, it would be removed from the report.
+  </Description>
+
+  <Boolean id="bTrue" value="true"/>
+  <Boolean id="bFalse" value="false"/>
+  
+  <ObjectLookup id="TaxonomyIsNewGAAP" objectId="ReportBuilder" member="IsNewGAAP"/>
+  <ObjectLookup id="TaxonomyIsGAAP2005" objectId="ReportBuilder" member="IsGAAP2005"/>
+  
+  <Logic>
+    <If>      
+      <Or>        
+        <Equals leftId="TaxonomyIsNewGAAP"	rightId="bTrue"/>
+        <Equals leftId="TaxonomyIsGAAP2005"	rightId="bTrue"/>
+      </Or>
+      <Do>
+        <ObjectLookup objectId="ReportBuilder" member="CleanupFlowThroughColumns"/>
+      </Do>
+    </If>    
+  </Logic>
+
+</xBusinessRules>

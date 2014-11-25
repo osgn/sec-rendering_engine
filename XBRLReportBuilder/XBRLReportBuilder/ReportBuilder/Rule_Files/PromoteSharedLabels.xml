@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<xBusinessRules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="xBusinessRules.xsd">
+
+	<Description>
+			This rule parses the data in a Report and to determine if there are segments, scenarios or currency codes that are shared
+			by the entire report.  If there are, and the rule is configured to do so, then those labels will be promoted from the 
+			column headers to the report header.
+	</Description>
+	
+	<!-- Contstants used elswhere in the rule -->
+	<Boolean id="bTrue" value="true"/>
+	<Boolean id="bFalse" value="false"/>
+
+	<!-- Indicates if Labels for Segments and Scenarios that are shared by all columns in the Report should be
+	 promoted to the Report Header.-->
+	<Boolean id="promoteSegmentsAndScenarios" value="true"/>
+
+	<!-- Indicates if the Label for Currency should be promoted to the Report Header where there is only one
+	 Currency on the Report, and if that Currency is applied to all columns in the Report.-->
+	<Boolean id="promoteCurrency" value="true"/>
+
+	<Logic>
+		<If>
+			<Or>
+				<!-- Only perform processing if the rule is configured to promote shared labels to the report header -->
+				<Equals leftId="promoteSegmentsAndScenarios" rightId="bTrue" />
+				<Equals leftId="promoteCurrency" rightId="bTrue" />
+			</Or>
+			<Do>
+					<!-- Call the helper method to get all Segment, Scenario and Currency labels in the report -->
+				<ObjectLookup id="SegmentsAndScenarios" objectId="InstanceReport" member="GetSegmentScenarioLabels">
+				</ObjectLookup>
+
+				<!-- Call the helper method to get all Segment, Scenario and Currency labels in the report -->
+				<ObjectLookup id="CurrencyCodes" objectId="InstanceReport" member="GetCurrencyLabels">
+				</ObjectLookup>
+
+				<!-- If the rule is configured to Promote shared Segment and Scenario labels to the report header, 
+						then call the helper method that will perform that promotion-->
+				<If>
+					<And>
+						<Equals leftId="promoteSegmentsAndScenarios" rightId="bTrue" />
+					</And>
+					<Do>
+							<!-- Call the helper method that will build the shared Segments and Scenario label that 
+										will be promted to the Report Header -->
+						<ObjectLookup id="segmentsAndScenariosLabel" objectId="InstanceReport" member="GetSharedSegmentsAndScenariosLabel">
+							<Argument valueId="SegmentsAndScenarios" />
+						</ObjectLookup>
+					</Do>
+				</If>
+
+				<!-- If the rule is configured to Promote a shared currency label to the report header, then
+						call the helper method that will perform that promotion-->
+				<If>
+					<And>
+						<Equals leftId="promoteCurrency" rightId="bTrue" />
+					</And>
+					<Do>
+						<!-- Call the helper method that will build the Currency label that will be promted to 
+									the Report Header -->
+						<ObjectLookup id="currencyLabel" objectId="InstanceReport" member="GetSharedCurrencyLabel">
+							<Argument valueId="CurrencyCodes" />
+						</ObjectLookup>
+					</Do>
+				</If>
+
+				<ObjectLookup id="label" objectId="InstanceReport" member="ConcatenateSharedLabels">
+					<Argument valueId="segmentsAndScenariosLabel" />
+					<Argument valueId="currencyLabel" />
+				</ObjectLookup>
+
+				<ObjectLookup objectId="SharedLabel" member="Value">
+					<Argument valueId="label" />
+				</ObjectLookup>
+			</Do>
+		</If>
+	</Logic>
+</xBusinessRules>

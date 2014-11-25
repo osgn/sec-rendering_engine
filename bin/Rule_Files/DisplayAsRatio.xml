@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<xBusinessRules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="xBusinessRules.xsd">
+
+  <Description>
+    This rule examine the element ID and return if the data should be treated as ratio
+  </Description>
+
+  <Boolean id="bTrue" value="true"/>
+
+  <String id="e1" value="MaximumCumulativeSalesChargeOverOfferingPrice"/>
+  <String id="e2" value="MaximumCumulativeSalesChargeOverOther"/>
+  <String id="e3" value="MaximumSalesChargeImposedOnPurchasesOverOfferingPrice"/>
+  <String id="e4" value="MaximumDeferredSalesChargeOverOther"/>
+  <String id="e5" value="MaximumDeferredSalesChargeOverOfferingPrice"/>
+  <String id="e6" value="MaximumSalesChargeOnReinvestedDividendsAndDistributionsOverOther"/>
+  <String id="e7" value="ExchangeFeeOverRedemption"/>
+  <String id="e8" value="MaximumAccountFeeOverAssets"/>
+  <String id="e9" value="ManagementFeesOverAssets"/>
+  <String id="e10" value="DistributionAndService12b1FeesOverAssets"/>
+  <String id="e11" value="DistributionOrSimilarNon12b1FeesOverAssets"/>
+  <String id="e12" value="OtherExpensesOverAssets"/>
+  <String id="e13" value="Component1OtherExpensesOverAssets"/>
+  <String id="e14" value="Component2OtherExpensesOverAssets"/>
+  <String id="e15" value="Component3OtherExpensesOverAssets"/>
+  <String id="e16" value="AcquiredFundFeesAndExpensesOverAssets"/>
+  <String id="e17" value="ExpensesOverAssets"/>
+  <String id="e18" value="NetExpensesOverAssets"/>
+  <String id="e19" value="RedemptionFeeOverRedemption"/>
+  <String id="e20" value="FeeWaiverOrReimbursementOverAssets"/>
+  <String id="e21" value="AverageAnnualReturnYear01"/>
+  <String id="e22" value="AverageAnnualReturnYear05"/>
+  <String id="e23" value="AverageAnnualReturnYear10"/>
+  <String id="e24" value="AverageAnnualReturnSinceInception"/>
+  <String id="e25" value="PortfolioTurnoverRate"/>
+  <String id="e26" value="BarChartHighestQuarterlyReturn"/>
+  <String id="e27" value="BarChartLowestQuarterlyReturn"/>
+  <String id="e28" value="MoneyMarketSevenDayTaxEquivalentYield"/>
+  <String id="e29" value="ThirtyDayYield"/>
+  <String id="e30" value="ThirtyDayTaxEquivalentYield"/>
+  <String id="e31" value="MoneyMarketSevenDayYield"/>
+  <String id="e32" value="BarChartYearToDateReturn"/>
+  <String id="e33" value="InvestmentOwnedPercentOfNetAssets"/>
+  <String id="e34" value="InvestmentSoldNotYetPurchasedPercentOfNetAssets"/>
+  <String id="e35" value="RestrictedInvestmentsExemptFromRegistrationPercentOfNetAssets"/>
+  <String id="e36" value="RestrictedInvestmentsNotExemptFromRegistrationPercentOfNetAssets"/>
+  <String id="e37" value="InvestmentInterestRate" />
+  <String id="e38" value="InvestmentInterestRateRangeStart" />
+  <String id="e39" value="InvestmentInterestRateRangeEnd" />
+  <String id="e40" value="AnnualReturn1990" />
+  <String id="e41" value="AnnualReturn1991" />
+  <String id="e42" value="AnnualReturn1992" />
+  <String id="e43" value="AnnualReturn1993" />
+  <String id="e44" value="AnnualReturn1994" />
+  <String id="e45" value="AnnualReturn1995" />
+  <String id="e46" value="AnnualReturn1996" />
+  <String id="e47" value="AnnualReturn1997" />
+  <String id="e48" value="AnnualReturn1998" />
+  <String id="e49" value="AnnualReturn1999" />
+  <String id="e50" value="AnnualReturn2000" />
+  <String id="e51" value="AnnualReturn2001" />
+  <String id="e52" value="AnnualReturn2002" />
+  <String id="e53" value="AnnualReturn2003" />
+  <String id="e54" value="AnnualReturn2004" />
+  <String id="e55" value="AnnualReturn2005" />
+  <String id="e56" value="AnnualReturn2006" />
+  <String id="e57" value="AnnualReturn2007" />
+  <String id="e58" value="AnnualReturn2008" />
+  <String id="e59" value="AnnualReturn2009" />
+  <String id="e60" value="AnnualReturn2010" />
+  <String id="e61" value="AnnualReturn2011" />
+  <String id="e62" value="AnnualReturn2012" />
+  <String id="e63" value="AnnualReturn2013" />
+  <String id="e64" value="AnnualReturn2014" />
+  <String id="e65" value="AnnualReturn2015" />
+  <String id="e66" value="AnnualReturn2016" />
+  <String id="e67" value="AverageAnnualReturnAfterTaxesOnDistributionsYear01"/>
+  <String id="e68" value="AverageAnnualReturnAfterTaxesOnDistributionsYear05"/>
+  <String id="e69" value="AverageAnnualReturnAfterTaxesOnDistributionsYear10"/>
+  <String id="e70" value="AverageAnnualReturnAfterTaxesOnDistributionsSinceInception"/>
+  <String id="e71" value="AverageAnnualReturnAfterTaxesOnDistributionsAndSalesYear01"/>
+  <String id="e72" value="AverageAnnualReturnAfterTaxesOnDistributionsAndSalesYear05"/>
+  <String id="e73" value="AverageAnnualReturnAfterTaxesOnDistributionsAndSalesYear10"/>
+  <String id="e74" value="AverageAnnualReturnAfterTaxesOnDistributionsAndSalesSinceInception"/>
+  <ObjectLookup id="CurrentElementName" objectId="ReportBuilder" member="CurrentElementName"/>
+
+  <Logic>
+    <If>
+      <Or>
+        <Equals leftId="CurrentElementName"	rightId ="e1" />
+        <Equals leftId="CurrentElementName"	rightId ="e2" />
+        <Equals leftId="CurrentElementName"	rightId ="e3" />
+        <Equals leftId="CurrentElementName"	rightId ="e4" />
+        <Equals leftId="CurrentElementName"	rightId ="e5" />
+        <Equals leftId="CurrentElementName"	rightId ="e6" />
+        <Equals leftId="CurrentElementName"	rightId ="e7" />
+        <Equals leftId="CurrentElementName"	rightId ="e8" />
+        <Equals leftId="CurrentElementName"	rightId ="e9" />
+        <Equals leftId="CurrentElementName"	rightId ="e10"/>
+        <Equals leftId="CurrentElementName"	rightId ="e11"/>
+        <Equals leftId="CurrentElementName"	rightId ="e12"/>
+        <Equals leftId="CurrentElementName"	rightId ="e13"/>
+        <Equals leftId="CurrentElementName"	rightId ="e14"/>
+        <Equals leftId="CurrentElementName"	rightId ="e15"/>
+        <Equals leftId="CurrentElementName"	rightId ="e16"/>
+        <Equals leftId="CurrentElementName"	rightId ="e17"/>
+        <Equals leftId="CurrentElementName"	rightId ="e18"/>
+        <Equals leftId="CurrentElementName"	rightId ="e19"/>
+        <Equals leftId="CurrentElementName"	rightId ="e20"/>
+        <Equals leftId="CurrentElementName"	rightId ="e21"/>
+        <Equals leftId="CurrentElementName"	rightId ="e22"/>
+        <Equals leftId="CurrentElementName"	rightId ="e23"/>
+        <Equals leftId="CurrentElementName"	rightId ="e24"/>
+        <Equals leftId="CurrentElementName"	rightId ="e25"/>
+        <Equals leftId="CurrentElementName"	rightId ="e26"/>
+        <Equals leftId="CurrentElementName"	rightId ="e27"/>
+        <Equals leftId="CurrentElementName"	rightId ="e28"/>
+        <Equals leftId="CurrentElementName"	rightId ="e29"/>
+        <Equals leftId="CurrentElementName"	rightId ="e30"/>
+        <Equals leftId="CurrentElementName"	rightId ="e31"/>
+        <Equals leftId="CurrentElementName"	rightId ="e32"/>
+        <Equals leftId="CurrentElementName"	rightId ="e33"/>
+        <Equals leftId="CurrentElementName"	rightId ="e34"/>
+        <Equals leftId="CurrentElementName"	rightId ="e35"/>
+        <Equals leftId="CurrentElementName"	rightId ="e36"/>
+        <Equals leftId="CurrentElementName"	rightId ="e37"/>
+        <Equals leftId="CurrentElementName"	rightId ="e38"/>
+        <Equals leftId="CurrentElementName"	rightId ="e39"/>
+        <Equals leftId="CurrentElementName"	rightId ="e40"/>
+        <Equals leftId="CurrentElementName"	rightId ="e41"/>
+        <Equals leftId="CurrentElementName"	rightId ="e42"/>
+        <Equals leftId="CurrentElementName"	rightId ="e43"/>
+        <Equals leftId="CurrentElementName"	rightId ="e44"/>
+        <Equals leftId="CurrentElementName"	rightId ="e45"/>
+        <Equals leftId="CurrentElementName"	rightId ="e46"/>
+        <Equals leftId="CurrentElementName"	rightId ="e47"/>
+        <Equals leftId="CurrentElementName"	rightId ="e48"/>
+        <Equals leftId="CurrentElementName"	rightId ="e49"/>
+        <Equals leftId="CurrentElementName"	rightId ="e50"/>
+        <Equals leftId="CurrentElementName"	rightId ="e51"/>
+        <Equals leftId="CurrentElementName"	rightId ="e52"/>
+        <Equals leftId="CurrentElementName"	rightId ="e53"/>
+        <Equals leftId="CurrentElementName"	rightId ="e54"/>
+        <Equals leftId="CurrentElementName"	rightId ="e55"/>
+        <Equals leftId="CurrentElementName"	rightId ="e56"/>
+        <Equals leftId="CurrentElementName"	rightId ="e57"/>
+        <Equals leftId="CurrentElementName"	rightId ="e58"/>
+        <Equals leftId="CurrentElementName"	rightId ="e59"/>
+        <Equals leftId="CurrentElementName"	rightId ="e60"/>
+        <Equals leftId="CurrentElementName"	rightId ="e61"/>
+        <Equals leftId="CurrentElementName"	rightId ="e62"/>
+        <Equals leftId="CurrentElementName"	rightId ="e63"/>
+        <Equals leftId="CurrentElementName"	rightId ="e64"/>
+        <Equals leftId="CurrentElementName"	rightId ="e65"/>
+        <Equals leftId="CurrentElementName"	rightId ="e66"/>
+        <Equals leftId="CurrentElementName"	rightId ="e67"/>
+        <Equals leftId="CurrentElementName"	rightId ="e68"/>
+        <Equals leftId="CurrentElementName"	rightId ="e69"/>
+        <Equals leftId="CurrentElementName"	rightId ="e70"/>
+        <Equals leftId="CurrentElementName"	rightId ="e71"/>
+        <Equals leftId="CurrentElementName"	rightId ="e72"/>
+        <Equals leftId="CurrentElementName"	rightId ="e73"/>
+        <Equals leftId="CurrentElementName"	rightId ="e74"/>
+
+      </Or>                                          
+      <Do>                                           
+        <ObjectLookup objectId="ReportBuilder" member="IsRatioElement">
+          <Argument valueId="bTrue"/>
+        </ObjectLookup>
+      </Do>
+    </If>
+  </Logic>
+
+</xBusinessRules>

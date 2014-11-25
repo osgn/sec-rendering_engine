@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+-->
+<link:linkbase xmlns:link='http://www.xbrl.org/2003/linkbase' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd'>
+<link:labelLink xlink:role='http://www.xbrl.org/2003/role/link' xlink:type='extended' xmlns:xlink='http://www.w3.org/1999/xlink'>
+<link:loc xlink:href='stpr-2011-01-31.xsd#stpr_AllStatesAndProvincesDomain' xlink:label='loc_AllStatesAndProvincesDomain' xlink:type='locator' />
+<link:label id='lab_AllStatesAndProvincesDomain_documentation_en-US' xlink:label='lab_AllStatesAndProvincesDomain' xlink:role='http://www.xbrl.org/2003/role/documentation' xlink:type='resource' xml:lang='en-US'>A geopolitical segment of the United States or Canada.</link:label>
+<link:labelArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='loc_AllStatesAndProvincesDomain' xlink:to='lab_AllStatesAndProvincesDomain' xlink:type='arc' />
+</link:labelLink>
+</link:linkbase>

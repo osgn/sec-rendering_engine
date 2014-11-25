@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+<link:roleRef roleURI="http://www.xbrl.org/2009/role/deprecatedDateLabel" xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/deprecated-2009-12-16.xsd#deprecatedDateLabel"/>
+<link:roleRef roleURI="http://www.xbrl.org/2009/role/deprecatedLabel" xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/deprecated-2009-12-16.xsd#deprecatedLabel"/>
+<link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+<link:loc xlink:type="locator" xlink:href="currency-2012-01-31.xsd#currency_CYP" xlink:label="CYP"/>
+<link:loc xlink:type="locator" xlink:href="currency-2012-01-31.xsd#currency_EEK" xlink:label="EEK"/>
+<link:loc xlink:type="locator" xlink:href="currency-2012-01-31.xsd#currency_GGP" xlink:label="GGP"/>
+<link:loc xlink:type="locator" xlink:href="currency-2012-01-31.xsd#currency_GHC" xlink:label="GHC"/>
+<link:loc xlink:type="locator" xlink:href="currency-2012-01-31.xsd#currency_IMP" xlink:label="IMP"/>
+<link:loc xlink:type="locator" xlink:href="currency-2012-01-31.xsd#currency_JEP" xlink:label="JEP"/>
+<link:loc xlink:type="locator" xlink:href="currency-2012-01-31.xsd#currency_MTL" xlink:label="MTL"/>
+<link:loc xlink:type="locator" xlink:href="currency-2012-01-31.xsd#currency_SKK" xlink:label="SKK"/>
+<link:loc xlink:type="locator" xlink:href="currency-2012-01-31.xsd#currency_SPL" xlink:label="SPL"/>
+<link:loc xlink:type="locator" xlink:href="currency-2012-01-31.xsd#currency_SVC" xlink:label="SVC"/>
+<link:loc xlink:type="locator" xlink:href="currency-2012-01-31.xsd#currency_TMM" xlink:label="TMM"/>
+<link:loc xlink:type="locator" xlink:href="currency-2012-01-31.xsd#currency_TVD" xlink:label="TVD"/>
+<link:loc xlink:type="locator" xlink:href="currency-2012-01-31.xsd#currency_VEB" xlink:label="VEB"/>
+<link:loc xlink:type="locator" xlink:href="currency-2012-01-31.xsd#currency_ZWD" xlink:label="ZWD"/>
+<link:loc xlink:type="locator" xlink:href="currency-2012-01-31.xsd#currency_AllCurrenciesDomain" xlink:label="loc_AllCurrenciesDomain"/>
+<link:label xlink:type="resource" xlink:label="label_CYP" xlink:role="http://www.xbrl.org/2009/role/deprecatedDateLabel" xml:lang="en-US">2010-08-31</link:label>
+<link:label xlink:type="resource" xlink:label="label_CYP" xlink:role="http://www.xbrl.org/2009/role/deprecatedLabel" xml:lang="en-US">Replaced by Euro (EUR)</link:label>
+<link:label xlink:type="resource" xlink:label="label_EEK" xlink:role="http://www.xbrl.org/2009/role/deprecatedDateLabel" xml:lang="en-US">2011-08-31</link:label>
+<link:label xlink:type="resource" xlink:label="label_EEK" xlink:role="http://www.xbrl.org/2009/role/deprecatedLabel" xml:lang="en-US">Replaced by Euro (EUR)</link:label>
+<link:label xlink:type="resource" xlink:label="label_GGP" xlink:role="http://www.xbrl.org/2009/role/deprecatedDateLabel" xml:lang="en-US">2010-08-31</link:label>
+<link:label xlink:type="resource" xlink:label="label_GGP" xlink:role="http://www.xbrl.org/2009/role/deprecatedLabel" xml:lang="en-US">Replaced by Pound Sterling (GBP)</link:label>
+<link:label xlink:type="resource" xlink:label="label_GHC" xlink:role="http://www.xbrl.org/2009/role/deprecatedDateLabel" xml:lang="en-US">2010-08-31</link:label>
+<link:label xlink:type="resource" xlink:label="label_GHC" xlink:role="http://www.xbrl.org/2009/role/deprecatedLabel" xml:lang="en-US">Replaced by Ghanaian Cedi (GHS)</link:label>
+<link:label xlink:type="resource" xlink:label="label_IMP" xlink:role="http://www.xbrl.org/2009/role/deprecatedDateLabel" xml:lang="en-US">2010-08-31</link:label>
+<link:label xlink:type="resource" xlink:label="label_IMP" xlink:role="http://www.xbrl.org/2009/role/deprecatedLabel" xml:lang="en-US">Replaced by Pound Sterling (GBP)</link:label>
+<link:label xlink:type="resource" xlink:label="label_JEP" xlink:role="http://www.xbrl.org/2009/role/deprecatedDateLabel" xml:lang="en-US">2010-08-31</link:label>
+<link:label xlink:type="resource" xlink:label="label_JEP" xlink:role="http://www.xbrl.org/2009/role/deprecatedLabel" xml:lang="en-US">Replaced by Pound Sterling (GBP)</link:label>
+<link:label xlink:type="resource" xlink:label="label_MTL" xlink:role="http://www.xbrl.org/2009/role/deprecatedDateLabel" xml:lang="en-US">2010-08-31</link:label>
+<link:label xlink:type="resource" xlink:label="label_MTL" xlink:role="http://www.xbrl.org/2009/role/deprecatedLabel" xml:lang="en-US">Replaced by Euro (EUR)</link:label>
+<link:label xlink:type="resource" xlink:label="label_SKK" xlink:role="http://www.xbrl.org/2009/role/deprecatedDateLabel" xml:lang="en-US">2010-08-31</link:label>
+<link:label xlink:type="resource" xlink:label="label_SKK" xlink:role="http://www.xbrl.org/2009/role/deprecatedLabel" xml:lang="en-US">Replaced by Euro (EUR)</link:label>
+<link:label xlink:type="resource" xlink:label="label_SPL" xlink:role="http://www.xbrl.org/2009/role/deprecatedDateLabel" xml:lang="en-US">2010-08-31</link:label>
+<link:label xlink:type="resource" xlink:label="label_SPL" xlink:role="http://www.xbrl.org/2009/role/deprecatedLabel" xml:lang="en-US">Replaced by Euro (EUR)</link:label>
+<link:label xlink:type="resource" xlink:label="label_SVC" xlink:role="http://www.xbrl.org/2009/role/deprecatedDateLabel" xml:lang="en-US">2010-08-31</link:label>
+<link:label xlink:type="resource" xlink:label="label_SVC" xlink:role="http://www.xbrl.org/2009/role/deprecatedLabel" xml:lang="en-US">Replaced by US Dollar (USD)</link:label>
+<link:label xlink:type="resource" xlink:label="label_TMM" xlink:role="http://www.xbrl.org/2009/role/deprecatedDateLabel" xml:lang="en-US">2010-08-31</link:label>
+<link:label xlink:type="resource" xlink:label="label_TMM" xlink:role="http://www.xbrl.org/2009/role/deprecatedLabel" xml:lang="en-US">Replaced by Turkmenistani manat (TMT)</link:label>
+<link:label xlink:type="resource" xlink:label="label_TVD" xlink:role="http://www.xbrl.org/2009/role/deprecatedDateLabel" xml:lang="en-US">2010-08-31</link:label>
+<link:label xlink:type="resource" xlink:label="label_TVD" xlink:role="http://www.xbrl.org/2009/role/deprecatedLabel" xml:lang="en-US">Replaced by Australian Dollar (AUD)</link:label>
+<link:label xlink:type="resource" xlink:label="label_VEB" xlink:role="http://www.xbrl.org/2009/role/deprecatedLabel" xml:lang="en-US">Replaced by Venuzuelan Bolivar fuerte (VEF)</link:label>
+<link:label xlink:type="resource" xlink:label="label_VEB" xlink:role="http://www.xbrl.org/2009/role/deprecatedDateLabel" xml:lang="en-US">2010-08-31</link:label>
+<link:label xlink:type="resource" xlink:label="label_ZWD" xlink:role="http://www.xbrl.org/2009/role/deprecatedDateLabel" xml:lang="en-US">2010-08-31</link:label>
+<link:label xlink:type="resource" xlink:label="label_ZWD" xlink:role="http://www.xbrl.org/2009/role/deprecatedLabel" xml:lang="en-US">Replaced by Zimbabwe dollar (ZWL)</link:label>
+<link:label xlink:type="resource" xlink:label="lab_AllCurrenciesDomain" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en-US" id="lab_AllCurrenciesDomain_documentation_en-US">ISO 4217 currency designators.</link:label>
+<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="CYP" xlink:to="label_CYP"/>
+<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="EEK" xlink:to="label_EEK"/>
+<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="GGP" xlink:to="label_GGP"/>
+<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="GHC" xlink:to="label_GHC"/>
+<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="IMP" xlink:to="label_IMP"/>
+<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="JEP" xlink:to="label_JEP"/>
+<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="MTL" xlink:to="label_MTL"/>
+<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="SKK" xlink:to="label_SKK"/>
+<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="SPL" xlink:to="label_SPL"/>
+<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="SVC" xlink:to="label_SVC"/>
+<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="TMM" xlink:to="label_TMM"/>
+<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="TVD" xlink:to="label_TVD"/>
+<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="VEB" xlink:to="label_VEB"/>
+<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ZWD" xlink:to="label_ZWD"/>
+<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_AllCurrenciesDomain" xlink:to="lab_AllCurrenciesDomain" order="1.0"/>
+</link:labelLink>
+</link:linkbase>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<xBusinessRules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="xBusinessRules.xsd">
+
+	<Description>
+		This rule parses the data in a Report to see if there are any Instant and Duration columns that contain the
+		same end date.  If there are then these columns are merged into a single column to save space in the grid
+		and to make it more readable.
+	</Description>
+
+	<ObjectLookup objectId="InstanceReport" member="ProcessMergeInstanceDuration_Rule">
+		<Argument valueId="ColumnMaps"/>
+	</ObjectLookup>
+</xBusinessRules>

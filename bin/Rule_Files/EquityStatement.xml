@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<xBusinessRules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="xBusinessRules.xsd">
+
+	<Description>
+		Parses the Columns in an Equity Statement to determine the reporting periods used by the report, and shift the 
+		reporting periods to rows on the grid.  Then the complete set of elements is repeated for each reporting period 
+		leaving only segments on the column.
+	</Description>
+
+	<String id="dateFormat" value="MMM. dd, yyyy"/>
+	<String id="equityMembersXml" value="EquityMembers.Xml" />
+
+	<ObjectLookup objectId="InstanceReport" member="ProcessEquity">
+		<Argument valueId="dateFormat" />
+		<Argument valueId="equityMembersXml" />
+		<Argument valueId="messenger" />
+	</ObjectLookup>
+	
+</xBusinessRules>

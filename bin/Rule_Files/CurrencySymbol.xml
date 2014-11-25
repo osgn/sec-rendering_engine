@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<xBusinessRules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="xBusinessRules.xsd">
+
+  <Description>
+    This rule eaxamine the rows and determine if a currency symbol should be displayed
+  </Description>
+
+  <Boolean id="bTrue" value="true"/>
+  <Boolean id="bFalse" value="false"/>
+
+  <Logic>
+    <If>
+      <And>
+        <Equals leftId="bTrue"	rightId="bTrue"/>        
+      </And>
+      <Do>
+        <ObjectLookup objectId="InstanceReport" member="AssignCurrencySymbol"/>
+      </Do>
+    </If>   
+  </Logic>
+
+</xBusinessRules>

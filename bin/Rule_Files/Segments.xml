@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<xBusinessRules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="xBusinessRules.xsd">
+
+	<Description>
+		This rule parses the data in a Report to determine if there is Segmented data that can be displayed in a vertical format.
+		There are two conditions that could result in data being displayed this way.
+			1.  The Report contains Consolidated and the reporting periods for that data covers all of the
+				  reporting periods for each of the Segmented data sets.
+			2.	The Report does not contain Consolidated data, but one of the Segmented data sets contains
+					reporting periods that cover all of the reporting periods for the remaining Segmented data sets.
+	</Description>
+
+  <ObjectLookup id="Processed" objectId="InstanceReport" member="ProcessSegments_Rule">
+    <Argument valueId="Processed" />
+  </ObjectLookup>
+
+  </xBusinessRules>

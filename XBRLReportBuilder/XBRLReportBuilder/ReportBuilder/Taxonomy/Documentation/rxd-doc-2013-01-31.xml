@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<link:linkbase
+xmlns:xbrli="http://www.xbrl.org/2003/instance"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:xlink="http://www.w3.org/1999/xlink" 
+xmlns:link="http://www.xbrl.org/2003/linkbase"
+xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+<link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+<link:loc xlink:href="rxd-2013-01-31.xsd#rxd_Taxes" xlink:type="locator" xlink:label="Taxes" />
+<link:loc xlink:href="rxd-2013-01-31.xsd#rxd_Royalties" xlink:type="locator" xlink:label="Royalties" />
+<link:loc xlink:href="rxd-2013-01-31.xsd#rxd_Dividends" xlink:type="locator" xlink:label="Dividends" />
+<link:loc xlink:href="rxd-2013-01-31.xsd#rxd_Bonuses" xlink:type="locator" xlink:label="Bonuses" />
+<link:loc xlink:href="rxd-2013-01-31.xsd#rxd_Fees" xlink:type="locator" xlink:label="Fees" />
+<link:loc xlink:href="rxd-2013-01-31.xsd#rxd_PaymentsUnspecified" xlink:type="locator" xlink:label="PaymentsUnspecified" />
+<link:loc xlink:href="rxd-2013-01-31.xsd#rxd_ProductionEntitlements" xlink:type="locator" xlink:label="ProductionEntitlements" />
+<link:loc xlink:href="rxd-2013-01-31.xsd#rxd_Pr" xlink:type="locator" xlink:label="Pr" />
+<link:loc xlink:href="rxd-2013-01-31.xsd#rxd_Gv" xlink:type="locator" xlink:label="Gv" />
+<link:loc xlink:href="rxd-2013-01-31.xsd#rxd_P" xlink:type="locator" xlink:label="P" />
+<link:loc xlink:href="rxd-2013-01-31.xsd#rxd_Cu" xlink:type="locator" xlink:label="Cu" />
+<link:loc xlink:href="rxd-2013-01-31.xsd#rxd_Sm" xlink:type="locator" xlink:label="Sm" />
+<link:loc xlink:href="rxd-2013-01-31.xsd#rxd_E" xlink:type="locator" xlink:label="E" />
+<link:loc xlink:href="rxd-2013-01-31.xsd#rxd_Co" xlink:type="locator" xlink:label="Co" />
+<link:loc xlink:href="rxd-2013-01-31.xsd#rxd_A" xlink:type="locator" xlink:label="A" />
+<link:loc xlink:href="rxd-2013-01-31.xsd#rxd_Cm" xlink:type="locator" xlink:label="Cm" />
+<link:loc xlink:href="rxd-2013-01-31.xsd#rxd_InfrastructureImprovements" xlink:type="locator" xlink:label="InfrastructureImprovements" />
+<link:loc xlink:href="rxd-2013-01-31.xsd#rxd_K" xlink:type="locator" xlink:label="K" />
+<link:loc xlink:href="rxd-2013-01-31.xsd#rxd_D" xlink:type="locator" xlink:label="D" />
+<link:loc xlink:href="rxd-2013-01-31.xsd#rxd_Km" xlink:type="locator" xlink:label="Km" />
+<link:loc xlink:href="rxd-2013-01-31.xsd#rxd_Payments" xlink:type="locator" xlink:label="Payments" />
+<link:loc xlink:href="rxd-2013-01-31.xsd#rxd_AmendmentNumber" xlink:type="locator" xlink:label="AmendmentNumber" />
+<link:label xlink:type="resource" xlink:label="label_Taxes" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en-US">Taxes paid, including taxes levied on corporate profits, corporate income and production.  Excludes taxes levied on consumption, such as value-added taxes, personal income taxes or sales taxes.</link:label>
+<link:label xlink:type="resource" xlink:label="label_Royalties" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en-US">Royalties paid.</link:label>
+<link:label xlink:type="resource" xlink:label="label_Dividends" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en-US">Dividends paid, including payments made in lieu of production entitlements or royalties.  Excludes dividends paid to a government as a common or ordinary shareholder of the issuer as long as the dividends are paid on the same terms as paid to other shareholders.</link:label>
+<link:label xlink:type="resource" xlink:label="label_Bonuses" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en-US">Bonuses paid, including signature, discovery and production bonuses.</link:label>
+<link:label xlink:type="resource" xlink:label="label_Fees" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en-US">Fees paid, including license fees, rental fees, entry fees, and other considerations for licenses or concessions.</link:label>
+<link:label xlink:type="resource" xlink:label="label_PaymentsUnspecified" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en-US">Disclosure of payments not otherwise specified.</link:label>
+<link:label xlink:type="resource" xlink:label="label_ProductionEntitlements" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en-US">Production entitlements paid.</link:label>
+<link:label xlink:type="resource" xlink:label="label_Pr" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en-US">Project to which payments relate; the value is a QName specific to the filer.</link:label>
+<link:label xlink:type="resource" xlink:label="label_Gv" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en-US">Government receiving a payment; the value is the QName of an element specific to the filer.</link:label>
+<link:label xlink:type="resource" xlink:label="label_P" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en-US">Payment type name; limited to one of the defined payment types.</link:label>
+<link:label xlink:type="resource" xlink:label="label_Cu" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en-US">Three-letter ISO code naming the currency in which the value of government payments is reported; limited to an entry in the UTR.</link:label>
+<link:label xlink:type="resource" xlink:label="label_Sm" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en-US">Business segment that made the payment; the value is a QName is specific to the filer</link:label>
+<link:label xlink:type="resource" xlink:label="label_E" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en-US">Issuer, Subsidiary, or Entity under the control of the Issuer.</link:label>
+<link:label xlink:type="resource" xlink:label="label_Co" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en-US">Two-letter ISO code naming the country in which the government receiving a payment is located.</link:label>
+<link:label xlink:type="resource" xlink:label="label_A" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en-US">Amount paid to a government.</link:label>
+<link:label xlink:type="resource" xlink:label="label_Cm" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en-US">Disclosure of the method used to calculate currency conversion. Currency conversions may be calculated in one of three ways: (1) by translating the expenses at the exchange rate existing at the time the payment is made; (2) using a weighted average of the exchange rates during the period; or (3) based on the exchange rate as of the issuer's fiscal year end.</link:label>
+<link:label xlink:type="resource" xlink:label="label_InfrastructureImprovements" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en-US">Infrastructure improvements paid.</link:label>
+<link:label xlink:type="resource" xlink:label="label_K" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en-US">Y or Yes to indicate an in-kind payment.</link:label>
+<link:label xlink:type="resource" xlink:label="label_D" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en-US">Financial period in which the payment is made.</link:label>
+<link:label xlink:type="resource" xlink:label="label_Km" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en-US">Disclosure of the calculation of the monetary value of an in-kind payment if the payment is reported at fair market value.</link:label>
+<link:label xlink:type="resource" xlink:label="label_Payments" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en-US">Payments to a government.</link:label>
+<link:label xlink:type="resource" xlink:label="label_AmendmentNumber" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en-US">The number of this amendment to a Resource Extraction Issuer Disclosure.</link:label>
+<link:labelArc xlink:to="label_Taxes" order="1.0" xlink:from="Taxes" xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" />
+<link:labelArc xlink:to="label_Royalties" order="1.0" xlink:from="Royalties" xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" />
+<link:labelArc xlink:to="label_Dividends" order="1.0" xlink:from="Dividends" xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" />
+<link:labelArc xlink:to="label_Bonuses" order="1.0" xlink:from="Bonuses" xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" />
+<link:labelArc xlink:to="label_Fees" order="1.0" xlink:from="Fees" xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" />
+<link:labelArc xlink:to="label_PaymentsUnspecified" order="1.0" xlink:from="PaymentsUnspecified" xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" />
+<link:labelArc xlink:to="label_ProductionEntitlements" order="1.0" xlink:from="ProductionEntitlements" xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" />
+<link:labelArc xlink:to="label_Pr" order="1.0" xlink:from="Pr" xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" />
+<link:labelArc xlink:to="label_Gv" order="1.0" xlink:from="Gv" xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" />
+<link:labelArc xlink:to="label_P" order="1.0" xlink:from="P" xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" />
+<link:labelArc xlink:to="label_Cu" order="1.0" xlink:from="Cu" xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" />
+<link:labelArc xlink:to="label_Sm" order="1.0" xlink:from="Sm" xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" />
+<link:labelArc xlink:to="label_E" order="1.0" xlink:from="E" xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" />
+<link:labelArc xlink:to="label_Co" order="1.0" xlink:from="Co" xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" />
+<link:labelArc xlink:to="label_A" order="1.0" xlink:from="A" xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" />
+<link:labelArc xlink:to="label_Cm" order="1.0" xlink:from="Cm" xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" />
+<link:labelArc xlink:to="label_InfrastructureImprovements" order="1.0" xlink:from="InfrastructureImprovements" xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" />
+<link:labelArc xlink:to="label_K" order="1.0" xlink:from="K" xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" />
+<link:labelArc xlink:to="label_D" order="1.0" xlink:from="D" xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" />
+<link:labelArc xlink:to="label_Km" order="1.0" xlink:from="Km" xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" />
+<link:labelArc xlink:to="label_Payments" xlink:from="Payments" xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" />
+<link:labelArc xlink:to="label_AmendmentNumber" xlink:from="AmendmentNumber" xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" />
+</link:labelLink>
+</link:linkbase>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<EquityMembers>
+	<PreviouslyReportedMembers>
+		<us-gaap_StatementScenarioAxis>us-gaap_ScenarioPreviouslyReportedMember</us-gaap_StatementScenarioAxis>
+	</PreviouslyReportedMembers>
+	<AdjustedMembers>
+		<us-gaap_StatementScenarioAxis>us-gaap_RestatementAdjustmentMember</us-gaap_StatementScenarioAxis>
+		<us-gaap_StatementScenarioAxis>us-gaap_ScenarioAdjustmentMember</us-gaap_StatementScenarioAxis>
+		<us-gaap_CreationDateAxis>*</us-gaap_CreationDateAxis>
+		<us-gaap_AdjustmentsForNewAccountingPronouncementsAxis>*</us-gaap_AdjustmentsForNewAccountingPronouncementsAxis>
+		<us-gaap_AdjustmentsForChangeInAccountingPrincipleAxis>*</us-gaap_AdjustmentsForChangeInAccountingPrincipleAxis>
+		<us-gaap_ErrorCorrectionsAndPriorPeriodAdjustmentsRestatementByRestatementPeriodAndAmountAxis>*</us-gaap_ErrorCorrectionsAndPriorPeriodAdjustmentsRestatementByRestatementPeriodAndAmountAxis>
+	</AdjustedMembers>
+</EquityMembers>

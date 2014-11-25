@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<xBusinessRules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="xBusinessRules.xsd">
+
+	<Description>
+		This rule loops through all of the columns on a Report and formats the header labels using the formats provided in this rule.
+	</Description>
+
+	<String id="dateFormat" value="MMM. dd, yyyy"/>
+	<String id="durationText" value="{n} Months Ended" />
+
+	<ObjectLookup objectId="InstanceReport" member="SetCalendarLabels">
+		<Argument valueId="dateFormat"/>
+		<Argument valueId="durationText"/>
+	</ObjectLookup>
+
+</xBusinessRules>

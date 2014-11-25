@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xBusinessRules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="xBusinessRules.xsd">
+
+  <Description>
+    Normally when reporting beginning/ending balances, the preparer are using the same element for both.
+    In the presentation hierarchy, the same element appear twice one with the preferred label role defines as "Beginning Balance" and the other defined as "Ending Balance"
+
+    Without special processing, the beginning balance and ending balance for the same column (same reporting period) would have the same value.
+    The processing logic would "shift" the ending balance value to beginning balance column based on the following logic:
+
+    For the "Beginning Balance" rows in the report, the rendering engine goes through each cell and compares the "Period End Date" with other cells on the row.
+    If the "Period End Date" is the same or one day before as the "Period Start Date" of another cell, "shift" (copy) the balance to this cell.
+  </Description>
+
+  <Boolean id="bTrue" value="true"/>
+  <Boolean id="bFalse" value="false"/>
+
+  <Logic>
+    <If>
+      <And>
+        <Equals leftId="bTrue" rightId="bTrue" />
+      </And>
+      <Do>
+        <ObjectLookup objectId="InstanceReport" member="ProcessBeginningAndEndingBalances"/>
+      </Do>
+    </If>
+  </Logic>
+
+</xBusinessRules>

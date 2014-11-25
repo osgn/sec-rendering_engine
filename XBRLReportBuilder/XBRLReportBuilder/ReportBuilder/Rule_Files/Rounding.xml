@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<xBusinessRules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="xBusinessRules.xsd">
+
+  <Description>
+    This rule parses the data in a Report and tries to determine what level of rounding should be applied to the data.
+    In addition to determining the rounding level the rule also tries to determine if rounding should be applied to share data.
+  </Description>
+
+  <Boolean id="hasPureData" value="false"/>
+
+  <String id="uniformRoundingString" value="In {level}"/>
+
+  <String id="sharesNoRoundingString" value="Share data"/>
+  <String id="sharesRoundingString" value="Share data in {level}"/>
+
+  <String id="bothSharesNoRoundingString" value="Share data"/>
+  <String id="bothSharesRoundingString" value="Share data in {level}"/>
+
+  <String id="perShareNoRoundingString" value="Per Share data"/>
+  <String id="perShareRoundingString" value="Per Share data"/>
+
+  <String id="otherRoundingString" value="unless otherwise specified"/>
+
+  <!-- Evaluate all of the data on the rows to see if the monetary data can be rounded to millions-->
+  <ObjectLookup objectId="InstanceReport" member="EvaluateRoundingLevels">
+		<Argument valueId="messenger" />
+  </ObjectLookup>
+
+  <ObjectLookup objectId="InstanceReport" member="SetRoundingOption">
+    <Argument valueId="uniformRoundingString" />
+
+    <Argument valueId="sharesNoRoundingString" />
+    <Argument valueId="sharesRoundingString" />
+
+    <Argument valueId="bothSharesNoRoundingString" />
+    <Argument valueId="bothSharesRoundingString" />
+
+    <Argument valueId="perShareNoRoundingString" />
+    <Argument valueId="perShareRoundingString" />
+
+    <Argument valueId="otherRoundingString" />
+  </ObjectLookup>
+
+</xBusinessRules>

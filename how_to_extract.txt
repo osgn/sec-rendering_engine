@@ -1,0 +1,11 @@
+Start by extracting these files to a directory of your choice 
+on the Windows machine where the process will run.
+
+WINDOWS 2008 OR LATER
+
+When using Windows Server 2008 or later, the extracted files will all 
+be "blocked" and will need to be individually unblocked, which is tedious.
+
+Alternatively, use a third party unzip utility to extract the files, 
+and after unzipping, ensure that the local system user has "execute" 
+privileges on all .dll and .exe files.

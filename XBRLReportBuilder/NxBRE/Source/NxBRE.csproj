@@ -1,0 +1,325 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <RootNamespace>NxBRE</RootNamespace>
+    <AssemblyName>NxBRE</AssemblyName>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C5A2507E-550E-4EEC-B3C2-A278ECB27E30}</ProjectGuid>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <NoStdLib>False</NoStdLib>
+    <RegisterForComInterop>False</RegisterForComInterop>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <BaseAddress>4194304</BaseAddress>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <FileAlignment>4096</FileAlignment>
+    <WarningLevel>4</WarningLevel>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <SignAssembly>false</SignAssembly>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>..\..\..\bin\</OutputPath>
+    <Optimize>False</Optimize>
+    <DefineConstants>TRACE;DEBUG;UNITTEST</DefineConstants>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>..\..\..\bin\</OutputPath>
+    <Optimize>True</Optimize>
+    <DefineConstants>TRACE</DefineConstants>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DebugType>pdbonly</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'SEC' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\..\..\bin\SEC\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;UNITTEST</DefineConstants>
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+    <DebugType>Full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Aucent.MAX.AXE.Common.Data, Version=3.0.4070.29122, Culture=neutral, PublicKeyToken=7c3ad77779dd5374, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\bin\Aucent.MAX.AXE.Common.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework, Version=2.5.10.11092, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\NUnit-2.5.10.11092-src\NUnit-2.5.10.11092\bin\Debug\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Data" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="BREException.cs" />
+    <Compile Include="FlowEngine\BREImpl.cs" />
+    <Compile Include="FlowEngine\BRERuleException.cs" />
+    <Compile Include="FlowEngine\BRERuleFactory.cs" />
+    <Compile Include="FlowEngine\BRERuleFatalException.cs" />
+    <Compile Include="FlowEngine\IBREDispatcher.cs" />
+    <Compile Include="FlowEngine\IBREOperator.cs" />
+    <Compile Include="FlowEngine\IBRERuleContext.cs" />
+    <Compile Include="FlowEngine\IBRERuleFactory.cs" />
+    <Compile Include="FlowEngine\IBRERuleMetaData.cs" />
+    <Compile Include="FlowEngine\IBRERuleResult.cs" />
+    <Compile Include="FlowEngine\IFlowEngine.cs" />
+    <Compile Include="FlowEngine\Core\BRERuleResultImpl.cs" />
+    <Compile Include="FlowEngine\Core\AbstractBRERuleContext.cs" />
+    <Compile Include="FlowEngine\Core\AbstractBRERuleMetaData.cs" />
+    <Compile Include="FlowEngine\Core\AbstractBRERuleResult.cs" />
+    <Compile Include="FlowEngine\Core\BRERuleContextImpl.cs" />
+    <Compile Include="FlowEngine\Core\BRERuleMetaDataImpl.cs" />
+    <Compile Include="FlowEngine\Core\BRERuleObject.cs" />
+    <Compile Include="FlowEngine\Factories\BREFactory.cs" />
+    <Compile Include="FlowEngine\Factories\BREFactoryConsole.cs" />
+    <Compile Include="FlowEngine\Factories\BRECloneFactory.cs" />
+    <Compile Include="FlowEngine\IO\XBusinessRulesStreamDriver.cs" />
+    <Compile Include="FlowEngine\IO\XBusinessRulesStringDriver.cs" />
+    <Compile Include="FlowEngine\IO\XSLTRulesFileDriver.cs" />
+    <Compile Include="FlowEngine\IO\AbstractRulesDriver.cs" />
+    <Compile Include="FlowEngine\IO\BusinessRulesFileDriver.cs" />
+    <Compile Include="FlowEngine\IO\IRulesDriver.cs" />
+    <Compile Include="FlowEngine\IO\XBusinessRulesFileDriver.cs" />
+    <Compile Include="FlowEngine\Rules\GreaterThan.cs" />
+    <Compile Include="FlowEngine\Rules\GreaterThanEqualTo.cs" />
+    <Compile Include="FlowEngine\Rules\Increment.cs" />
+    <Compile Include="FlowEngine\Rules\IncrementInit.cs" />
+    <Compile Include="FlowEngine\Rules\InstanceOf.cs" />
+    <Compile Include="FlowEngine\Rules\LessThan.cs" />
+    <Compile Include="FlowEngine\Rules\LessThanEqualTo.cs" />
+    <Compile Include="FlowEngine\Rules\NotEquals.cs" />
+    <Compile Include="FlowEngine\Rules\ObjectLookup.cs" />
+    <Compile Include="FlowEngine\Rules\True.cs" />
+    <Compile Include="FlowEngine\Rules\Value.cs" />
+    <Compile Include="FlowEngine\Rules\Decrement.cs" />
+    <Compile Include="FlowEngine\Rules\Equals.cs" />
+    <Compile Include="FlowEngine\Rules\Exception.cs" />
+    <Compile Include="FlowEngine\Rules\False.cs" />
+    <Compile Include="FlowEngine\Rules\FatalException.cs" />
+    <Compile Include="InferenceEngine\Core\EventContextFactory.cs" />
+    <Compile Include="InferenceEngine\IEImpl.cs" />
+    <Compile Include="InferenceEngine\IEventContext.cs" />
+    <Compile Include="InferenceEngine\IInferenceEngine.cs" />
+    <Compile Include="InferenceEngine\IntegrityException.cs" />
+    <Compile Include="InferenceEngine\IO\CompositeRuleBaseAdapter.cs" />
+    <Compile Include="InferenceEngine\NewFactEvent.cs" />
+    <Compile Include="InferenceEngine\Core\AbstractChainManager.cs" />
+    <Compile Include="InferenceEngine\Core\AbstractWorkingMemory.cs" />
+    <Compile Include="InferenceEngine\Core\Agenda.cs" />
+    <Compile Include="InferenceEngine\Core\FactBase.cs" />
+    <Compile Include="InferenceEngine\Core\ImplicationBase.cs" />
+    <Compile Include="InferenceEngine\Core\IWorkingMemory.cs" />
+    <Compile Include="InferenceEngine\Core\MutexManager.cs" />
+    <Compile Include="InferenceEngine\Core\PreconditionManager.cs" />
+    <Compile Include="InferenceEngine\Core\QueryBase.cs" />
+    <Compile Include="InferenceEngine\Core\ThreadSafeWorkingMemory.cs" />
+    <Compile Include="InferenceEngine\Core\WorkingMemory.cs" />
+    <Compile Include="InferenceEngine\Core\WorkingMemoryFactory.cs" />
+    <Compile Include="InferenceEngine\IO\AbstractBinder.cs" />
+    <Compile Include="InferenceEngine\IO\AbstractRuleMLAdapter.cs" />
+    <Compile Include="InferenceEngine\IO\CSharpBinderFactory.cs" />
+    <Compile Include="InferenceEngine\IO\FlowEngineBinder.cs" />
+    <Compile Include="InferenceEngine\IO\HRF086Adapter.cs" />
+    <Compile Include="InferenceEngine\IO\IBinder.cs" />
+    <Compile Include="InferenceEngine\IO\IEFacade.cs" />
+    <Compile Include="InferenceEngine\IO\IExtendedRuleBaseAdapter.cs" />
+    <Compile Include="InferenceEngine\IO\IFactBaseAdapter.cs" />
+    <Compile Include="InferenceEngine\IO\IRuleBaseAdapter.cs" />
+    <Compile Include="InferenceEngine\IO\RuleML08DatalogAdapter.cs" />
+    <Compile Include="InferenceEngine\IO\RuleML09NafDatalogAdapter.cs" />
+    <Compile Include="InferenceEngine\IO\RuleML086DatalogAdapter.cs" />
+    <Compile Include="InferenceEngine\IO\RuleML086NafDatalogAdapter.cs" />
+    <Compile Include="InferenceEngine\IO\Visio2003Adapter.cs" />
+    <Compile Include="InferenceEngine\IO\Hrf086\Buffer.cs" />
+    <Compile Include="InferenceEngine\IO\Hrf086\Errors.cs" />
+    <Compile Include="InferenceEngine\IO\Hrf086\Parser.cs" />
+    <Compile Include="InferenceEngine\IO\Hrf086\Scanner.cs" />
+    <Compile Include="InferenceEngine\IO\Hrf086\Token.cs" />
+    <Compile Include="InferenceEngine\Rules\Equivalent.cs" />
+    <Compile Include="InferenceEngine\Rules\Fact.cs" />
+    <Compile Include="InferenceEngine\Rules\Formula.cs" />
+    <Compile Include="InferenceEngine\Rules\Function.cs" />
+    <Compile Include="InferenceEngine\Rules\Implication.cs" />
+    <Compile Include="InferenceEngine\Rules\Individual.cs" />
+    <Compile Include="InferenceEngine\Rules\IPredicate.cs" />
+    <Compile Include="InferenceEngine\Rules\Query.cs" />
+    <Compile Include="InferenceEngine\Rules\Slot.cs" />
+    <Compile Include="InferenceEngine\Rules\Variable.cs" />
+    <Compile Include="InferenceEngine\Rules\AbstractPredicate.cs" />
+    <Compile Include="InferenceEngine\Rules\Atom.cs" />
+    <Compile Include="InferenceEngine\Rules\AtomFunction.cs" />
+    <Compile Include="InferenceEngine\Rules\AtomGroup.cs" />
+    <Compile Include="Test\FlowEngine\StringContainsOperator.cs" />
+    <Compile Include="Test\FlowEngine\TestBREImpl.cs" />
+    <Compile Include="Test\FlowEngine\TestDrivers.cs" />
+    <Compile Include="Test\FlowEngine\TestExtra.cs" />
+    <Compile Include="Test\FlowEngine\TestRule.cs" />
+    <Compile Include="Test\InferenceEngine\AbstractTestEngine.cs" />
+    <Compile Include="Test\InferenceEngine\TestAdapter.cs" />
+    <Compile Include="Test\InferenceEngine\TestBinder.cs" />
+    <Compile Include="Test\InferenceEngine\TestCompositeAdapter.cs" />
+    <Compile Include="Test\InferenceEngine\TestCore.cs" />
+    <Compile Include="Test\InferenceEngine\TestEngineCoreFeaturesHRF.cs" />
+    <Compile Include="Test\InferenceEngine\TestEngineCoreFeaturesRuleML086.cs" />
+    <Compile Include="Test\InferenceEngine\TestEngineCoreFeaturesRuleML09.cs" />
+    <Compile Include="Test\InferenceEngine\TestEngineCoreFeaturesRuleML091.cs" />
+    <Compile Include="Test\InferenceEngine\TestEngineCoreFeaturesRuleML09Compact.cs" />
+    <Compile Include="Test\InferenceEngine\TestEngineCoreFeaturesRuleML09Expanded.cs" />
+    <Compile Include="Test\InferenceEngine\TestEngineMisc.cs" />
+    <Compile Include="Test\InferenceEngine\TestEngineMiscHotSwapWM.cs" />
+    <Compile Include="Test\InferenceEngine\TestEngineMiscThreadSafeWM.cs" />
+    <Compile Include="Test\InferenceEngine\TestEngineRuleML09MultiSyntax.cs" />
+    <Compile Include="Test\InferenceEngine\TestEventContext.cs" />
+    <Compile Include="Test\InferenceEngine\TestFileRegistry.cs" />
+    <Compile Include="Test\InferenceEngine\TestTypedFacts.cs" />
+    <Compile Include="Test\TestCompilation.cs" />
+    <Compile Include="Test\TestDataSet.cs" />
+    <Compile Include="Test\TestObject.cs" />
+    <Compile Include="Test\TestSchema.cs" />
+    <Compile Include="Test\TestUtil.cs" />
+    <Compile Include="Util\Maths.cs" />
+    <Compile Include="Util\Misc.cs" />
+    <Compile Include="Util\Parameter.cs" />
+    <Compile Include="Util\PseudoCodeRenderer.cs" />
+    <Compile Include="Util\Reflection.cs" />
+    <Compile Include="Util\Xml.cs" />
+    <Compile Include="Util\Compilation.cs" />
+    <Compile Include="Util\DataAccess.cs" />
+    <EmbeddedResource Include="Resources\businessRules.xsd">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\pseudocode_body.xsl">
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\pseudocode_frames.xsl">
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\pseudocode_index.xsl">
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ruleml-0_9-nafdatalog.xsd">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ruleml-0_86-datalog.xsd">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ruleml-0_86-nafdatalog.xsd">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ruleml-nafdatalog-0_86-2hrf.xsl">
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\transformXRules.xsl">
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\visio2003toRuleML.xsl">
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\xBusinessRules.xsd">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="FlowEngine\Rules\IInitializable.cs" />
+    <EmbeddedResource Include="Resources\identity.xsl">
+    </EmbeddedResource>
+    <Compile Include="InferenceEngine\Core\RulesUtil.cs" />
+    <Compile Include="Util\Logger.cs" />
+    <Compile Include="InferenceEngine\Registry\FileRegistry.cs" />
+    <Compile Include="InferenceEngine\Registry\IRegistry.cs" />
+    <Compile Include="InferenceEngine\Registry\FileRegistryConfiguration.cs" />
+    <Compile Include="InferenceEngine\IO\VisualBasicBinderFactory.cs" />
+    <Compile Include="InferenceEngine\Core\FactEnumeratorFactory.cs" />
+    <Compile Include="Util\HashCodeBuilder.cs" />
+    <Compile Include="Util\HashSet.cs" />
+    <Compile Include="FlowEngine\Rules\Matches.cs" />
+    <Compile Include="InferenceEngine\IO\RuleML091NafDatalogAdapter.cs" />
+    <EmbeddedResource Include="Resources\ruleml-0_91-nafdatalog.xsd">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="InferenceEngine\IO\AccumulatingExtendedRuleBaseAdapter.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="NxBRE.dll.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\businessRules.xsx">
+      <DependentUpon>businessRules.xsd</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\xBusinessRules.xsx">
+      <DependentUpon>xBusinessRules.xsd</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Test\NxBRE-UnitTest.dll.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

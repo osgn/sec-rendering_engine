@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+
+	<configSections>
+		<!-- Setup custom configuration section and class that reads values from this custom section -->
+		<section name="LogSection" type="Aucent.FilingServices.Log.LogSection,Aucent.FilingServices.Log"/>
+	</configSections>
+	<!-- Custom Configuration section. Aucent.FilingService.Log.LogSection is used to read in the values. -->
+	<!-- Attribute logName : defines the event log name. Event log with this name is created if it doesnt exist. -->
+	<!-- Attribute sourceName : defines the source to write to event log. -->
+	<!-- Attribute exclude : defines type of messages to exclude while logging. -->
+	<!--
+	exclude flags : All,None,Info,Warning,Error
+	exclude attribute acts as flags so to specify multiple flags use '|'.
+	eg: Info|Warning
+	-->
+	<LogSection logName="ReportBuilder" sourceName="ReportProcessor" exclude="None" />
+
+	<appSettings>
+
+		<add key="PortNum" value="9503"/>
+		<add key="ServerKey" value="ReportBuilderSEC" />
+		<add key="EndPoint" value="ReportBuilderServer"/>
+		<add key="DispatcherUri" value="tcp://dev6:9501/ReportDispatcherServer" />
+
+		<!-- The root folder where the ReportDispatcher will place filings that need to 
+			 be processed by this service.-->
+		<add key="FilingsFolder" value="E:\XBRLReportBuilder\SECBuilder\Filings" />
+
+		<!-- The root folder where the service will save the reports that it generates from a filing.  -->
+		<add key="ProcessingFolder" value="E:\XBRLReportBuilder\SECBuilder\Processing"/>
+
+		<!-- The root folder where the ReportDispatcher will place filings that need to 
+			 be processed by this service.-->
+		<add key="ReportsFolder" value="E:\XBRLReportBuilder\SECBuilder\Reports" />
+
+		<!-- Indicates how long, in seconds, the service will wait between checks of
+			the FilingsFolder for new filings.-->
+		<add key="ProcessingFrequency" value="60"/>
+		
+
+
+
+		<!-- Whether or not to delete filings from the ProcessingFolder when they are finished -->
+		<add key="DeleteProcessedFilings" value="true" />
+		
+		<!-- Which *.rul to use when processing Financial instance documents -->
+		<add key="FinancialRuleFile" value="ReportBuilder" />
+
+    <!-- In which format(s) should reports be created?
+        Possible values:
+          Xml
+		      Html
+		      HtmlAndXml -->
+    <add key="ReportFormat" value="Xml"/>
+
+    <!-- Should we create the HTML as a 'Complete' document, or a 'Fragment'-->
+    <add key="HtmlReportFormat" value="Complete"/>
+
+
+    <!-- The relative path from the filing service to the currency codes mapping file
+      If the file is in the same directory, it should be 'CurrencyCodes.xml'
+      If the file is outside of the same directory, it should be '..\CurrencyCodes.xml'\
+      If the file is in a sub-directory of the filing service folder, it should be 'Subdirectory\CurrencyCodes.xml'
+    -->
+    <add key="CurrencyMappingFile" value="CurrencyCodes.xml" />
+
+  </appSettings>
+</configuration>

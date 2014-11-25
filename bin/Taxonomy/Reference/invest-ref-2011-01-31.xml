@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2006/ref http://www.xbrl.org/2006/ref-2006-02-27.xsd http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:ref="http://www.xbrl.org/2006/ref" xmlns:xlink="http://www.w3.org/1999/xlink">
+<link:referenceLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+<link:loc xlink:type="locator" xlink:href="invest-2011-01-31.xsd#invest_InvestmentAxis" xlink:label="invest_InvestmentAxis"/>
+<link:loc xlink:type="locator" xlink:href="invest-2011-01-31.xsd#invest_InvestmentCFICode" xlink:label="invest_InvestmentCFICode"/>
+<link:loc xlink:type="locator" xlink:href="invest-2011-01-31.xsd#invest_InvestmentDomain" xlink:label="invest_InvestmentDomain"/>
+<link:loc xlink:type="locator" xlink:href="invest-2011-01-31.xsd#invest_InvestmentInterestRate" xlink:label="invest_InvestmentInterestRate"/>
+<link:loc xlink:type="locator" xlink:href="invest-2011-01-31.xsd#invest_InvestmentInterestRateRangeEnd" xlink:label="invest_InvestmentInterestRateRangeEnd"/>
+<link:loc xlink:type="locator" xlink:href="invest-2011-01-31.xsd#invest_InvestmentInterestRateRangeStart" xlink:label="invest_InvestmentInterestRateRangeStart"/>
+<link:loc xlink:type="locator" xlink:href="invest-2011-01-31.xsd#invest_InvestmentInterestRateType" xlink:label="invest_InvestmentInterestRateType"/>
+<link:loc xlink:type="locator" xlink:href="invest-2011-01-31.xsd#invest_InvestmentMaturityDateRangeEnd" xlink:label="invest_InvestmentMaturityDateRangeEnd"/>
+<link:loc xlink:type="locator" xlink:href="invest-2011-01-31.xsd#invest_InvestmentMaturityDateRangeStart" xlink:label="invest_InvestmentMaturityDateRangeStart"/>
+<link:loc xlink:type="locator" xlink:href="invest-2011-01-31.xsd#invest_InvestmentNonIncomeProducingFlag" xlink:label="invest_InvestmentNonIncomeProducingFlag"/>
+<link:loc xlink:type="locator" xlink:href="invest-2011-01-31.xsd#invest_InvestmentRepurchaseAgreementAmountToBeReceived" xlink:label="invest_InvestmentRepurchaseAgreementAmountToBeReceived"/>
+<link:loc xlink:type="locator" xlink:href="invest-2011-01-31.xsd#invest_InvestmentRepurchaseAgreementDateOfAgreement" xlink:label="invest_InvestmentRepurchaseAgreementDateOfAgreement"/>
+<link:loc xlink:type="locator" xlink:href="invest-2011-01-31.xsd#invest_InvestmentRepurchaseAgreementDescriptionOfInvestmentsSubjectToAgreement" xlink:label="invest_InvestmentRepurchaseAgreementDescriptionOfInvestmentsSubjectToAgreement"/>
+<link:loc xlink:type="locator" xlink:href="invest-2011-01-31.xsd#invest_InvestmentRepurchaseAgreementNameOfParty" xlink:label="invest_InvestmentRepurchaseAgreementNameOfParty"/>
+<link:loc xlink:type="locator" xlink:href="invest-2011-01-31.xsd#invest_InvestmentRepurchaseAgreementRepurchaseDate" xlink:label="invest_InvestmentRepurchaseAgreementRepurchaseDate"/>
+<link:loc xlink:type="locator" xlink:href="invest-2011-01-31.xsd#invest_InvestmentTable" xlink:label="invest_InvestmentTable"/>
+<link:loc xlink:type="locator" xlink:href="invest-2011-01-31.xsd#invest_InvestmentTextBlock" xlink:label="invest_InvestmentTextBlock"/>
+<link:loc xlink:type="locator" xlink:href="invest-2011-01-31.xsd#invest_InvestmentTitle" xlink:label="invest_InvestmentTitle"/>
+<link:loc xlink:type="locator" xlink:href="invest-2011-01-31.xsd#invest_InvestmentMaturityDate1" xlink:label="InvestmentMaturityDate1"/>
+<link:loc xlink:type="locator" xlink:href="invest-2011-01-31.xsd#invest_InvestmentMaturityDateRangeStart1" xlink:label="InvestmentMaturityDateRangeStart1"/>
+<link:loc xlink:type="locator" xlink:href="invest-2011-01-31.xsd#invest_InvestmentMaturityDateRangeEnd1" xlink:label="InvestmentMaturityDateRangeEnd1"/>
+<link:loc xlink:type="locator" xlink:href="invest-2011-01-31.xsd#invest_InvestmentGeographicRegionAxis" xlink:label="InvestmentGeographicRegionAxis"/>
+<link:loc xlink:type="locator" xlink:href="invest-2011-01-31.xsd#invest_InvestmentGeographicRegionDomain" xlink:label="InvestmentGeographicRegionDomain"/>
+<link:loc xlink:type="locator" xlink:href="invest-2011-01-31.xsd#invest_InvestmentSectorAxis" xlink:label="InvestmentSectorAxis"/>
+<link:loc xlink:type="locator" xlink:href="invest-2011-01-31.xsd#invest_InvestmentSectorDomain" xlink:label="InvestmentSectorDomain"/>
+<link:loc xlink:type="locator" xlink:href="invest-2011-01-31.xsd#invest_CreditRatingSourceAxis" xlink:label="CreditRatingSourceAxis"/>
+<link:loc xlink:type="locator" xlink:href="invest-2011-01-31.xsd#invest_CreditRatingSourceDomain" xlink:label="CreditRatingSourceDomain"/>
+<link:loc xlink:type="locator" xlink:href="invest-2011-01-31.xsd#invest_InvestmentIssuerAxis" xlink:label="InvestmentIssuerAxis"/>
+<link:loc xlink:type="locator" xlink:href="invest-2011-01-31.xsd#invest_InvestmentIssuerDomain" xlink:label="InvestmentIssuerDomain"/>
+<link:loc xlink:type="locator" xlink:href="invest-2011-01-31.xsd#invest_InvestmentIdentifierTable" xlink:label="InvestmentIdentifierTable"/>
+<link:loc xlink:type="locator" xlink:href="invest-2011-01-31.xsd#invest_InvestmentTableTextBlock" xlink:label="InvestmentTableTextBlock"/>
+<link:loc xlink:type="locator" xlink:href="invest-2011-01-31.xsd#invest_InvestmentSecuritiesSeriesAxis" xlink:label="InvestmentSecuritiesSeriesAxis"/>
+<link:loc xlink:type="locator" xlink:href="invest-2011-01-31.xsd#invest_InvestmentSecuritiesSeriesDomain" xlink:label="InvestmentSecuritiesSeriesDomain"/>
+<link:loc xlink:type="locator" xlink:href="invest-2011-01-31.xsd#invest_InvestmentSecuritiesClassAxis" xlink:label="InvestmentSecuritiesClassAxis"/>
+<link:loc xlink:type="locator" xlink:href="invest-2011-01-31.xsd#invest_InvestmentSecuritiesClassDomain" xlink:label="InvestmentSecuritiesClassDomain"/>
+<link:loc xlink:type="locator" xlink:href="invest-2011-01-31.xsd#invest_InvestmentHoldingAxis" xlink:label="InvestmentHoldingAxis"/>
+<link:loc xlink:type="locator" xlink:href="invest-2011-01-31.xsd#invest_InvestmentHoldingDomain" xlink:label="InvestmentHoldingDomain"/>
+<link:loc xlink:type="locator" xlink:href="invest-2011-01-31.xsd#invest_InvestmentEmbeddedTableTextBlock" xlink:label="InvestmentEmbeddedTableTextBlock"/>
+<link:loc xlink:type="locator" xlink:href="invest-2011-01-31.xsd#invest_InvestmentTableLegendTextBlock" xlink:label="InvestmentTableLegendTextBlock"/>
+<link:loc xlink:type="locator" xlink:href="invest-2011-01-31.xsd#invest_InvestmentAdditionalInformation" xlink:label="InvestmentAdditionalInformation"/>
+<link:loc xlink:type="locator" xlink:href="invest-2011-01-31.xsd#invest_DerivativeCounterparty" xlink:label="DerivativeCounterparty"/>
+<link:loc xlink:type="locator" xlink:href="invest-2011-01-31.xsd#invest_DerivativeNonmonetaryNotionalAmount" xlink:label="DerivativeNonmonetaryNotionalAmount"/>
+<link:loc xlink:type="locator" xlink:href="invest-2011-01-31.xsd#invest_DerivativeNotionalAmount" xlink:label="DerivativeNotionalAmount"/>
+<link:loc xlink:type="locator" xlink:href="invest-2011-01-31.xsd#invest_DerivativeTypeOfInterestRatePaidOnSwap" xlink:label="DerivativeTypeOfInterestRatePaidOnSwap"/>
+<link:loc xlink:type="locator" xlink:href="invest-2011-01-31.xsd#invest_InvestmentIdentifier" xlink:label="InvestmentIdentifier"/>
+<link:loc xlink:type="locator" xlink:href="invest-2011-01-31.xsd#invest_InvestmentOptionsExpirationDate" xlink:label="InvestmentOptionsExpirationDate"/>
+<link:loc xlink:type="locator" xlink:href="invest-2011-01-31.xsd#invest_InvestmentWarrantsExpirationDate" xlink:label="InvestmentWarrantsExpirationDate"/>
+<link:loc xlink:type="locator" xlink:href="invest-2011-01-31.xsd#invest_InvestmentWarrantsExpirationDateRangeStart" xlink:label="InvestmentWarrantsExpirationDateRangeStart"/>
+<link:loc xlink:type="locator" xlink:href="invest-2011-01-31.xsd#invest_InvestmentWarrantsExpirationDateRangeEnd" xlink:label="InvestmentWarrantsExpirationDateRangeEnd"/>
+<link:loc xlink:type="locator" xlink:href="invest-2011-01-31.xsd#invest_InvestmentOptionsExercisePrice" xlink:label="InvestmentOptionsExercisePrice"/>
+<link:loc xlink:type="locator" xlink:href="invest-2011-01-31.xsd#invest_InvestmentWarrantsExercisePrice" xlink:label="InvestmentWarrantsExercisePrice"/>
+<link:loc xlink:type="locator" xlink:href="invest-2011-01-31.xsd#invest_InvestmentRestrictedCashFlag" xlink:label="InvestmentRestrictedCashFlag"/>
+<link:loc xlink:type="locator" xlink:href="invest-2011-01-31.xsd#invest_InvestmentDefaultedSecurityFlag" xlink:label="InvestmentDefaultedSecurityFlag"/>
+<link:loc xlink:type="locator" xlink:href="invest-2011-01-31.xsd#invest_InvestmentADRFlag" xlink:label="InvestmentADRFlag"/>
+<link:loc xlink:type="locator" xlink:href="invest-2011-01-31.xsd#invest_InvestmentGDRFlag" xlink:label="InvestmentGDRFlag"/>
+<link:loc xlink:type="locator" xlink:href="invest-2011-01-31.xsd#invest_InvestmentWhenIssuedFlag" xlink:label="InvestmentWhenIssuedFlag"/>
+<link:loc xlink:type="locator" xlink:href="invest-2011-01-31.xsd#invest_InvestmentInterestOnlyFlag" xlink:label="InvestmentInterestOnlyFlag"/>
+<link:loc xlink:type="locator" xlink:href="invest-2011-01-31.xsd#invest_InvestmentPrincipalOnlyFlag" xlink:label="InvestmentPrincipalOnlyFlag"/>
+<link:loc xlink:type="locator" xlink:href="invest-2011-01-31.xsd#invest_InvestmentStepupBondInterestRateIsForFutureDateFlag" xlink:label="InvestmentStepupBondInterestRateIsForFutureDateFlag"/>
+<link:loc xlink:type="locator" xlink:href="invest-2011-01-31.xsd#invest_InvestmentInterestRateIsCurrentRateForVariableRateInvestmentFlag" xlink:label="InvestmentInterestRateIsCurrentRateForVariableRateInvestmentFlag"/>
+<link:loc xlink:type="locator" xlink:href="invest-2011-01-31.xsd#invest_InvestmentInterestRateIsDiscountRateAtPurchaseFlag" xlink:label="InvestmentInterestRateIsDiscountRateAtPurchaseFlag"/>
+<link:loc xlink:type="locator" xlink:href="invest-2011-01-31.xsd#invest_InvestmentUnderlyingInvestmentIdentifier" xlink:label="InvestmentUnderlyingInvestmentIdentifier"/>
+<link:loc xlink:type="locator" xlink:href="invest-2011-01-31.xsd#invest_InvestmentInterestRateReflectsCurrentYieldFlag" xlink:label="InvestmentInterestRateReflectsCurrentYieldFlag"/>
+<link:loc xlink:type="locator" xlink:href="invest-2011-01-31.xsd#invest_InvestmentForeignCurrencyContractCurrency" xlink:label="InvestmentForeignCurrencyContractCurrency"/>
+<link:loc xlink:type="locator" xlink:href="invest-2011-01-31.xsd#invest_InvestmentForeignCurrencyContractTransactionTypeFlag" xlink:label="InvestmentForeignCurrencyContractTransactionTypeFlag"/>
+<link:loc xlink:type="locator" xlink:href="invest-2011-01-31.xsd#invest_InvestmentForeignCurrencyContractForeignCurrencyAmount" xlink:label="InvestmentForeignCurrencyContractForeignCurrencyAmount"/>
+<link:loc xlink:type="locator" xlink:href="invest-2011-01-31.xsd#invest_InvestmentForeignCurrencyContractReportingCurrencyAmountAtDateOfOrigin" xlink:label="InvestmentForeignCurrencyContractReportingCurrencyAmountAtDateOfOrigin"/>
+<link:loc xlink:type="locator" xlink:href="invest-2011-01-31.xsd#invest_InvestmentForeignCurrencyContractAmountPurchased" xlink:label="InvestmentForeignCurrencyContractAmountPurchased"/>
+<link:loc xlink:type="locator" xlink:href="invest-2011-01-31.xsd#invest_InvestmentForeignCurrencyContractAmountSold" xlink:label="InvestmentForeignCurrencyContractAmountSold"/>
+<link:loc xlink:type="locator" xlink:href="invest-2011-01-31.xsd#invest_InvestmentContractCurrency" xlink:label="InvestmentContractCurrency"/>
+<link:loc xlink:type="locator" xlink:href="invest-2011-01-31.xsd#invest_InvestmentContractCountry" xlink:label="InvestmentContractCountry"/>
+<link:loc xlink:type="locator" xlink:href="invest-2011-01-31.xsd#invest_InvestmentContractSettlementDate" xlink:label="InvestmentContractSettlementDate"/>
+<link:loc xlink:type="locator" xlink:href="invest-2011-01-31.xsd#invest_InvestmentContractSettlementDateRangeStart" xlink:label="InvestmentContractSettlementDateRangeStart"/>
+<link:loc xlink:type="locator" xlink:href="invest-2011-01-31.xsd#invest_InvestmentContractSettlementDateRangeEnd" xlink:label="InvestmentContractSettlementDateRangeEnd"/>
+<link:loc xlink:type="locator" xlink:href="invest-2011-01-31.xsd#invest_InvestmentContractWeight" xlink:label="InvestmentContractWeight"/>
+<link:loc xlink:type="locator" xlink:href="invest-2011-01-31.xsd#invest_InvestmentContractVolume" xlink:label="InvestmentContractVolume"/>
+<link:loc xlink:type="locator" xlink:href="invest-2011-01-31.xsd#invest_InvestmentContractCounterpartyAxis" xlink:label="InvestmentContractCounterpartyAxis"/>
+<link:loc xlink:type="locator" xlink:href="invest-2011-01-31.xsd#invest_InvestmentContractCounterpartyDomain" xlink:label="InvestmentContractCounterpartyDomain"/>
+<link:loc xlink:type="locator" xlink:href="invest-2011-01-31.xsd#invest_InvestmentIdentifierSchemeAxis" xlink:label="InvestmentIdentifierSchemeAxis"/>
+<link:loc xlink:type="locator" xlink:href="invest-2011-01-31.xsd#invest_InvestmentIdentifierSchemeDomain" xlink:label="InvestmentIdentifierSchemeDomain"/>
+<link:reference xlink:type="resource" xlink:label="ref_0" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-X (SX)</ref:Name>
+<ref:Number>210</ref:Number>
+<ref:Article>12</ref:Article>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="ref_6" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:URI>http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=32835</ref:URI>
+<ref:URIDate>2008-12-15</ref:URIDate>
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-X (SX)</ref:Name>
+<ref:Number>210</ref:Number>
+<ref:Article>12</ref:Article>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="ref_3" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-X (SX)</ref:Name>
+<ref:Number>210</ref:Number>
+<ref:Article>12</ref:Article>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="ref_7" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-X (SX)</ref:Name>
+<ref:Number>210</ref:Number>
+<ref:Article>12</ref:Article>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="ref_9" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-X (SX)</ref:Name>
+<ref:Number>210</ref:Number>
+<ref:Article>12</ref:Article>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="ref_13" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-X (SX)</ref:Name>
+<ref:Number>210</ref:Number>
+<ref:Article>12</ref:Article>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="ref_14" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+<ref:Paragraph>2</ref:Paragraph>
+<ref:Subparagraph>iii</ref:Subparagraph>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_InvestmentMaturityDate1" xlink:role="http://www.xbrl.org/2003/role/presentationRef" id="reference_InvestmentMaturityDate1">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-X (SX)</ref:Name>
+<ref:Number>210</ref:Number>
+<ref:Article>12</ref:Article>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_InvestmentMaturityDateRangeStart1" xlink:role="http://www.xbrl.org/2003/role/presentationRef" id="reference_InvestmentMaturityDateRangeStart1">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-X (SX)</ref:Name>
+<ref:Number>210</ref:Number>
+<ref:Article>12</ref:Article>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_InvestmentMaturityDateRangeEnd1" xlink:role="http://www.xbrl.org/2003/role/presentationRef" id="reference_InvestmentMaturityDateRangeEnd1">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-X (SX)</ref:Name>
+<ref:Number>210</ref:Number>
+<ref:Article>12</ref:Article>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_InvestmentGeographicRegionAxis" xlink:role="http://www.xbrl.org/2003/role/presentationRef" id="reference_InvestmentGeographicRegionAxis">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-X (SX)</ref:Name>
+<ref:Number>210</ref:Number>
+<ref:Article>12</ref:Article>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_InvestmentGeographicRegionDomain" xlink:role="http://www.xbrl.org/2003/role/presentationRef" id="reference_InvestmentGeographicRegionDomain">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-X (SX)</ref:Name>
+<ref:Number>210</ref:Number>
+<ref:Article>12</ref:Article>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_InvestmentSectorAxis" xlink:role="http://www.xbrl.org/2003/role/presentationRef" id="reference_InvestmentSectorAxis">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-X (SX)</ref:Name>
+<ref:Number>210</ref:Number>
+<ref:Article>12</ref:Article>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_InvestmentSectorDomain" xlink:role="http://www.xbrl.org/2003/role/presentationRef" id="reference_InvestmentSectorDomain">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-X (SX)</ref:Name>
+<ref:Number>210</ref:Number>
+<ref:Article>12</ref:Article>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_CreditRatingSourceAxis" xlink:role="http://www.xbrl.org/2003/role/presentationRef" id="reference_CreditRatingSourceAxis">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-X (SX)</ref:Name>
+<ref:Number>210</ref:Number>
+<ref:Article>12</ref:Article>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_CreditRatingSourceDomain" xlink:role="http://www.xbrl.org/2003/role/presentationRef" id="reference_CreditRatingSourceDomain">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-X (SX)</ref:Name>
+<ref:Number>210</ref:Number>
+<ref:Article>12</ref:Article>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_InvestmentIssuerAxis" xlink:role="http://www.xbrl.org/2003/role/presentationRef" id="reference_InvestmentIssuerAxis">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-X (SX)</ref:Name>
+<ref:Number>210</ref:Number>
+<ref:Article>12</ref:Article>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_InvestmentIssuerDomain" xlink:role="http://www.xbrl.org/2003/role/presentationRef" id="reference_InvestmentIssuerDomain">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-X (SX)</ref:Name>
+<ref:Number>210</ref:Number>
+<ref:Article>12</ref:Article>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_InvestmentIdentifierTable" xlink:role="http://www.xbrl.org/2003/role/presentationRef" id="reference_InvestmentIdentifierTable">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-X (SX)</ref:Name>
+<ref:Number>210</ref:Number>
+<ref:Article>12</ref:Article>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_InvestmentTableTextBlock" xlink:role="http://www.xbrl.org/2003/role/presentationRef" id="reference_InvestmentTableTextBlock">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-X (SX)</ref:Name>
+<ref:Number>210</ref:Number>
+<ref:Article>12</ref:Article>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_InvestmentSecuritiesSeriesAxis" xlink:role="http://www.xbrl.org/2003/role/presentationRef" id="reference_InvestmentSecuritiesSeriesAxis">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-X (SX)</ref:Name>
+<ref:Number>210</ref:Number>
+<ref:Article>12</ref:Article>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_InvestmentSecuritiesSeriesDomain" xlink:role="http://www.xbrl.org/2003/role/presentationRef" id="reference_InvestmentSecuritiesSeriesDomain">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-X (SX)</ref:Name>
+<ref:Number>210</ref:Number>
+<ref:Article>12</ref:Article>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_InvestmentSecuritiesClassAxis" xlink:role="http://www.xbrl.org/2003/role/presentationRef" id="reference_InvestmentSecuritiesClassAxis">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-X (SX)</ref:Name>
+<ref:Number>210</ref:Number>
+<ref:Article>12</ref:Article>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_InvestmentSecuritiesClassDomain" xlink:role="http://www.xbrl.org/2003/role/presentationRef" id="reference_InvestmentSecuritiesClassDomain">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-X (SX)</ref:Name>
+<ref:Number>210</ref:Number>
+<ref:Article>12</ref:Article>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_InvestmentHoldingAxis" xlink:role="http://www.xbrl.org/2003/role/presentationRef" id="reference_InvestmentHoldingAxis">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-X (SX)</ref:Name>
+<ref:Number>210</ref:Number>
+<ref:Article>12</ref:Article>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_InvestmentHoldingDomain" xlink:role="http://www.xbrl.org/2003/role/presentationRef" id="reference_InvestmentHoldingDomain">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-X (SX)</ref:Name>
+<ref:Number>210</ref:Number>
+<ref:Article>12</ref:Article>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_InvestmentEmbeddedTableTextBlock" xlink:role="http://www.xbrl.org/2003/role/presentationRef" id="reference_InvestmentEmbeddedTableTextBlock">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-X (SX)</ref:Name>
+<ref:Number>210</ref:Number>
+<ref:Article>12</ref:Article>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_InvestmentTableLegendTextBlock" xlink:role="http://www.xbrl.org/2003/role/presentationRef" id="reference_InvestmentTableLegendTextBlock">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-X (SX)</ref:Name>
+<ref:Number>210</ref:Number>
+<ref:Article>12</ref:Article>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_InvestmentAdditionalInformation" xlink:role="http://www.xbrl.org/2003/role/presentationRef" id="reference_InvestmentAdditionalInformation">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-X (SX)</ref:Name>
+<ref:Number>210</ref:Number>
+<ref:Article>12</ref:Article>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_DerivativeCounterparty" xlink:role="http://www.xbrl.org/2003/role/presentationRef" id="reference_DerivativeCounterparty">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-X (SX)</ref:Name>
+<ref:Number>210</ref:Number>
+<ref:Article>12</ref:Article>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_DerivativeNonmonetaryNotionalAmount" xlink:role="http://www.xbrl.org/2003/role/presentationRef" id="reference_DerivativeNonmonetaryNotionalAmount">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-X (SX)</ref:Name>
+<ref:Number>210</ref:Number>
+<ref:Article>12</ref:Article>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_DerivativeNotionalAmount" xlink:role="http://www.xbrl.org/2003/role/presentationRef" id="reference_DerivativeNotionalAmount">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-X (SX)</ref:Name>
+<ref:Number>210</ref:Number>
+<ref:Article>12</ref:Article>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_DerivativeTypeOfInterestRatePaidOnSwap" xlink:role="http://www.xbrl.org/2003/role/presentationRef" id="reference_DerivativeTypeOfInterestRatePaidOnSwap">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-X (SX)</ref:Name>
+<ref:Number>210</ref:Number>
+<ref:Article>12</ref:Article>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_InvestmentIdentifier" xlink:role="http://www.xbrl.org/2003/role/presentationRef" id="reference_InvestmentIdentifier">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-X (SX)</ref:Name>
+<ref:Number>210</ref:Number>
+<ref:Article>12</ref:Article>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_InvestmentOptionsExpirationDate" xlink:role="http://www.xbrl.org/2003/role/presentationRef" id="reference_InvestmentOptionsExpirationDate">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-X (SX)</ref:Name>
+<ref:Number>210</ref:Number>
+<ref:Article>12</ref:Article>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_InvestmentWarrantsExpirationDate" xlink:role="http://www.xbrl.org/2003/role/presentationRef" id="reference_InvestmentWarrantsExpirationDate">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-X (SX)</ref:Name>
+<ref:Number>210</ref:Number>
+<ref:Article>12</ref:Article>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_InvestmentWarrantsExpirationDateRangeStart" xlink:role="http://www.xbrl.org/2003/role/presentationRef" id="reference_InvestmentWarrantsExpirationDateRangeStart">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-X (SX)</ref:Name>
+<ref:Number>210</ref:Number>
+<ref:Article>12</ref:Article>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_InvestmentWarrantsExpirationDateRangeEnd" xlink:role="http://www.xbrl.org/2003/role/presentationRef" id="reference_InvestmentWarrantsExpirationDateRangeEnd">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-X (SX)</ref:Name>
+<ref:Number>210</ref:Number>
+<ref:Article>12</ref:Article>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_InvestmentOptionsExercisePrice" xlink:role="http://www.xbrl.org/2003/role/presentationRef" id="reference_InvestmentOptionsExercisePrice">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-X (SX)</ref:Name>
+<ref:Number>210</ref:Number>
+<ref:Article>12</ref:Article>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_InvestmentWarrantsExercisePrice" xlink:role="http://www.xbrl.org/2003/role/presentationRef" id="reference_InvestmentWarrantsExercisePrice">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-X (SX)</ref:Name>
+<ref:Number>210</ref:Number>
+<ref:Article>12</ref:Article>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_InvestmentRestrictedCashFlag" xlink:role="http://www.xbrl.org/2003/role/presentationRef" id="reference_InvestmentRestrictedCashFlag">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-X (SX)</ref:Name>
+<ref:Number>210</ref:Number>
+<ref:Article>12</ref:Article>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_InvestmentDefaultedSecurityFlag" xlink:role="http://www.xbrl.org/2003/role/presentationRef" id="reference_InvestmentDefaultedSecurityFlag">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-X (SX)</ref:Name>
+<ref:Number>210</ref:Number>
+<ref:Article>12</ref:Article>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_InvestmentADRFlag" xlink:role="http://www.xbrl.org/2003/role/presentationRef" id="reference_InvestmentADRFlag">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-X (SX)</ref:Name>
+<ref:Number>210</ref:Number>
+<ref:Article>12</ref:Article>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_InvestmentGDRFlag" xlink:role="http://www.xbrl.org/2003/role/presentationRef" id="reference_InvestmentGDRFlag">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-X (SX)</ref:Name>
+<ref:Number>210</ref:Number>
+<ref:Article>12</ref:Article>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_InvestmentWhenIssuedFlag" xlink:role="http://www.xbrl.org/2003/role/presentationRef" id="reference_InvestmentWhenIssuedFlag">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-X (SX)</ref:Name>
+<ref:Number>210</ref:Number>
+<ref:Article>12</ref:Article>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_InvestmentInterestOnlyFlag" xlink:role="http://www.xbrl.org/2003/role/presentationRef" id="reference_InvestmentInterestOnlyFlag">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-X (SX)</ref:Name>
+<ref:Number>210</ref:Number>
+<ref:Article>12</ref:Article>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_InvestmentPrincipalOnlyFlag" xlink:role="http://www.xbrl.org/2003/role/presentationRef" id="reference_InvestmentPrincipalOnlyFlag">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-X (SX)</ref:Name>
+<ref:Number>210</ref:Number>
+<ref:Article>12</ref:Article>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_InvestmentStepupBondInterestRateIsForFutureDateFlag" xlink:role="http://www.xbrl.org/2003/role/presentationRef" id="reference_InvestmentStepupBondInterestRateIsForFutureDateFlag">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-X (SX)</ref:Name>
+<ref:Number>210</ref:Number>
+<ref:Article>12</ref:Article>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_InvestmentInterestRateIsCurrentRateForVariableRateInvestmentFlag" xlink:role="http://www.xbrl.org/2003/role/presentationRef" id="reference_InvestmentInterestRateIsCurrentRateForVariableRateInvestmentFlag">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-X (SX)</ref:Name>
+<ref:Number>210</ref:Number>
+<ref:Article>12</ref:Article>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_InvestmentInterestRateIsDiscountRateAtPurchaseFlag" xlink:role="http://www.xbrl.org/2003/role/presentationRef" id="reference_InvestmentInterestRateIsDiscountRateAtPurchaseFlag">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-X (SX)</ref:Name>
+<ref:Number>210</ref:Number>
+<ref:Article>12</ref:Article>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_InvestmentUnderlyingInvestmentIdentifier" xlink:role="http://www.xbrl.org/2003/role/presentationRef" id="reference_InvestmentUnderlyingInvestmentIdentifier">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-X (SX)</ref:Name>
+<ref:Number>210</ref:Number>
+<ref:Article>12</ref:Article>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_InvestmentInterestRateReflectsCurrentYieldFlag" xlink:role="http://www.xbrl.org/2003/role/presentationRef" id="reference_InvestmentInterestRateReflectsCurrentYieldFlag">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-X (SX)</ref:Name>
+<ref:Number>210</ref:Number>
+<ref:Article>12</ref:Article>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_InvestmentForeignCurrencyContractCurrency" xlink:role="http://www.xbrl.org/2003/role/presentationRef" id="reference_InvestmentForeignCurrencyContractCurrency">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-X (SX)</ref:Name>
+<ref:Number>210</ref:Number>
+<ref:Article>12</ref:Article>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_InvestmentForeignCurrencyContractTransactionTypeFlag" xlink:role="http://www.xbrl.org/2003/role/presentationRef" id="reference_InvestmentForeignCurrencyContractTransactionTypeFlag">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-X (SX)</ref:Name>
+<ref:Number>210</ref:Number>
+<ref:Article>12</ref:Article>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_InvestmentForeignCurrencyContractForeignCurrencyAmount" xlink:role="http://www.xbrl.org/2003/role/presentationRef" id="reference_InvestmentForeignCurrencyContractForeignCurrencyAmount">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-X (SX)</ref:Name>
+<ref:Number>210</ref:Number>
+<ref:Article>12</ref:Article>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_InvestmentForeignCurrencyContractReportingCurrencyAmountAtDateOfOrigin" xlink:role="http://www.xbrl.org/2003/role/presentationRef" id="reference_InvestmentForeignCurrencyContractReportingCurrencyAmountAtDateOfOrigin">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-X (SX)</ref:Name>
+<ref:Number>210</ref:Number>
+<ref:Article>12</ref:Article>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_InvestmentForeignCurrencyContractAmountPurchased" xlink:role="http://www.xbrl.org/2003/role/presentationRef" id="reference_InvestmentForeignCurrencyContractAmountPurchased">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-X (SX)</ref:Name>
+<ref:Number>210</ref:Number>
+<ref:Article>12</ref:Article>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_InvestmentForeignCurrencyContractAmountSold" xlink:role="http://www.xbrl.org/2003/role/presentationRef" id="reference_InvestmentForeignCurrencyContractAmountSold">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-X (SX)</ref:Name>
+<ref:Number>210</ref:Number>
+<ref:Article>12</ref:Article>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_InvestmentContractCurrency" xlink:role="http://www.xbrl.org/2003/role/presentationRef" id="reference_InvestmentContractCurrency">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-X (SX)</ref:Name>
+<ref:Number>210</ref:Number>
+<ref:Article>12</ref:Article>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_InvestmentContractCountry" xlink:role="http://www.xbrl.org/2003/role/presentationRef" id="reference_InvestmentContractCountry">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-X (SX)</ref:Name>
+<ref:Number>210</ref:Number>
+<ref:Article>12</ref:Article>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_InvestmentContractSettlementDate" xlink:role="http://www.xbrl.org/2003/role/presentationRef" id="reference_InvestmentContractSettlementDate">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-X (SX)</ref:Name>
+<ref:Number>210</ref:Number>
+<ref:Article>12</ref:Article>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_InvestmentContractSettlementDateRangeStart" xlink:role="http://www.xbrl.org/2003/role/presentationRef" id="reference_InvestmentContractSettlementDateRangeStart">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-X (SX)</ref:Name>
+<ref:Number>210</ref:Number>
+<ref:Article>12</ref:Article>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_InvestmentContractSettlementDateRangeEnd" xlink:role="http://www.xbrl.org/2003/role/presentationRef" id="reference_InvestmentContractSettlementDateRangeEnd">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-X (SX)</ref:Name>
+<ref:Number>210</ref:Number>
+<ref:Article>12</ref:Article>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_InvestmentContractWeight" xlink:role="http://www.xbrl.org/2003/role/presentationRef" id="reference_InvestmentContractWeight">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-X (SX)</ref:Name>
+<ref:Number>210</ref:Number>
+<ref:Article>12</ref:Article>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_InvestmentContractVolume" xlink:role="http://www.xbrl.org/2003/role/presentationRef" id="reference_InvestmentContractVolume">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-X (SX)</ref:Name>
+<ref:Number>210</ref:Number>
+<ref:Article>12</ref:Article>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_InvestmentContractCounterpartyAxis" xlink:role="http://www.xbrl.org/2003/role/presentationRef" id="reference_InvestmentContractCounterpartyAxis">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-X (SX)</ref:Name>
+<ref:Number>210</ref:Number>
+<ref:Article>12</ref:Article>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_InvestmentContractCounterpartyDomain" xlink:role="http://www.xbrl.org/2003/role/presentationRef" id="reference_InvestmentContractCounterpartyDomain">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-X (SX)</ref:Name>
+<ref:Number>210</ref:Number>
+<ref:Article>12</ref:Article>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_InvestmentIdentifierSchemeAxis" xlink:role="http://www.xbrl.org/2003/role/presentationRef" id="reference_InvestmentIdentifierSchemeAxis">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-X (SX)</ref:Name>
+<ref:Number>210</ref:Number>
+<ref:Article>12</ref:Article>
+</link:reference>
+<link:reference xlink:type="resource" xlink:label="reference_InvestmentIdentifierSchemeDomain" xlink:role="http://www.xbrl.org/2003/role/presentationRef" id="reference_InvestmentIdentifierSchemeDomain">
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-X (SX)</ref:Name>
+<ref:Number>210</ref:Number>
+<ref:Article>12</ref:Article>
+</link:reference>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="invest_InvestmentAxis" xlink:to="ref_0" order="1.0"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="invest_InvestmentCFICode" xlink:to="ref_6" order="1.0"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="invest_InvestmentDomain" xlink:to="ref_3" order="1.0"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="invest_InvestmentInterestRate" xlink:to="ref_7" order="1.0"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="invest_InvestmentInterestRateRangeEnd" xlink:to="ref_7" order="1.0"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="invest_InvestmentInterestRateRangeStart" xlink:to="ref_7" order="1.0"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="invest_InvestmentInterestRateType" xlink:to="ref_7" order="1.0"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="invest_InvestmentMaturityDateRangeEnd" xlink:to="ref_7" order="1.0"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="invest_InvestmentMaturityDateRangeStart" xlink:to="ref_7" order="1.0"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="invest_InvestmentNonIncomeProducingFlag" xlink:to="ref_9" order="1.0"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="invest_InvestmentRepurchaseAgreementAmountToBeReceived" xlink:to="ref_13" order="1.0"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="invest_InvestmentRepurchaseAgreementDateOfAgreement" xlink:to="ref_13" order="1.0"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="invest_InvestmentRepurchaseAgreementDescriptionOfInvestmentsSubjectToAgreement" xlink:to="ref_13" order="1.0"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="invest_InvestmentRepurchaseAgreementNameOfParty" xlink:to="ref_13" order="1.0"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="invest_InvestmentRepurchaseAgreementRepurchaseDate" xlink:to="ref_13" order="1.0"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="invest_InvestmentRepurchaseAgreementRepurchaseDate" xlink:to="ref_14" order="1.0"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="invest_InvestmentTable" xlink:to="ref_0" order="1.0"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="invest_InvestmentTextBlock" xlink:to="ref_3" order="1.0"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="invest_InvestmentTitle" xlink:to="ref_0" order="1.0"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="InvestmentMaturityDate1" xlink:to="reference_InvestmentMaturityDate1"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="InvestmentMaturityDateRangeStart1" xlink:to="reference_InvestmentMaturityDateRangeStart1"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="InvestmentMaturityDateRangeEnd1" xlink:to="reference_InvestmentMaturityDateRangeEnd1"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="InvestmentGeographicRegionAxis" xlink:to="reference_InvestmentGeographicRegionAxis"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="InvestmentGeographicRegionDomain" xlink:to="reference_InvestmentGeographicRegionDomain"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="InvestmentSectorAxis" xlink:to="reference_InvestmentSectorAxis"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="InvestmentSectorDomain" xlink:to="reference_InvestmentSectorDomain"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="CreditRatingSourceAxis" xlink:to="reference_CreditRatingSourceAxis"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="CreditRatingSourceDomain" xlink:to="reference_CreditRatingSourceDomain"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="InvestmentIssuerAxis" xlink:to="reference_InvestmentIssuerAxis"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="InvestmentIssuerDomain" xlink:to="reference_InvestmentIssuerDomain"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="InvestmentIdentifierTable" xlink:to="reference_InvestmentIdentifierTable"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="InvestmentTableTextBlock" xlink:to="reference_InvestmentTableTextBlock"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="InvestmentSecuritiesSeriesAxis" xlink:to="reference_InvestmentSecuritiesSeriesAxis"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="InvestmentSecuritiesSeriesDomain" xlink:to="reference_InvestmentSecuritiesSeriesDomain"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="InvestmentSecuritiesClassAxis" xlink:to="reference_InvestmentSecuritiesClassAxis"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="InvestmentSecuritiesClassDomain" xlink:to="reference_InvestmentSecuritiesClassDomain"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="InvestmentHoldingAxis" xlink:to="reference_InvestmentHoldingAxis"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="InvestmentHoldingDomain" xlink:to="reference_InvestmentHoldingDomain"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="InvestmentEmbeddedTableTextBlock" xlink:to="reference_InvestmentEmbeddedTableTextBlock"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="InvestmentTableLegendTextBlock" xlink:to="reference_InvestmentTableLegendTextBlock"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="InvestmentAdditionalInformation" xlink:to="reference_InvestmentAdditionalInformation"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DerivativeCounterparty" xlink:to="reference_DerivativeCounterparty"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DerivativeNonmonetaryNotionalAmount" xlink:to="reference_DerivativeNonmonetaryNotionalAmount"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DerivativeNotionalAmount" xlink:to="reference_DerivativeNotionalAmount"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DerivativeTypeOfInterestRatePaidOnSwap" xlink:to="reference_DerivativeTypeOfInterestRatePaidOnSwap"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="InvestmentIdentifier" xlink:to="reference_InvestmentIdentifier"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="InvestmentOptionsExpirationDate" xlink:to="reference_InvestmentOptionsExpirationDate"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="InvestmentWarrantsExpirationDate" xlink:to="reference_InvestmentWarrantsExpirationDate"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="InvestmentWarrantsExpirationDateRangeStart" xlink:to="reference_InvestmentWarrantsExpirationDateRangeStart"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="InvestmentWarrantsExpirationDateRangeEnd" xlink:to="reference_InvestmentWarrantsExpirationDateRangeEnd"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="InvestmentOptionsExercisePrice" xlink:to="reference_InvestmentOptionsExercisePrice"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="InvestmentWarrantsExercisePrice" xlink:to="reference_InvestmentWarrantsExercisePrice"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="InvestmentRestrictedCashFlag" xlink:to="reference_InvestmentRestrictedCashFlag"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="InvestmentDefaultedSecurityFlag" xlink:to="reference_InvestmentDefaultedSecurityFlag"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="InvestmentADRFlag" xlink:to="reference_InvestmentADRFlag"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="InvestmentGDRFlag" xlink:to="reference_InvestmentGDRFlag"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="InvestmentWhenIssuedFlag" xlink:to="reference_InvestmentWhenIssuedFlag"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="InvestmentInterestOnlyFlag" xlink:to="reference_InvestmentInterestOnlyFlag"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="InvestmentPrincipalOnlyFlag" xlink:to="reference_InvestmentPrincipalOnlyFlag"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="InvestmentStepupBondInterestRateIsForFutureDateFlag" xlink:to="reference_InvestmentStepupBondInterestRateIsForFutureDateFlag"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="InvestmentInterestRateIsCurrentRateForVariableRateInvestmentFlag" xlink:to="reference_InvestmentInterestRateIsCurrentRateForVariableRateInvestmentFlag"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="InvestmentInterestRateIsDiscountRateAtPurchaseFlag" xlink:to="reference_InvestmentInterestRateIsDiscountRateAtPurchaseFlag"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="InvestmentUnderlyingInvestmentIdentifier" xlink:to="reference_InvestmentUnderlyingInvestmentIdentifier"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="InvestmentInterestRateReflectsCurrentYieldFlag" xlink:to="reference_InvestmentInterestRateReflectsCurrentYieldFlag"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="InvestmentForeignCurrencyContractCurrency" xlink:to="reference_InvestmentForeignCurrencyContractCurrency"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="InvestmentForeignCurrencyContractTransactionTypeFlag" xlink:to="reference_InvestmentForeignCurrencyContractTransactionTypeFlag"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="InvestmentForeignCurrencyContractForeignCurrencyAmount" xlink:to="reference_InvestmentForeignCurrencyContractForeignCurrencyAmount"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="InvestmentForeignCurrencyContractReportingCurrencyAmountAtDateOfOrigin" xlink:to="reference_InvestmentForeignCurrencyContractReportingCurrencyAmountAtDateOfOrigin"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="InvestmentForeignCurrencyContractAmountPurchased" xlink:to="reference_InvestmentForeignCurrencyContractAmountPurchased"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="InvestmentForeignCurrencyContractAmountSold" xlink:to="reference_InvestmentForeignCurrencyContractAmountSold"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="InvestmentContractCurrency" xlink:to="reference_InvestmentContractCurrency"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="InvestmentContractCountry" xlink:to="reference_InvestmentContractCountry"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="InvestmentContractSettlementDate" xlink:to="reference_InvestmentContractSettlementDate"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="InvestmentContractSettlementDateRangeStart" xlink:to="reference_InvestmentContractSettlementDateRangeStart"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="InvestmentContractSettlementDateRangeEnd" xlink:to="reference_InvestmentContractSettlementDateRangeEnd"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="InvestmentContractWeight" xlink:to="reference_InvestmentContractWeight"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="InvestmentContractVolume" xlink:to="reference_InvestmentContractVolume"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="InvestmentContractCounterpartyAxis" xlink:to="reference_InvestmentContractCounterpartyAxis"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="InvestmentContractCounterpartyDomain" xlink:to="reference_InvestmentContractCounterpartyDomain"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="InvestmentIdentifierSchemeAxis" xlink:to="reference_InvestmentIdentifierSchemeAxis"/>
+<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="InvestmentIdentifierSchemeDomain" xlink:to="reference_InvestmentIdentifierSchemeDomain"/>
+</link:referenceLink>
+</link:linkbase>

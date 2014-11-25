@@ -1,0 +1,918 @@
+<?xml version="1.0"?>
+<ArrayOfCurrencyCode xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CurrencyCode>
+    <Code>AED</Code>
+    <Description>UAE Dirham</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>AFN</Code>
+    <Description>Afghani</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>ALL</Code>
+    <Description>Albanian Lek</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>AMD</Code>
+    <Description>Armenian Dram</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>ANG</Code>
+    <Description>Netherlands Antillian Guilder</Description>
+    <Symbol>&amp;#402;</Symbol>
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>AOA</Code>
+    <Description>Angolan Kwanza</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>ARS</Code>
+    <Description>Argentine Peso</Description>
+    <Symbol>&amp;#36;</Symbol>
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>AUD</Code>
+    <Description>Australian Dollar</Description>
+    <Symbol>&amp;#36;</Symbol>
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>AWG</Code>
+    <Description>Aruban Guilder</Description>
+    <Symbol>&amp;#402;</Symbol>
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>AZN</Code>
+    <Description>Azerbaijanian Manat</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>BAM</Code>
+    <Description>Bosnia-Herzegovina Convertible Marks</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>BBD</Code>
+    <Description>Barbados Dollar</Description>
+    <Symbol>&amp;#36;</Symbol>
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>BDT</Code>
+    <Description>Bangladesh Taka</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>BGN</Code>
+    <Description>Bulgarian Lev</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>BHD</Code>
+    <Description>Bahraini Dinar</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>BIF</Code>
+    <Description>Burundi Franc</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>BMD</Code>
+    <Description>Bermuda Dollar</Description>
+    <Symbol>&amp;#36;</Symbol>
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>BND</Code>
+    <Description>Brunei Dollar</Description>
+    <Symbol>&amp;#36;</Symbol>
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>BOB</Code>
+    <Description>Bolivian Boliviano</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>BOV</Code>
+    <Description>Bolivian Mvdol</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>BRL</Code>
+    <Description>Brazilian Real</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>BSD</Code>
+    <Description>Bahamian Dollar</Description>
+    <Symbol>&amp;#36;</Symbol>
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>BTN</Code>
+    <Description>Bhutan Ngultrum</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>BWP</Code>
+    <Description>Botswana Pula</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>BYR</Code>
+    <Description>Belarussian Ruble</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>BZD</Code>
+    <Description>Belize Dollar</Description>
+    <Symbol>&amp;#36;</Symbol>
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>CAD</Code>
+    <Description>Canadian Dollar</Description>
+    <Symbol>&amp;#36;</Symbol>
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>CDF</Code>
+    <Description>Franc Congolais</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>CHE</Code>
+    <Description>WIR Euro</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>CHF</Code>
+    <Description>Swiss Franc</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>CHW</Code>
+    <Description>WIR Franc</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>CLF</Code>
+    <Description>Chilean Unidades de fomento</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>CLP</Code>
+    <Description>Chilean Peso</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>CNY</Code>
+    <Description>Yuan Renminbi</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>COP</Code>
+    <Description>Colombian Peso</Description>
+    <Symbol>&amp;#8369;</Symbol>
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>COU</Code>
+    <Description>Columbian Unidad de Valor Real</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>CRC</Code>
+    <Description>Costa Rican Colon</Description>
+    <Symbol>&amp;#8353;</Symbol>
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>CUP</Code>
+    <Description>Cuban Peso</Description>
+    <Symbol>&amp;#8369;</Symbol>
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>CVE</Code>
+    <Description>Cape Verde Escudo</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>CYP</Code>
+    <Description>Cyprus Pound</Description>
+    <Symbol>&amp;#163;</Symbol>
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>CZK</Code>
+    <Description>Czech Koruna</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>DJF</Code>
+    <Description>Djibouti Franc</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>DKK</Code>
+    <Description>Danish Krone</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>DOP</Code>
+    <Description>Dominican Peso</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>DZD</Code>
+    <Description>Algerian Dinar</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>EEK</Code>
+    <Description>Estonian Kroon</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>EGP</Code>
+    <Description>Egyptian Pound</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>ERN</Code>
+    <Description>Eritrean Nakfa</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>ETB</Code>
+    <Description>Ethiopian Birr</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>EUR</Code>
+    <Description>Euro</Description>
+    <Symbol>&amp;#8364;</Symbol>
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>FJD</Code>
+    <Description>Fiji Dollar</Description>
+    <Symbol>&amp;#36;</Symbol>
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>FKP</Code>
+    <Description>Falkland Islands Pound</Description>
+    <Symbol>&amp;#163;</Symbol>
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>GBP</Code>
+    <Description>Pound Sterling</Description>
+    <Symbol>&amp;#163;</Symbol>
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>GEL</Code>
+    <Description>Georgian Lari</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>GHS</Code>
+    <Description>Ghana Cedi</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>GIP</Code>
+    <Description>Gibraltar Pound</Description>
+    <Symbol>&amp;#163;</Symbol>
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>GMD</Code>
+    <Description>Gambian Dalasi</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>GNF</Code>
+    <Description>Guinea Franc</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>GTQ</Code>
+    <Description>Guatamalan Quetzal</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>GWP</Code>
+    <Description>Guinea-Bissau Peso</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>GYD</Code>
+    <Description>Guyana Dollar</Description>
+    <Symbol>&amp;#36;</Symbol>
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>HKD</Code>
+    <Description>Hong Kong Dollar</Description>
+    <Symbol>&amp;#36;</Symbol>
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>HNL</Code>
+    <Description>Honduran Lempira</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>HRK</Code>
+    <Description>Croatian Kuna</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>HTG</Code>
+    <Description>Haitian Gourde</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>HUF</Code>
+    <Description>Hungarian Forint</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>IDR</Code>
+    <Description>Indonesian Rupiah</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>ILS</Code>
+    <Description>New Israeli Sheqel</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>INR</Code>
+    <Description>Indian Rupee</Description>
+    <Symbol>&amp;#8360;</Symbol>
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>IQD</Code>
+    <Description>Iraqi Dinar</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>IRR</Code>
+    <Description>Iranian Rial</Description>
+    <Symbol>&amp;#65020;</Symbol>
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>ISK</Code>
+    <Description>Iceland Krona</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>JMD</Code>
+    <Description>Jamaican Dollar</Description>
+    <Symbol>&amp;#36;</Symbol>
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>JOD</Code>
+    <Description>Jordanian Dinar</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>JPY</Code>
+    <Description>Japanese Yen</Description>
+    <Symbol>&amp;#165;</Symbol>
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>KES</Code>
+    <Description>Kenyan Shilling</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>KGS</Code>
+    <Description>Kyrgyzstan Som</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>KHR</Code>
+    <Description>Cambodian Riel</Description>
+    <Symbol>&amp;#6107;</Symbol>
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>KMF</Code>
+    <Description>Comoro Franc</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>KPW</Code>
+    <Description>North Korean Won</Description>
+    <Symbol>&amp;#8361;</Symbol>
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>KRW</Code>
+    <Description>South Korean Won</Description>
+    <Symbol>&amp;#8361;</Symbol>
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>KWD</Code>
+    <Description>Kuwaiti Dinar</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>KYD</Code>
+    <Description>Cayman Islands Dollar</Description>
+    <Symbol>&amp;#36;</Symbol>
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>KZT</Code>
+    <Description>Kazakhstan Tenge</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>LAK</Code>
+    <Description>Lao Kip</Description>
+    <Symbol>&amp;#8365;</Symbol>
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>LBP</Code>
+    <Description>Lebanese Pound</Description>
+    <Symbol>&amp;#163;</Symbol>
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>LKR</Code>
+    <Description>Sri Lanka Rupee</Description>
+    <Symbol>&amp;#3065;</Symbol>
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>LRD</Code>
+    <Description>Liberian Dollar</Description>
+    <Symbol>&amp;#36;</Symbol>
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>LSL</Code>
+    <Description>Lesotho Loti</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>LTL</Code>
+    <Description>Lithuanian Litus</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>LVL</Code>
+    <Description>Latvian Lats</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>LYD</Code>
+    <Description>Libyan Dinar</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>MAD</Code>
+    <Description>Moroccan Dirham</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>MDL</Code>
+    <Description>Moldovan Leu</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>MGA</Code>
+    <Description>Malagascy Ariary</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>MKD</Code>
+    <Description>Macedonia</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>MMK</Code>
+    <Description>Myanmar Kyat</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>MNT</Code>
+    <Description>Mongolian Tugrik</Description>
+    <Symbol>&amp;#8366;</Symbol>
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>MOP</Code>
+    <Description>Macau Pataca</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>MRO</Code>
+    <Description>Mauritania Ouguiya</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>MTL</Code>
+    <Description>Maltese Lira</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>MUR</Code>
+    <Description>Mauritius Rupee</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>MVR</Code>
+    <Description>Maldives Rufiyaa</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>MWK</Code>
+    <Description>Malawi Kwacha</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>MXN</Code>
+    <Description>Mexican Peso</Description>
+    <Symbol>&amp;#36;</Symbol>
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>MXV</Code>
+    <Description>Mexican Unidad de Inversion</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>MYR</Code>
+    <Description>Malaysian Ringgit</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>MZN</Code>
+    <Description>Moazambique Metical</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>NAD</Code>
+    <Description>Namibian Dollar</Description>
+    <Symbol>&amp;#36;</Symbol>
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>NGN</Code>
+    <Description>Nigerian Naira</Description>
+    <Symbol>&amp;#8358;</Symbol>
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>NIO</Code>
+    <Description>Nicaraguan Cordoba Oro</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>NOK</Code>
+    <Description>Norwegian Krone</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>NPR</Code>
+    <Description>Nepalese Rupee</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>NZD</Code>
+    <Description>New Zealand Dollar</Description>
+    <Symbol>&amp;#36;</Symbol>
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>OMR</Code>
+    <Description>Rial Omani</Description>
+    <Symbol>&amp;#65020;</Symbol>
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>PAB</Code>
+    <Description>Panama Balboa</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>PEN</Code>
+    <Description>Peruvian Nuevo Sol</Description>
+    <Symbol>&amp;#83;&amp;#47;&amp;#46;</Symbol>
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>PGK</Code>
+    <Description>Papua New Guinea Kina</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>PHP</Code>
+    <Description>Philippine Peso</Description>
+    <Symbol>&amp;#8360;</Symbol>
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>PKR</Code>
+    <Description>Pakistan Rupee</Description>
+    <Symbol>&amp;#8360;</Symbol>
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>PLN</Code>
+    <Description>Polish Zloty</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>PYG</Code>
+    <Description>Paraguay Guarani</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>QAR</Code>
+    <Description>Qatari Rial</Description>
+    <Symbol>&amp;#65020;</Symbol>
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>ROL</Code>
+    <Description>Romanian Old Leu</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>RON</Code>
+    <Description>Romanian New Leu</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>RSD</Code>
+    <Description>Serbian Dinar</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>RUB</Code>
+    <Description>Russian Ruble</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>RWF</Code>
+    <Description>Rwanda Franc</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>SAR</Code>
+    <Description>Saudi Riyal</Description>
+    <Symbol>&amp;#65020;</Symbol>
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>SBD</Code>
+    <Description>Solomon Islands Dollar</Description>
+    <Symbol>&amp;#36;</Symbol>
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>SCR</Code>
+    <Description>Seychelles Rupee</Description>
+    <Symbol>&amp;#8360;</Symbol>
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>SDG</Code>
+    <Description>Sudanese Dinar</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>SEK</Code>
+    <Description>Swedish Krona</Description>
+    <Symbol>&amp;#107;&amp;#114;</Symbol>
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>SGD</Code>
+    <Description>Singapore Dollar</Description>
+    <Symbol>&amp;#36;</Symbol>
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>SHP</Code>
+    <Description>Saint Helena Pound</Description>
+    <Symbol>&amp;#163;</Symbol>
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>SKK</Code>
+    <Description>Slovak Koruna</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>SLL</Code>
+    <Description>Sierra Leonean Leone</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>SOS</Code>
+    <Description>Somali Shilling</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>SRD</Code>
+    <Description>Suriname Dollar</Description>
+    <Symbol>&amp;#36;</Symbol>
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>STD</Code>
+    <Description>So Tom and Principe Dobra</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>SVC</Code>
+    <Description>El Salvador Colon</Description>
+    <Symbol>&amp;#8353;</Symbol>
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>SYP</Code>
+    <Description>Syrian Pound</Description>
+    <Symbol>&amp;#163;</Symbol>
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>SZL</Code>
+    <Description>Swaziland Lilangeni</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>THB</Code>
+    <Description>Thai Baht</Description>
+    <Symbol>&amp;#3647;</Symbol>
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>TJS</Code>
+    <Description>Tajikistan Somoni</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>TMM</Code>
+    <Description>Turkmenistan Manat</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>TND</Code>
+    <Description>Tunisian Dinar</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>TOP</Code>
+    <Description>Tongan Pa'anga</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>TRY</Code>
+    <Description>New Turkish Lira</Description>
+    <Symbol>&amp;#8356;</Symbol>
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>TTD</Code>
+    <Description>Trinidad and Tobago Dollar</Description>
+    <Symbol>&amp;#36;</Symbol>
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>TWD</Code>
+    <Description>New Taiwan Dollar</Description>
+    <Symbol>&amp;#36;</Symbol>
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>TZS</Code>
+    <Description>Tanzanian Shilling</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>UAH</Code>
+    <Description>Ukrainian Hryvnia</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>UGX</Code>
+    <Description>Uganda Shilling</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>USD</Code>
+    <Description>United States Dollar</Description>
+    <Symbol>&amp;#36;</Symbol>
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>USN</Code>
+    <Description>United States Dollar (Next Day)</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>USS</Code>
+    <Description>United States Dollar (Same Day)</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>UYI</Code>
+    <Description>Uruguay Peso en Unidades Indexadeas</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>UYU</Code>
+    <Description>Peso Uruguayo</Description>
+    <Symbol>&amp;#8369;</Symbol>
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>UZS</Code>
+    <Description>Uzbekistan Sum</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>VEF</Code>
+    <Description>Venezuelan Bolivar Fuerte</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>VND</Code>
+    <Description>Viet Nam Dong</Description>
+    <Symbol>&amp;#8363;</Symbol>
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>VUV</Code>
+    <Description>Vanuatu Vatu</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>WST</Code>
+    <Description>Samoa Tala</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>XAF</Code>
+    <Description>CFA Franc BEAC</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>XAG</Code>
+    <Description>Silver Ounce</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>XAU</Code>
+    <Description>Gold Ounce</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>XBA</Code>
+    <Description>European Composite Unit (EURCO)</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>XBB</Code>
+    <Description>European Monetary Unit (E.M.U.-6)</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>XBC</Code>
+    <Description>European Unit of Account 9 (E.U.A.-9)</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>XBD</Code>
+    <Description>European Unit of Account 17 (E.U.A.-17)</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>XCD</Code>
+    <Description>East Caribbean Dollar</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>XDR</Code>
+    <Description>Special Drawing Rights (SDR)</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>XFO</Code>
+    <Description>Gold-Franc</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>XFU</Code>
+    <Description>UIC-Franc</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>XOF</Code>
+    <Description>CFA Franc BCEAO</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>XPD</Code>
+    <Description>Palladium Ounce</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>XPF</Code>
+    <Description>CFP Franc</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>XPT</Code>
+    <Description>Platinum Ounce</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>YER</Code>
+    <Description>Yemeni Rial</Description>
+    <Symbol>&amp;#65020;</Symbol>
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>ZAR</Code>
+    <Description>South African Rand</Description>
+    <Symbol>&amp;#82;</Symbol>
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>ZMK</Code>
+    <Description>Zambian Kwacha</Description>
+    <Symbol />
+  </CurrencyCode>
+  <CurrencyCode>
+    <Code>ZWD</Code>
+    <Description>Zimbabwe Dollar</Description>
+    <Symbol>&amp;#36;</Symbol>
+  </CurrencyCode>
+</ArrayOfCurrencyCode>

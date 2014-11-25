@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<link:linkbase xmlns:link='http://www.xbrl.org/2003/linkbase' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd'>
+<link:labelLink xlink:role='http://www.xbrl.org/2003/role/link' xlink:type='extended' xmlns:xlink='http://www.w3.org/1999/xlink'>
+<link:loc xlink:href='country-2012-01-31.xsd#country_AllCountriesDomain' xlink:label='loc_AllCountriesDomain' xlink:type='locator' />
+<link:label id='lab_AllCountriesDomain_documentation_en-US' xlink:label='lab_AllCountriesDomain' xlink:role='http://www.xbrl.org/2003/role/documentation' xlink:type='resource' xml:lang='en-US'>ISO 3166-1 alpha-2. A geopolitical area recognized by governments of the world as a country.</link:label>
+<link:labelArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='loc_AllCountriesDomain' xlink:to='lab_AllCountriesDomain' xlink:type='arc' />
+</link:labelLink>
+</link:linkbase>
