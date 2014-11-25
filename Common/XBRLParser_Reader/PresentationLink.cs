@@ -425,7 +425,9 @@ namespace Aucent.MAX.AXE.XBRLParser
 		/// <exception cref="AucentException">throws if this link does not contain any locator objects</exception>
 		public Node CreateNode( string lang, string role , Dimension dimension )
 		{
+			#pragma warning disable 0219
 			ArrayList nodeList = new ArrayList( locators.Count +1 );
+			#pragma warning restore 0219
 			
 			Node parent = new Node(title);
 			parent.MyPresentationLink = this;

@@ -37,9 +37,13 @@ namespace Aucent.MAX.AXE.XBRLParser
 		/// The <see cref="Element"/> to which this <see cref="Choice"/> belongs.
 		/// </summary>
         public Element MyElement = null;
+
+		#pragma warning disable 0414
 		private int MinOccurances = 0;
 		private int MaxOccurances = int.MaxValue;
 		private Choices ParentContainer = null;
+		#pragma warning restore 0414
+
 		#endregion
 
 		#region constructors

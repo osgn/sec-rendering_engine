@@ -77,7 +77,9 @@ namespace Aucent.MAX.AXE.XBRLParser
 		/// <remarks>
 		/// Exposed as public for Dragon View.
 		/// </remarks>
+		#pragma warning disable 0414
 		private string precisionText;
+		#pragma warning restore 0414
 
 		/// <summary>
 		/// The precision associated with this <see cref="MarkupProperty"/>.

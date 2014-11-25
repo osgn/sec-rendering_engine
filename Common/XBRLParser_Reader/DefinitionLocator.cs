@@ -173,7 +173,9 @@ namespace Aucent.MAX.AXE.XBRLParser
 				childLocatorsByHRef.Add( childPl.HRef, cpl );
 
 				// keep these separate so they don't impact each other
+				#pragma warning disable 0219
 				ChildDefinitionLocator cplOrder = new ChildDefinitionLocator( cpl );
+				#pragma warning restore 0219
 
 			}
 			else 

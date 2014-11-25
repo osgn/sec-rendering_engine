@@ -244,7 +244,8 @@ namespace Aucent.MAX.AXE.Common.ZipCompressDecompress.Zip
 				}
 				baseStream.Seek(pos--, SeekOrigin.Begin);
 			} while (ReadLeInt() != ZipConstants.ENDSIG);
-			
+
+			#pragma warning disable 0219
 			int thisDiskNumber            = ReadLeShort();
 			int startCentralDirDisk       = ReadLeShort();
 			int entriesForThisDisk        = ReadLeShort();
@@ -252,6 +253,7 @@ namespace Aucent.MAX.AXE.Common.ZipCompressDecompress.Zip
 			int centralDirSize            = ReadLeInt();
 			int offsetOfCentralDir        = ReadLeInt();
 			int commentSize               = ReadLeShort();
+			#pragma warning restore 0219
 			
 			byte[] zipComment = new byte[commentSize]; 
 			baseStream.Read(zipComment, 0, zipComment.Length); 
@@ -282,9 +284,11 @@ namespace Aucent.MAX.AXE.Common.ZipCompressDecompress.Zip
 				int nameLen            = ReadLeShort();
 				int extraLen           = ReadLeShort();
 				int commentLen         = ReadLeShort();
-				
+
+				#pragma warning disable 0219
 				int diskStartNo        = ReadLeShort();  // Not currently used
 				int internalAttributes = ReadLeShort();  // Not currently used
+				#pragma warning restore 0219
 
 				int externalAttributes = ReadLeInt();
 				int offset             = ReadLeInt();

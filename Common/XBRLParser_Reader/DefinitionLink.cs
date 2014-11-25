@@ -954,7 +954,9 @@ namespace Aucent.MAX.AXE.XBRLParser
 				{
 					DefinitionLocator dl = de.Value as DefinitionLocator;
 
+					#pragma warning disable 0219
 					DefinitionLocator copy = dl.CreateCopyForMerging();
+					#pragma warning restore 0219
 
 				}
 

@@ -1972,7 +1972,10 @@ namespace Aucent.MAX.AXE.XBRLParser
 
 					if ( reference.ReferencesTable != null )
 					{
+						#pragma warning disable 0219
 						IDictionaryEnumerator enumer = reference.ReferencesTable.GetEnumerator();
+						#pragma warning restore 0219
+
 						foreach( ReferenceLocator otherRL in reference.ReferencesTable.Values )
 						{
 							if (referenceTable.Contains(otherRL.HRef))
@@ -3400,8 +3403,12 @@ namespace Aucent.MAX.AXE.XBRLParser
 			for ( int i = 0; i < dependantTaxonomies.Count; ++i )
 			{
 				Taxonomy t = (Taxonomy)dependantTaxonomies[i];
+
+				#pragma warning disable 0219
 				TaxonomyItem depTItem = new TaxonomyItem( t.GetTargetNamespace(),
 					t.schemaFile, t.GetNSPrefix(), t.IsAucentExtension, t.DefinesCustomTypes);
+				#pragma warning restore 0219
+
 				allImports.Add(t.schemaFile);
 			}
 

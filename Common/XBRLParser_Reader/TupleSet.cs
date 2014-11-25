@@ -119,7 +119,10 @@ namespace Aucent.MAX.AXE.XBRLParser
 		/// <param name="usedNames"></param>
 		public void MakeTupleSetInlineXBRLSerializable(TupleSet rootSet, ref List<string> usedNames)
 		{
+			#pragma warning disable 0219
 			string newName = this.Name;
+			#pragma warning restore 0219
+
 			int counter = 0;
 			while (usedNames.Contains(this.Name))
 			{

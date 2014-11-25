@@ -2212,7 +2212,10 @@ namespace Aucent.MAX.AXE.XBRLParser
             ArrayList presNodes, bool isMutualFundsTaxonomy )
         {
 
+			#pragma warning disable 0219
             Dictionary<string, bool> elementsInPres = new Dictionary<string, bool>();
+			#pragma warning restore 0219
+
             Dictionary<string, Element> stdLabelDt = new Dictionary<string, Element>();
 
            

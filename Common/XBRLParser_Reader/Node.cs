@@ -855,7 +855,9 @@ namespace Aucent.MAX.AXE.XBRLParser
 		public bool TryGetReferences(out string references)
 		{
 			references = "";
+			#pragma warning disable 0219
 			StringBuilder sbReference = new StringBuilder();
+			#pragma warning restore 0219
 
 			if (e == null)
 			{

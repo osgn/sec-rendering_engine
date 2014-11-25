@@ -2579,7 +2579,7 @@ namespace Aucent.MAX.AXE.XBRLParser
 			catch (Exception ex)
 			{
 				//removes the warning
-				Exception e = ex;
+//				Exception e = ex;
 
 				StringBuilder errorMessage = new StringBuilder(GetTypeErrorForElement(type));
 #if DEBUG

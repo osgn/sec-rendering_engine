@@ -49,7 +49,9 @@ namespace Aucent.MAX.AXE.Common.Data.AssemblyIO
 				string[] resources = this.ASM.GetManifestResourceNames();
 				foreach( string res in resources )
 				{
+					#pragma warning disable 0219
 					ManifestResourceInfo mri = this.ASM.GetManifestResourceInfo( res );
+					#pragma warning restore 0219
 
 					string resPath = res.Replace( asmName, string.Empty );
 					resPath = resPath.TrimStart( '.' );
