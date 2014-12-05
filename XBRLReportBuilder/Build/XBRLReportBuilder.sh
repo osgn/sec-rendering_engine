@@ -1,3 +1,5 @@
+#!/bin/sh
+
 rm -f ../../BuildLog.txt
 
 echo '' >> ../../BuildLog.txt
@@ -10,6 +12,7 @@ echo '' >> ../../BuildLog.txt
 echo '' >> ../../BuildLog.txt
 echo '' >> ../../BuildLog.txt
 echo '********Building NXBRE********' >> ../../BuildLog.txt
+
 xbuild ../../XBRLReportBuilder/NxBRE/NxBRE.sln 1>> ../../BuildLog.txt 2>&1
 
 echo '' >> ../../BuildLog.txt
@@ -22,6 +25,7 @@ echo '' >> ../../BuildLog.txt
 echo '' >> ../../BuildLog.txt
 echo '' >> ../../BuildLog.txt
 echo '********Building XBRLReportBuilder********' >> ../../BuildLog.txt
+
 xbuild ../../XBRLReportBuilder/XBRLReportBuilder/XBRLReportBuilder.sln 1>> ../../BuildLog.txt 2>&1
 
 less ../../BuildLog.txt
