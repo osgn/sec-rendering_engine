@@ -53,7 +53,7 @@ namespace Lucene.Net.Analysis
     /// by calling one of the various stem(something) methods.
     /// </summary>
 	
-    class PorterStemmer
+    public class PorterStemmer
     {
         private char[] b;
         private int i, j, k, k0;
