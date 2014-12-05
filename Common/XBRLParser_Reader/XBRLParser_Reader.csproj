@@ -147,10 +147,6 @@
     <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Lucene.Net, Version=2.0.0.4, Culture=neutral, PublicKeyToken=7c3ad77779dd5374, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\\bin\Lucene.Net.dll</HintPath>
-    </Reference>
     <Reference Include="System">
       <Name>System</Name>
     </Reference>
@@ -184,6 +180,11 @@
     <ProjectReference Include="..\Utilities\Utilities.csproj">
       <Name>Utilities</Name>
       <Project>{6166CAFA-9864-41BC-B4CA-ECEE764C7920}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\Lucene.Net\Lucene.Net-2.1.0-VS2005.csproj">
+      <Name>Utilities</Name>
+      <Project>{F04CA2F4-E182-46A8-B914-F46AF5319E83}</Project>
       <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
     </ProjectReference>
   </ItemGroup>

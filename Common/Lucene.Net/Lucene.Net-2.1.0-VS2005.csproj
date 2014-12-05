@@ -58,7 +58,8 @@
     <ConfigurationOverrideFile>
     </ConfigurationOverrideFile>
     <DefineConstants>TRACE</DefineConstants>
-    <DocumentationFile>Lucene.Net.xml</DocumentationFile>
+    <DocumentationFile>
+    </DocumentationFile>
     <DebugSymbols>false</DebugSymbols>
     <FileAlignment>4096</FileAlignment>
     <NoStdLib>false</NoStdLib>
@@ -716,7 +717,6 @@
     <Content Include="Analysis\Standard\Package.html" />
     <Content Include="Document\Package.html" />
     <Content Include="Index\Package.html" />
-    <Content Include="Lucene.Net.xml" />
     <Content Include="Overview.html" />
     <Content Include="Package.html" />
     <Content Include="QueryParser\Package.html" />
