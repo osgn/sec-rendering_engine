@@ -35,6 +35,7 @@ folder back to the 'bin' folder.
 KNOWN ISSUES
 
  - only the personal renderer has been ported/tested
+ - error while compiling generated serializer #1
 
 
 ORIGINAL WINDOWS DOCUMENTATION
