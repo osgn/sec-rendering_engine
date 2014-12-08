@@ -1,38 +1,42 @@
-This is SEC Rendering Engine Source for version 2.4.0.8.2014
+This is a port of the SEC Rendering Engine Source for Linux/Unix under Mono,
+based on the Windows/.NET SEC Rendering Engine Source for version 2.4.0.8.2014
+
+https://www.sec.gov/spotlight/xbrl/renderingenginelicense.htm
+
 
 PREREQUISITES
 
-Microsoft Visual Studio 2010 OR Visual Studio Express 2010
-Nunit-Net (http://www.nunit.org/?p=download)
-Familiarity with renderingengineconfigurablebinary.zip installation and use
+Mono (tested on 3.10.0)
+
 
 ADVICE
 
-Bind drive letter S to this folder.
-That is, S:\readme.txt should show you this file.
-
-Try using S:\XBRLReportBuilder\Build\XBRLReportBuilder.bat 
+Try using XBRLReportBuilder/Build/XBRLReportBuilder.sh
 to build the XBRLReportBuilder solution.
 
 If you need to build the individual solutions, this is the build order:
 
-S:\Common\Common.sln
-S:\XBRLReportBuilder\NxBRE\NxBRE.sln
-S:\XBRLReportBuilder\FilingServices\FilingServices.sln
-S:\XBRLReportBuilder\XBRLReportBuilder\XBRLReportBuilder.sln
+Common/Common.sln
+XBRLReportBuilder/NxBRE/NxBRE.sln
+XBRLReportBuilder/FilingServices/FilingServices.sln
+XBRLReportBuilder/XBRLReportBuilder/XBRLReportBuilder.sln
 
 
-The folder S:\bin contains all build outputs; unlike
-renderingeengineconfigurablebinary.zip, the personal
-renderer, autotester, dispatcher, and rendering service
-are all in the same folder.
+After building, the folder 'bin' will contain all build outputs; unlike
+renderingeengineconfigurablebinary.zip, the personal renderer, autotester, 
+dispatcher, and rendering service are all in the same folder.
 
-Also, to prevent accidental overwrites, all *.config files for each 
-application/service have been removed from the S:\bin folder and placed
-into the S:\XBRLReportBuilder\Build\DefaultConfigs folder. If this is a new
-installation, then copy the *.config files from the 
-S:\XBRLReportBuilder\Build\DefaultConfigs folder back to the S:\bin folder. 
+Also, all *.config files for each application/service have been placed into the 
+XBRLReportBuilder/Build/DefaultConfigs folder. If this is a new installation, 
+then copy the *.config files from the XBRLReportBuilder/Build/DefaultConfigs 
+folder back to the 'bin' folder. 
 
-DOCUMENTATION
 
-In the S:\XBRLReportBuilder\Documentation folder.
+KNOWN ISSUES
+
+ - only the personal renderer has been ported/tested
+
+
+ORIGINAL WINDOWS DOCUMENTATION
+
+In the XBRLReportBuilder/Documentation folder.
