@@ -212,7 +212,11 @@ namespace Aucent.MAX.AXE.XBRLReportBuilder.Test.Data
 					xSettings.OmitXmlDeclaration = true;
 
 					//we REALLY need to set this to HTML
-					xSettings.GetType().GetProperty( "OutputMethod" ).SetValue( xSettings, XmlOutputMethod.Html, null );
+					//xSettings.GetType().GetProperty( "OutputMethod" ).SetValue( xSettings, XmlOutputMethod.Html, null );
+		  
+					//set internal outputMethod field to HTML output (or else it winds up being AutoDetect)
+					//rivet's original hack above doesn't work on mono
+					xSettings.GetType().GetField( "outputMethod", System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance ).SetValue( xSettings, XmlOutputMethod.Html );
 
 					using( XmlWriter xWriter = XmlWriter.Create( ms, xSettings ) )
 					{

@@ -1922,7 +1922,11 @@ P
 			writerSettings.OmitXmlDeclaration = true;
 
 			//set intelligent HTML output
-			writerSettings.GetType().GetProperty( "OutputMethod" ).SetValue( writerSettings, XmlOutputMethod.Html, null );
+			//writerSettings.GetType().GetProperty( "OutputMethod" ).SetValue( writerSettings, XmlOutputMethod.Html, null );
+
+			//set internal outputMethod field to HTML output (or else it winds up being AutoDetect)
+			//rivet's original hack above doesn't work on mono
+			writerSettings.GetType().GetField( "outputMethod", System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance ).SetValue( writerSettings, XmlOutputMethod.Html );
 
 			foreach( ReportHeader header in this.currentFilingSummary.MyReports )
 			{
