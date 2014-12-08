@@ -577,8 +577,10 @@ namespace Aucent.MAX.AXE.XBRLParser
 			FileInfo	IsolatedStorageFile		= null;
 			int			numErrors				= 0;
 			schemaFile							= filename;
+			#pragma warning disable 0219
 			string		UserMessage				= string.Empty;
-
+			#pragma warning restore 0219
+			
 			if (filename == string.Empty || filename == null)
 			{
 				throw (new System.Exception("Aucent.MAX.AXE.XBRLParser.Load - Error: " + TraceUtility.FormatStringResource("XBRLParser.DocumentBase.FileNotFound")));
