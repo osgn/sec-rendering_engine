@@ -7,6 +7,7 @@ https://www.sec.gov/spotlight/xbrl/renderingenginelicense.htm
 PREREQUISITES
 
 Mono (tested on 3.10.0)
+libgdiplus
 
 
 ADVICE
